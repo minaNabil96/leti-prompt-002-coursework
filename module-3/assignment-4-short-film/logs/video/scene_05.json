@@ -1,0 +1,39 @@
+{
+  "scene": 5,
+  "name": "Движение",
+  "file": "scenes/scene_05.mp4",
+  "model": "grok-imagine-video-1-5",
+  "prompt": "The abstract painted image comes alive: pigment flows, light pulses through the colours, shapes breathe and drift. Slow dolly forward, the still image transforming into living motion, cinematic, inspiring, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+  "prompt_initial": "The abstract image comes alive: elements move, the scene breathes, light pulses through the colours. Slow dolly forward. The image transforms from still to living, cinematic, inspiring.",
+  "prompt_change_reason": "Добавлен запрет текста, усилено описание движения, чтобы оживление читалось в кадре.",
+  "duration_param": 5,
+  "resolution_param": "480p",
+  "aspect_ratio": "16:9",
+  "cost_rub": 8.1,
+  "elapsed_sec": 13.69,
+  "bytes": 609102,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_a3b35089-c733-40d4-8d62-2e64492df9f7.mp4",
+  "request_id": "gen_2237190910373531649",
+  "created": 1795691889,
+  "completed_at": null,
+  "requested_at": "2026-11-26 14:18:11",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 8.1,
+    "cost": 8.1
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_a3b35089-c733-40d4-8d62-2e64492df9f7.mp4"
+  },
+  "request": {
+    "model": "grok-imagine-video-1-5",
+    "input": {
+      "prompt": "The abstract painted image comes alive: pigment flows, light pulses through the colours, shapes breathe and drift. Slow dolly forward, the still image transforming into living motion, cinematic, inspiring, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+      "duration": "5",
+      "resolution": "480p",
+      "aspect_ratio": "16:9"
+    }
+  },
+  "voiceover": "Статичное изображение оживает, наполняясь жизнью и энергией."
+}

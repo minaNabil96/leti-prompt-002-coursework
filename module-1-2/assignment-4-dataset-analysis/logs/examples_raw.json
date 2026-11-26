@@ -1,0 +1,366 @@
+{
+  "source": "COCO val2017 official annotations (captions_val2017.json)",
+  "selection": "20 images evenly spaced across sorted image ids",
+  "images": [
+    {
+      "id": 1,
+      "coco_image_id": 139,
+      "file_name": "000000000139.jpg",
+      "image_path": "example_01.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000000139.jpg",
+      "width": 640,
+      "height": 426,
+      "image_size_kb": 158.0,
+      "captions": [
+        "A woman stands in the dining area at the table.",
+        "A room with chairs, a table, and a woman in it.",
+        "A woman standing in a kitchen by a window",
+        "A person standing at a table in a room.",
+        "A living area with a television and a table"
+      ],
+      "caption": "A woman stands in the dining area at the table."
+    },
+    {
+      "id": 2,
+      "coco_image_id": 25593,
+      "file_name": "000000025593.jpg",
+      "image_path": "example_02.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000025593.jpg",
+      "width": 640,
+      "height": 480,
+      "image_size_kb": 315.2,
+      "captions": [
+        "A stop sign on a post at a public street.",
+        "A street sign in an asian language in front of a blue sky.",
+        "A Chinese sign with an image of a parent and child and a bicycle.",
+        "A blue sign is on a pole with another sign that has text.",
+        "The signs are clearly posted on the street for us to see."
+      ],
+      "caption": "A stop sign on a post at a public street."
+    },
+    {
+      "id": 3,
+      "coco_image_id": 57027,
+      "file_name": "000000057027.jpg",
+      "image_path": "example_03.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000057027.jpg",
+      "width": 640,
+      "height": 426,
+      "image_size_kb": 263.7,
+      "captions": [
+        "An adult elephant is pictured walking with a baby elephant.",
+        "A baby elephant walks with an older elephant",
+        "A baby elephant walks between the legs of its mother.",
+        "A baby elephant walking along the same path as its mother. ",
+        "a bunch of elephants are standing together in a pin"
+      ],
+      "caption": "An adult elephant is pictured walking with a baby elephant."
+    },
+    {
+      "id": 4,
+      "coco_image_id": 88040,
+      "file_name": "000000088040.jpg",
+      "image_path": "example_04.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000088040.jpg",
+      "width": 427,
+      "height": 640,
+      "image_size_kb": 276.1,
+      "captions": [
+        "Multiple plates of different types of food on a  table.",
+        "Plates of shrimp, vegetables, and noodles served with tea.",
+        "A display of fine food and spices on a wooden table.",
+        "View of a meal laid out on a brown table from above.",
+        "three course dinner is served on a table"
+      ],
+      "caption": "Multiple plates of different types of food on a  table."
+    },
+    {
+      "id": 5,
+      "coco_image_id": 119365,
+      "file_name": "000000119365.jpg",
+      "image_path": "example_05.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000119365.jpg",
+      "width": 480,
+      "height": 640,
+      "image_size_kb": 184.3,
+      "captions": [
+        "A couple of people with a laptop at a table.",
+        "Student working on the computer while another student shows her a mobile phone. ",
+        "Two girls at a desk playing with a laptop.",
+        "A couple of children sitting down next to a laptop computer.",
+        "A woman holds a phone next to the laptop a child is working on."
+      ],
+      "caption": "A couple of people with a laptop at a table."
+    },
+    {
+      "id": 6,
+      "coco_image_id": 147729,
+      "file_name": "000000147729.jpg",
+      "image_path": "example_06.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000147729.jpg",
+      "width": 500,
+      "height": 375,
+      "image_size_kb": 128.7,
+      "captions": [
+        "People gathered taking pictures with a cell phone.",
+        "A man holding up his smart phone to take a picture.",
+        "a man holding his cell phone up in a crowd",
+        "some people sitting and one man looking at his cellphone",
+        "A man in a crowd taking pictures with a cell phone."
+      ],
+      "caption": "People gathered taking pictures with a cell phone."
+    },
+    {
+      "id": 7,
+      "coco_image_id": 173091,
+      "file_name": "000000173091.jpg",
+      "image_path": "example_07.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000173091.jpg",
+      "width": 612,
+      "height": 612,
+      "image_size_kb": 119.5,
+      "captions": [
+        "A simple lunch includes a coffee drink, fruit and a sandwich wrap.",
+        "A sandwich, a piece if fruit and a Starbucks drink sits on the counter.",
+        "A sandwich, donut and drink on a table.",
+        "A carryout lunch including sandwich, fruit, and frappucino. ",
+        "The sandwich in the container is next to a glass of coffee."
+      ],
+      "caption": "A simple lunch includes a coffee drink, fruit and a sandwich wrap."
+    },
+    {
+      "id": 8,
+      "coco_image_id": 200162,
+      "file_name": "000000200162.jpg",
+      "image_path": "example_08.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000200162.jpg",
+      "width": 640,
+      "height": 425,
+      "image_size_kb": 201.6,
+      "captions": [
+        "A train traveling under a signal lights on top of tracks.",
+        "a black train is coming down some tracks",
+        "Train with cars in rail yard waiting to load.",
+        "A train driving down the tracks near a platform.",
+        "A yellow and red train is on the tracks."
+      ],
+      "caption": "A train traveling under a signal lights on top of tracks."
+    },
+    {
+      "id": 9,
+      "coco_image_id": 229753,
+      "file_name": "000000229753.jpg",
+      "image_path": "example_09.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000229753.jpg",
+      "width": 640,
+      "height": 427,
+      "image_size_kb": 98.2,
+      "captions": [
+        "Two tall giraffes are next to bare trees.",
+        "a close up of two giraffes near one another ",
+        "A couple of giraffe standing around palm trees.",
+        "Two giraffes are standing next to a tree trunk.",
+        "Two giraffes are standing by a palm tree.  "
+      ],
+      "caption": "Two tall giraffes are next to bare trees."
+    },
+    {
+      "id": 10,
+      "coco_image_id": 260261,
+      "file_name": "000000260261.jpg",
+      "image_path": "example_10.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000260261.jpg",
+      "width": 426,
+      "height": 640,
+      "image_size_kb": 214.8,
+      "captions": [
+        "A vendor selling fruit from the back of a truck.",
+        "A man standing behind a truck filled with produce.",
+        "A man in the back of a truck cutting fruit.",
+        "A man with fruit on the back of a pickup truck.",
+        "A man cutting a cold coconut on the back of a truck"
+      ],
+      "caption": "A vendor selling fruit from the back of a truck."
+    },
+    {
+      "id": 11,
+      "coco_image_id": 289594,
+      "file_name": "000000289594.jpg",
+      "image_path": "example_11.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000289594.jpg",
+      "width": 519,
+      "height": 640,
+      "image_size_kb": 128.9,
+      "captions": [
+        "A man in a hat leaning against a pole",
+        "An old man walking down a sidewalk in black and white.",
+        "A black and white photos of a man leaning on a street sign in a neighborhood. ",
+        "A man is standing on a sidewalk leaning on a pole.",
+        "An old man that is leaning against a pole right by the corner."
+      ],
+      "caption": "A man in a hat leaning against a pole"
+    },
+    {
+      "id": 12,
+      "coco_image_id": 318455,
+      "file_name": "000000318455.jpg",
+      "image_path": "example_12.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000318455.jpg",
+      "width": 640,
+      "height": 480,
+      "image_size_kb": 174.2,
+      "captions": [
+        "A table topped with three trays filled with cakes and desserts.",
+        "A table at a bake sale with cakes and cupcakes displayed",
+        "Many cupcakes and half of a cake sit on a table.",
+        "This table has cupcakes and cake on it.",
+        "Half a cake and two plates of cupcakes on a table."
+      ],
+      "caption": "A table topped with three trays filled with cakes and desserts."
+    },
+    {
+      "id": 13,
+      "coco_image_id": 347544,
+      "file_name": "000000347544.jpg",
+      "image_path": "example_13.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000347544.jpg",
+      "width": 640,
+      "height": 480,
+      "image_size_kb": 121.1,
+      "captions": [
+        "There is an old multi colored volvo parked next to a motel",
+        "A Volvo bus parked on a road near a hotel.",
+        "The back of a Volvo bus approaching a hotel",
+        "An orange, blue, and yellow bus on the driveway in front of a hotel.",
+        "The back of a bus with a hotel in the background."
+      ],
+      "caption": "There is an old multi colored volvo parked next to a motel"
+    },
+    {
+      "id": 14,
+      "coco_image_id": 375763,
+      "file_name": "000000375763.jpg",
+      "image_path": "example_14.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000375763.jpg",
+      "width": 640,
+      "height": 480,
+      "image_size_kb": 251.4,
+      "captions": [
+        "A very cute flock of sheep in a grassy field.",
+        "THERE ARE A LOT OF SHEEPS WALKING THE FIELD ",
+        "a large group black faced sheep with one or two white faced sheep",
+        "A flock of sheep is crossing a grassy field with trees behind them.",
+        "The herd of sheep is standing on the grass."
+      ],
+      "caption": "A very cute flock of sheep in a grassy field."
+    },
+    {
+      "id": 15,
+      "coco_image_id": 405249,
+      "file_name": "000000405249.jpg",
+      "image_path": "example_15.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000405249.jpg",
+      "width": 500,
+      "height": 375,
+      "image_size_kb": 156.1,
+      "captions": [
+        "a child blows out the candles on a birthday cake.",
+        "A group of kids at a table with a cake.",
+        "A group of young children sitting around a chocolate cake.",
+        "Several children are around a table at a birthday party.",
+        "Many people around a chocolate birthday cake with candles."
+      ],
+      "caption": "a child blows out the candles on a birthday cake."
+    },
+    {
+      "id": 16,
+      "coco_image_id": 435206,
+      "file_name": "000000435206.jpg",
+      "image_path": "example_16.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000435206.jpg",
+      "width": 640,
+      "height": 427,
+      "image_size_kb": 109.4,
+      "captions": [
+        "There are people standing on the shore next to a body of water.",
+        "People and cattle come to the edge of the water on a lake.",
+        "A group of people getting ready to go in the water, near horses.",
+        "People and cattle standing at the waters edge on a bright sunny day.",
+        "Several people standing out at a watery ledge with horses."
+      ],
+      "caption": "There are people standing on the shore next to a body of water."
+    },
+    {
+      "id": 17,
+      "coco_image_id": 463174,
+      "file_name": "000000463174.jpg",
+      "image_path": "example_17.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000463174.jpg",
+      "width": 640,
+      "height": 427,
+      "image_size_kb": 175.1,
+      "captions": [
+        "A young woman in pink leggings playing tennis",
+        "A tennis player hits the tennis ball with her racket",
+        "A woman hitting a tennis ball with a tennis racquet.",
+        "A woman hits the tennis ball during a match.",
+        "a tennis player swinging a racket at a ball"
+      ],
+      "caption": "A young woman in pink leggings playing tennis"
+    },
+    {
+      "id": 18,
+      "coco_image_id": 491464,
+      "file_name": "000000491464.jpg",
+      "image_path": "example_18.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000491464.jpg",
+      "width": 640,
+      "height": 428,
+      "image_size_kb": 155.7,
+      "captions": [
+        "Kid poses for a picture in a baseball uniform holding a bat",
+        "A young boy poses in his babseball uniform holding his bat on a field.",
+        "A young boy in a baseball uniform holding a bat over his shoulder.",
+        "A boy with a baseball bat in the ground.",
+        "A kid with a baseball bat on a field."
+      ],
+      "caption": "Kid poses for a picture in a baseball uniform holding a bat"
+    },
+    {
+      "id": 19,
+      "coco_image_id": 521601,
+      "file_name": "000000521601.jpg",
+      "image_path": "example_19.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000521601.jpg",
+      "width": 640,
+      "height": 480,
+      "image_size_kb": 41.0,
+      "captions": [
+        "A small doughnut inside a cup that's sitting on a table.",
+        "A doughnut is at the bottom of a container.  ",
+        "Closeup of a white and yellow vase with a red circle at the bottom.",
+        "A chocolate candy is at the bottom of a cup.",
+        "A small donut at the bottom of a ceramic mug."
+      ],
+      "caption": "A small doughnut inside a cup that's sitting on a table."
+    },
+    {
+      "id": 20,
+      "coco_image_id": 553221,
+      "file_name": "000000553221.jpg",
+      "image_path": "example_20.jpg",
+      "source_url": "http://images.cocodataset.org/val2017/000000553221.jpg",
+      "width": 640,
+      "height": 427,
+      "image_size_kb": 106.4,
+      "captions": [
+        "A group of men kitboarding over the top of  a large body of water.",
+        "Man parasailing in the ocean by many other parasailers.",
+        "A group of people enjoying the water with sails.",
+        "A group of people windsurfing at the beach.",
+        "A man is suspended from cables and has skis on his feet."
+      ],
+      "caption": "A group of men kitboarding over the top of  a large body of water."
+    }
+  ]
+}

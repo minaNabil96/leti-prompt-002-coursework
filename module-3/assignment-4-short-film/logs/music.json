@@ -1,0 +1,54 @@
+{
+  "prompt": "Ambient cinematic underscore for a short documentary about how artificial intelligence turns a text prompt into an image. Soft felt piano over warm analogue pads, slow evolving texture, gentle rise towards the end, no drums, no vocals, no melody hooks. Contemplative, hopeful, spacious. Duration about 33 seconds.",
+  "target_duration_s": 33.01,
+  "model": "google/lyria-3-pro-preview",
+  "file": "audio/music.mp3",
+  "cost_rub": 8.0,
+  "attempts": [
+    {
+      "model": "google/lyria-3-pro-preview",
+      "request": {
+        "model": "google/lyria-3-pro-preview",
+        "input": {
+          "prompt": "Ambient cinematic underscore for a short documentary about how artificial intelligence turns a text prompt into an image. Soft felt piano over warm analogue pads, slow evolving texture, gentle rise towards the end, no drums, no vocals, no melody hooks. Contemplative, hopeful, spacious. Duration about 33 seconds."
+        }
+      },
+      "http": 200,
+      "requested_at": "2026-11-26 14:19:45",
+      "elapsed_sec": 21.4,
+      "response": {
+        "id": "gen_2237191269117726721",
+        "object": "media.generation",
+        "status": "completed",
+        "created": 1795691985,
+        "model": "google/lyria-3-pro-preview",
+        "data": [
+          {
+            "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_1a71e4fb-7a23-4661-aba0-6a1241407eb6.mp3",
+            "title": "Ambient cinematic underscore for a short documentary about how artificial int..."
+          }
+        ],
+        "usage": {
+          "output_units": 1,
+          "cost_rub": 8,
+          "cost": 8
+        }
+      },
+      "cost_rub": 8.0,
+      "file": "audio/music.mp3",
+      "bytes": 1602022,
+      "request_id": "gen_2237191269117726721",
+      "data": {
+        "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_1a71e4fb-7a23-4661-aba0-6a1241407eb6.mp3",
+        "title": "Ambient cinematic underscore for a short documentary about how artificial int..."
+      },
+      "usage": {
+        "output_units": 1,
+        "cost_rub": 8,
+        "cost": 8
+      }
+    }
+  ],
+  "total_attempt_cost_rub": 8.0,
+  "created": "2026-11-26 14:19:46"
+}

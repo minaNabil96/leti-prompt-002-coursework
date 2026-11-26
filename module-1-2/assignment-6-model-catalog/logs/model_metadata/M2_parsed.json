@@ -1,0 +1,20 @@
+{
+  "id": "dima806/facial_emotions_image_detection",
+  "direction": "Компьютерное зрение",
+  "specialization": "Распознавание эмоций по лицу",
+  "task": "Image classification (pipeline_tag: image-classification) — классификация эмоции по изображению лица; ViT, дообученный на google/vit-base-patch16-224-in21k.",
+  "input_type": "Изображение лица (RGB).",
+  "output_type": "Один из 7 классов эмоций с вероятностью: angry, disgust, fear, happy, neutral, sad, surprise; accuracy 0,9092 на 25 170 изображениях (classification report в карточке).",
+  "training_data": "Набор данных в карточке явно не назван: приведена ссылка на Kaggle-ноутбук и classification report по 25 170 изображениям (примерно по 3,6 тыс. на класс); базовая модель google/vit-base-patch16-224-in21k.",
+  "model_size": "85 804 039 параметров (85,8 млн), F32; ViT-base (patch 16, 224 px).",
+  "license": "Apache 2.0",
+  "example_use": "Анализ эмоциональной реакции на фото и видео: UX-исследования, оценка рекламы, мониторинг аудитории (карточка: «Returns facial emotion with about 91% accuracy»).",
+  "limitations": "Карточка приводит только accuracy 0,9092 и метрики по классам; ограничения (поза, освещение, культурные различия мимики) в карточке не описаны — это наш вывод из анализа.",
+  "downloads": 49812,
+  "likes": 129,
+  "url": "https://huggingface.co/dima806/facial_emotions_image_detection",
+  "library_name": "transformers",
+  "pipeline_tag": "image-classification",
+  "model_type": "vit",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

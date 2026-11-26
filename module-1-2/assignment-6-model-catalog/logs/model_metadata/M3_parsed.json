@@ -1,0 +1,20 @@
+{
+  "id": "facebook/musicgen-small",
+  "direction": "Генерация контента",
+  "specialization": "Генерация музыки",
+  "task": "Text-to-audio (pipeline_tag: text-to-audio) — генерация музыки по текстовому описанию; авторегрессионный transformer над 32 кГц EnCodec-токенизатором с 4 кодовыми книгами.",
+  "input_type": "Текстовый промпт на английском (например, «a catchy beat for a podcast intro»).",
+  "output_type": "Аудиосигнал (32 кГц), в transformers — массив waveform; в карточке заявлена генерация музыкальных фрагментов.",
+  "training_data": "20 тыс. часов лицензированной музыки: Meta Music Initiative Sound Collection, Shutterstock music collection, Pond5 music collection.",
+  "model_size": "591 087 174 параметра в файлах весов (591,1 млн, F32); в карточке чекпоинт обозначен как MusicGen Small 300M — 300 млн относится к языковой модели без аудиокодека.",
+  "license": "CC-BY-NC 4.0 (только некоммерческое использование)",
+  "example_use": "Генерация фоновой музыки для видео, подкастов и презентаций по текстовому описанию (примеры виджета: «a funky house with 80s hip hop vibes», «a catchy beat for a podcast intro»).",
+  "limitations": "Карточка: обучение на данных музыкальных профессионалов, возможна нехватка культурного разнообразия; модель исследовательская, не предназначена для продакшена без анализа рисков; лицензия запрещает коммерческое использование.",
+  "downloads": 191732,
+  "likes": 533,
+  "url": "https://huggingface.co/facebook/musicgen-small",
+  "library_name": "transformers",
+  "pipeline_tag": "text-to-audio",
+  "model_type": "musicgen",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

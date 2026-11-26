@@ -1,0 +1,210 @@
+{
+  "_id": "621ffdc136468d709f17ade3",
+  "id": "facebook/detr-resnet-50",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "detr",
+    "object-detection",
+    "vision",
+    "dataset:coco",
+    "arxiv:2005.12872",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 100578,
+  "likes": 991,
+  "modelId": "facebook/detr-resnet-50",
+  "author": "facebook",
+  "sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
+  "lastModified": "2024-04-10T13:56:31.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/savanna.jpg",
+      "example_title": "Savanna"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/football-match.jpg",
+      "example_title": "Football Match"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/airport.jpg",
+      "example_title": "Airport"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "DetrForObjectDetection"
+    ],
+    "model_type": "detr"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "object-detection",
+      "vision"
+    ],
+    "datasets": [
+      "coco"
+    ],
+    "widget": [
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/savanna.jpg",
+        "example_title": "Savanna"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/football-match.jpg",
+        "example_title": "Football Match"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/airport.jpg",
+        "example_title": "Airport"
+      }
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForObjectDetection",
+    "pipeline_tag": "object-detection",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    }
+  ],
+  "spaces": [
+    "ClassCat/DETR-Object-Detection",
+    "facebook/sapiens2-pose",
+    "ysharma/Workflow1111",
+    "Gradio-Blocks/Object-Detection-With-DETR-and-YOLOS",
+    "achterbrain/Intel-Generative-Image-Dashboard",
+    "kartik91/Image-To-Story",
+    "nateraw/detr-object-detection",
+    "CVPR/Object-Detection-With-DETR-and-YOLOS",
+    "LuckRafly/Chat-with-an-Image-GeminiAI",
+    "Vishaltiwari2019/Object-Detection-with-NLP",
+    "XAI/PEEB",
+    "Jangai/Describer",
+    "dschandra/OutFits_On_Me",
+    "Taizun/Object-detection",
+    "BarBar288/Chatbot",
+    "khizon/ActiveTransportDetection",
+    "UmairSyed/ObjectDetection",
+    "ghostai1/computervisionobjectdetection",
+    "Soumen/transform_image",
+    "Tanapol/object_detection",
+    "radames/hello-huggingface.js",
+    "eddie5389/Object-Detection-With-DETR-and-YOLOS",
+    "beingcognitive/segmentation_w_object_detection",
+    "moyanxinxu/video-object-detect-detr-bytetrack",
+    "Msaqibsharif/InteriorRedesign",
+    "madhawavish/facebook-detr-resnet-50",
+    "ANASAKHTAR/Object_detection_from_Video",
+    "ThisHumanA/Art-of-Visual-Storytelling",
+    "NeerajCodz/ObjectDetection",
+    "venkyvicky/transformer_image_segmentation",
+    "vsaez/object-detection-app",
+    "sbby/object_detector",
+    "danielHora/Object_Detection_for_Self-Checkout_Stores",
+    "ayaanzaveri/detr",
+    "Epitech/Object-Detection",
+    "autumn8/selectModel",
+    "spritlesoftware/Image-Object-Detection",
+    "Frantz103/CaptionQuest",
+    "KaygNas/cut-it",
+    "grostaco/IRRA",
+    "hilmantm/detr-traffic-accident-detection",
+    "Charles95/gradio-tasks",
+    "GeorgiosIoannouCoder/cuny-tech-prep-tutorial-2",
+    "gatesla/Image-Segmentation-Various",
+    "chethu/Image_Whisper",
+    "captain-awesome/Image_object_detection",
+    "dioarafl/objectDetection",
+    "GenAILearniverse/object-detector",
+    "apratim24/Object_Detector",
+    "Mahaveer3435/facebook-detr-resnet-50",
+    "eldavid/quantificar",
+    "ZahraAlebouye/HaveFunWithGenAI",
+    "orYx-models/object-detection-facebook-ResNets",
+    "fofo5019/Recette",
+    "BenK0y/RADARPICKv3",
+    "123LETSPLAY/iforgot",
+    "arssite/Object_Detector_with_Audio",
+    "Shamhoon2002/objectdetection",
+    "Audecity-sid/SnapAsk",
+    "vikramjeetthakur/gatekeeper",
+    "ANASAKHTAR/Object_Detection",
+    "ANASAKHTAR/Object_Detector_with_Audio",
+    "xrwang8/facebook-detr-resnet-50333",
+    "Wei-Meng/ObjectDetectionApp",
+    "khoaliamle/Sall-eGarbageDetection",
+    "BarBar288/AI_Tools",
+    "Arun2064/ObjectDetector",
+    "arshok/blur_face",
+    "Aizaz96/carbon_foothprint_management",
+    "tahsinraiyan000/neurodriveaiot1",
+    "Agents-MCP-Hackathon/video_mcp",
+    "sanikjohn/DETR",
+    "TrueSneaker/openai-clip-vit-base-patch32",
+    "Arnaviit/Object-Detector",
+    "peace2024/dubswayAgenticV2",
+    "Arnaviit/Object-Detection-by-AI-Audio",
+    "Miraj3/Object_Detector_with_Audio",
+    "jenshen69/agressive",
+    "HGKo/vision-web-app",
+    "Skier8402/detr_interp_space",
+    "itsmemauli/vision_chatbot",
+    "liljujutsu/findyMater",
+    "liljujutsu/findy_mater_audio_assist",
+    "Saranyadharani/object-detection",
+    "trilochan/ultra-realistic-prompt-builder",
+    "shaheerawan3/Object_Recognition_Space",
+    "sadra001/car-damage-detector",
+    "KareemOwaiz/Object-Detection-System",
+    "Cristian365/Detector_de_Objetos",
+    "Nicolasg2c/object-detection-space",
+    "prajwaluppoor/unity-3d-assets",
+    "eho69/scanning",
+    "Malpeca/deteccion_objetos",
+    "Vanessacl/objeto_detection_space",
+    "Mikky15/brain-tumor-ssm-api",
+    "BalaAndegue/brain-tumor-ssm-api",
+    "jaincomunity/AI_Viruss",
+    "up2tech/Brand_QA",
+    "build-small-hackathon/one-red-paperclip",
+    "hytaty/statistic-learning"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 41631008
+    },
+    "total": 41631008
+  },
+  "inference": "warm",
+  "usedStorage": 835779962
+}

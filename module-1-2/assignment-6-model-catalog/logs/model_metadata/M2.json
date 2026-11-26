@@ -1,0 +1,282 @@
+{
+  "_id": "651b2baf77d6b4b1ea591ccd",
+  "id": "dima806/facial_emotions_image_detection",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "vit",
+    "image-classification",
+    "base_model:google/vit-base-patch16-224-in21k",
+    "base_model:finetune:google/vit-base-patch16-224-in21k",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 49812,
+  "likes": 129,
+  "modelId": "dima806/facial_emotions_image_detection",
+  "author": "dima806",
+  "sha": "747cf16692eea925b54b7b543cf436848128b68d",
+  "lastModified": "2024-10-19T10:09:54.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "model_type": "vit"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "metrics": [
+      "accuracy",
+      "f1"
+    ],
+    "base_model": [
+      "google/vit-base-patch16-224-in21k"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForImageClassification",
+    "pipeline_tag": "image-classification",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "checkpoint-1180/config.json"
+    },
+    {
+      "rfilename": "checkpoint-1180/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-1180/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-1180/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-1180/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-1180/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-1180/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-1180/training_args.bin"
+    },
+    {
+      "rfilename": "checkpoint-15740/config.json"
+    },
+    {
+      "rfilename": "checkpoint-15740/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-15740/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-15740/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-15740/pytorch_model.bin"
+    },
+    {
+      "rfilename": "checkpoint-15740/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-15740/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-15740/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-15740/training_args.bin"
+    },
+    {
+      "rfilename": "checkpoint-3148/config.json"
+    },
+    {
+      "rfilename": "checkpoint-3148/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-3148/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-3148/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-3148/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-3148/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-3148/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-3148/training_args.bin"
+    },
+    {
+      "rfilename": "checkpoint-5388/config.json"
+    },
+    {
+      "rfilename": "checkpoint-5388/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-5388/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-5388/pytorch_model.bin"
+    },
+    {
+      "rfilename": "checkpoint-5388/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-5388/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-5388/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-5388/training_args.bin"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "training_args.bin"
+    }
+  ],
+  "spaces": [
+    "TarSh8654/Mood_Identifier",
+    "abhicodes/Cross-Modal-Sentiment-Analysis",
+    "abhicodes/Interview-AI-Video-Processing-Model",
+    "humbleakh/FacialExpressionRecog",
+    "abhicodes/text-extractor-ORM",
+    "abhicodes/cross-model-machine-learning-v2",
+    "Edwardmonteirobr/dima806-facial_emotions_image_detection",
+    "ParthCodes/Test_Video",
+    "muhammadamir12345/dima806-facial_emotions_image_detection",
+    "Rishithjk/Rishithhk",
+    "bf369/My_FIRST_Sentiment_APP",
+    "afishskibidisigma/voxa-emotion-engine",
+    "rabbydatainsight/lumora_backend",
+    "adildhkh/dima806-facial_emotions_image_detection",
+    "ChatbotML/KC_Analizador_Emociones",
+    "mikecho/ISOM5240Group20_ImageAnalysis",
+    "Adhir/test-medium",
+    "felixwf/ISOM5240_Felix_David",
+    "NotebookNomad2911/FacialExpressionDetect",
+    "faiz3123/model123",
+    "MuhammmadRizwanRizwan/facial_emotions_image_detection",
+    "EdBoy2202/ImagetoEmoji",
+    "EdBoy2202/ImageAttributeDetectionandImageGeneration",
+    "faiz3123/opencv",
+    "Sreepad/OpenCv",
+    "HarshaSunny/Interview-AI-Video-Processing-Model",
+    "srinath123/sample",
+    "notrey/CompVisProj",
+    "harshyoooo05/Mindmate",
+    "Adhiren/emotion_care",
+    "Mainuddin/From_facial_emotion_to_music_suggestion",
+    "Thabo-Tshabalala/Mood_detection_101",
+    "Rishith2458/dima806-facial_emotions_image_detection",
+    "Marcel0123/emotie-lezen",
+    "Mitul6299/The_Data_Company",
+    "marwa1st/facial_emotions_image_detection_vit",
+    "jhh6576/Comic123",
+    "abdur0000/video-processor-api",
+    "tugcesandikli/emotion-analyzer",
+    "Speedofmastery/orynxml-agents",
+    "Hakai1993/FacialExpressionDetect_v1",
+    "jhh6576/Testcomic",
+    "nirajan347/speech-emotion-recognition",
+    "deltaworld/moodflix-backend",
+    "tester343/RealComic",
+    "tester343/dgg",
+    "DagusmanDT/Module8",
+    "tester343/Testcomic",
+    "tester343/lsatone",
+    "Abhishek279/Video_Transcription_Analysis",
+    "debasmita21/emotion_detector",
+    "tester343/Test",
+    "Pranavjitesh/emotion_detector",
+    "tester343/cpu",
+    "tester343/FIx",
+    "tester343/fast",
+    "tester343/password",
+    "laxmiranjan444/aura-ml-brain",
+    "sahil-ai/ai-music-backend",
+    "tester343/fastlog",
+    "tester343/cpu-new",
+    "tester343/passwords",
+    "elliejohn/enhanced-emotion-recognition",
+    "israrqayyum/MED",
+    "anhh209/Doan-Tuoi-AI",
+    "jhon19792025/FacialExpressionRecog",
+    "ridhijain709/aicteibmai",
+    "DarthHub/Emotion_Detection",
+    "Furqan0099/Mood_Analysis",
+    "nexusbert/Vicoka",
+    "beingzpranav/moodtrack-api",
+    "stephkassi/detection-emotions",
+    "Fayza38/InterVision_interviewAnalysis",
+    "Gypsianmonk/emotion-caption-project",
+    "Hannahj04/FaceEmotionn",
+    "kametayturar/selfie-emoji-mood",
+    "kametayturar/dima806-facial_emotions_image_detection",
+    "chariscait/EmoSphere",
+    "hordricjr/OjuSmartAI",
+    "ApoorvaBajpai/minor-backend",
+    "Nirajan3477/ai-assisted-psychiatric-assessment-tool",
+    "himadri20/webcam-emotion",
+    "Than165/MLOps-api",
+    "YanagiKp/midetector",
+    "abrar123456/lumora-api",
+    "Jarral123/GenderSwapWithFaceSwap",
+    "NaanuPuni/Mood_Music",
+    "TanRJ/MoodSyncAI",
+    "DPrasad612/movie-recommendation-system",
+    "momenalhamza/emotion-recognition-multimodal",
+    "Rahatwork983/emotion-detection-ai",
+    "hashemhtw/emotiondetector",
+    "Alvina-Mehdvii/Emlotion_Detection_using_AI",
+    "Patrick0chen/age-emotion-detector",
+    "salamhashem/WorldCup2026",
+    "Antonio112233/emotion-recognition",
+    "Antonio112233/youtube-video-audio-emotion-student",
+    "MostafaHany12/hand-detection",
+    "AurangZaibBalouch/HiddenCameraDetector",
+    "ShreyasVavley/facial-emotion-console"
+  ],
+  "createdAt": "2023-10-02T20:44:31.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 85804039
+    },
+    "total": 85804039
+  },
+  "inference": "warm",
+  "usedStorage": 7552320449
+}

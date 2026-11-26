@@ -1,0 +1,22 @@
+{
+  "file": "source_01_portrait.png",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "1:1",
+  "prompt": "A professional portrait of a young woman with short dark hair, soft natural lighting, neutral grey background, looking directly at the camera, photorealistic, high detail",
+  "cost_rub": 1.4,
+  "elapsed_sec": 9.0,
+  "size": [
+    1024,
+    1024
+  ],
+  "bytes": 1020082,
+  "request_id": "gen_2236961525218676737",
+  "created": 1795637196,
+  "completed_at": null,
+  "requested_at": "2026-11-25 23:06:38",
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  }
+}

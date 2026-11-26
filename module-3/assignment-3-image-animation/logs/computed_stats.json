@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-25",
+  "computed_at": "2026-11-25 23:22:20",
+  "sources": [
+    {
+      "label": "S1",
+      "file": "source_01_portrait.png",
+      "model": "tongyi-mai/z-image",
+      "prompt": "A professional portrait of a young woman with short dark hair, soft natural lighting, neutral grey background, looking directly at the camera, photorealistic, high detail",
+      "aspect_ratio": "1:1",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1020082,
+      "cost_rub": 1.4,
+      "request_id": "gen_2236961525218676737",
+      "created_msk": "2026-11-25 23:06:29",
+      "completed_msk": "2026-11-25 23:06:50"
+    },
+    {
+      "label": "S2",
+      "file": "source_02_landscape.png",
+      "model": "tongyi-mai/z-image",
+      "prompt": "A serene mountain lake at sunset with gentle pink clouds, calm water with subtle reflections, pine trees on the shore, warm golden light, photorealistic landscape",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1024716,
+      "cost_rub": 1.4,
+      "request_id": "gen_2236961565524103169",
+      "created_msk": "2026-11-25 23:06:38",
+      "completed_msk": "2026-11-25 23:07:00"
+    },
+    {
+      "label": "S3",
+      "file": "source_03_painting.jpg",
+      "model": "Wikimedia Commons (Van Gogh, 1889)",
+      "prompt": null,
+      "aspect_ratio": null,
+      "width": 1280,
+      "height": 1014,
+      "bytes": 618432,
+      "cost_rub": 0.0,
+      "request_id": null,
+      "created_msk": "2026-11-25 23:06:18",
+      "completed_msk": "2026-11-25 23:06:18"
+    }
+  ],
+  "animations": [
+    {
+      "file": "animation_01_portrait.mp4",
+      "source": "sources/source_01_portrait.png",
+      "intensity": "минимальная",
+      "prompt": "Subtle animation: the woman blinks once slowly, tilts her head slightly to the right, and forms a gentle smile. Minimal movement, natural breathing motion.",
+      "model": "bytedance/seedance-2-mini",
+      "cost_rub": 12.825,
+      "bytes": 1461394,
+      "request_id": "gen_2236961696322031617",
+      "created_msk": "2026-11-25 23:07:10",
+      "completed_msk": "2026-11-25 23:08:55",
+      "generation_time_sec": 94.3,
+      "duration_sec": 5.04,
+      "width": 640,
+      "height": 640,
+      "fps": 24,
+      "frames": 121,
+      "diff_mean": 1.414,
+      "diff_p95": 2.994,
+      "diff_max": 3.835,
+      "audio_stream": false,
+      "top_regions": [
+        {
+          "cell": "верх-центр",
+          "diff": 2.313
+        },
+        {
+          "cell": "центр-право",
+          "diff": 1.988
+        },
+        {
+          "cell": "центр",
+          "diff": 1.809
+        }
+      ]
+    },
+    {
+      "file": "animation_02_landscape.mp4",
+      "source": "sources/source_02_landscape.png",
+      "intensity": "средняя",
+      "prompt": "Clouds drift slowly from left to right, water surface ripples gently with reflections, pine branches sway in a light breeze. Two moving elements only, medium intensity.",
+      "model": "bytedance/seedance-2-mini",
+      "cost_rub": 12.825,
+      "bytes": 1373408,
+      "request_id": "gen_2236962253816467457",
+      "created_msk": "2026-11-25 23:09:23",
+      "completed_msk": "2026-11-25 23:11:35",
+      "generation_time_sec": 118.2,
+      "duration_sec": 5.04,
+      "width": 864,
+      "height": 496,
+      "fps": 24,
+      "frames": 121,
+      "diff_mean": 0.778,
+      "diff_p95": 0.947,
+      "diff_max": 1.204,
+      "audio_stream": false,
+      "top_regions": [
+        {
+          "cell": "низ-право",
+          "diff": 2.116
+        },
+        {
+          "cell": "низ-лево",
+          "diff": 1.526
+        },
+        {
+          "cell": "низ-центр",
+          "diff": 1.436
+        }
+      ]
+    },
+    {
+      "file": "animation_03_painting.mp4",
+      "source": "sources/source_03_painting.jpg",
+      "intensity": "максимальная",
+      "prompt": "Maximum dynamic animation: the swirling sky rotates and pulses, stars twinkle brightly, the cypress tree sways dramatically, village lights flicker, the moon glows intensely. Full transformation.",
+      "model": "bytedance/seedance-2-mini",
+      "cost_rub": 12.825,
+      "bytes": 2876649,
+      "request_id": "gen_2236962756742746113",
+      "created_msk": "2026-11-25 23:11:22",
+      "completed_msk": "2026-11-25 23:13:10",
+      "generation_time_sec": 93.2,
+      "duration_sec": 5.04,
+      "width": 752,
+      "height": 560,
+      "fps": 24,
+      "frames": 121,
+      "diff_mean": 4.032,
+      "diff_p95": 6.138,
+      "diff_max": 6.843,
+      "audio_stream": false,
+      "top_regions": [
+        {
+          "cell": "низ-право",
+          "diff": 7.462
+        },
+        {
+          "cell": "низ-центр",
+          "diff": 6.021
+        },
+        {
+          "cell": "центр-лево",
+          "diff": 4.573
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "count_sources": 3,
+    "count_animations": 3,
+    "cost_rub": 41.275,
+    "cost_rub_text": "41,28",
+    "cost_exact_text": "41,275",
+    "cost_per_video_rub": 12.825,
+    "duration_sec": 15.12,
+    "duration_text": "15,12",
+    "frames": 363,
+    "bytes": 5711451,
+    "count_media_calls": 5
+  },
+  "reflection_words": 176,
+  "reflection_chars": 1309
+}

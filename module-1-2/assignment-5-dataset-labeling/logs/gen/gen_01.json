@@ -1,0 +1,22 @@
+{
+  "id": "P01",
+  "file": "img_01.png",
+  "class": "афиша",
+  "prompt": "A poster for a rock music concert, featuring a band name in large bold text, date and venue information at the bottom, vibrant red and black colors",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 16.88,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1164523,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234684647125291009",
+  "generated_at": "2026-11-19 16:19:16+0300"
+}

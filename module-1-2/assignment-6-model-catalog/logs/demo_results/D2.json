@@ -1,0 +1,31 @@
+{
+  "model": "cardiffnlp/twitter-roberta-base-sentiment",
+  "run_mode": "local transformers pipeline (CPU), same checkpoint as the card",
+  "reason": "HF Inference API returns HTTP 401 without a token; online widget asks to log in",
+  "input_text": "I absolutely love the new AI course on prompt engineering — it's incredibly useful and well-structured!",
+  "raw_output": [
+    {
+      "label": "LABEL_2",
+      "score": 0.9916908740997314
+    },
+    {
+      "label": "LABEL_1",
+      "score": 0.006782472599297762
+    },
+    {
+      "label": "LABEL_0",
+      "score": 0.0015266051050275564
+    }
+  ],
+  "scores": {
+    "positive": 0.9917,
+    "neutral": 0.0068,
+    "negative": 0.0015
+  },
+  "predicted": "positive",
+  "confidence": 0.9917,
+  "model_load_seconds": 149.6,
+  "inference_seconds": 0.1,
+  "model_load_seconds_cold": 149.6,
+  "timing_note": "Первый (холодный) запуск включал скачивание чекпоинта: загрузка 149,6 с, инференс 0,1 с."
+}

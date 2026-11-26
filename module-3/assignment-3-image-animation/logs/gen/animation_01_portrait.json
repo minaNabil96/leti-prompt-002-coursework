@@ -1,0 +1,27 @@
+{
+  "file": "animation_01_portrait.mp4",
+  "model": "bytedance/seedance-2-mini",
+  "source": "sources/source_01_portrait.png",
+  "intensity": "минимальная",
+  "prompt": "Subtle animation: the woman blinks once slowly, tilts her head slightly to the right, and forms a gentle smile. Minimal movement, natural breathing motion.",
+  "duration_param": "5",
+  "resolution": "480p",
+  "cost_rub": 12.825,
+  "bytes": 1461394,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_aa5a0392-23b8-4d35-bdc8-b7ea48eb8040.mp4",
+  "request_id": "gen_2236961696322031617",
+  "created": 1795637323,
+  "completed_at": null,
+  "recovered_from_history": true,
+  "recovered_at": "2026-11-25 23:09:10",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 12.825,
+    "cost": 12.825
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_aa5a0392-23b8-4d35-bdc8-b7ea48eb8040.mp4"
+  },
+  "warnings": null
+}

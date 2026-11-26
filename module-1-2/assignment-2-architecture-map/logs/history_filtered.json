@@ -1,0 +1,243 @@
+{
+  "matched_calls": [
+    {
+      "id": "gen_2231109233278717953",
+      "model": "openai/gpt-4o",
+      "modelDisplayName": "OpenAI: GPT-4o",
+      "requestType": "chat",
+      "provider": "OpenAI",
+      "status": "completed",
+      "cost": "0.11757511",
+      "usage": {
+        "total_tokens": 117,
+        "prompt_tokens": 25,
+        "completion_tokens": 92
+      },
+      "generationTimeMs": 2174,
+      "createdAt": "2026-11-09T16:31:34.233Z",
+      "finalizedAt": "2026-11-09T16:31:50.015Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "25",
+          "clientRub": "0.00747933"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "92",
+          "clientRub": "0.11009578"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.11757511",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231109242797035521",
+      "model": "yandex/yandexgpt-5-lite",
+      "modelDisplayName": "YandexGPT Lite 5",
+      "requestType": "chat",
+      "provider": "Yandex AI Studio",
+      "status": "completed",
+      "cost": "0.01296",
+      "usage": {
+        "total_tokens": 45,
+        "prompt_tokens": 29,
+        "completion_tokens": 16
+      },
+      "generationTimeMs": 558,
+      "createdAt": "2026-11-09T16:31:36.511Z",
+      "finalizedAt": "2026-11-09T16:31:50.015Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "29",
+          "clientRub": "0.00835200"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "16",
+          "clientRub": "0.00460800"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.01296000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231109245485846529",
+      "model": "google/gemini-2.5-flash",
+      "modelDisplayName": "Google: Gemini 2.5 Flash",
+      "requestType": "chat",
+      "provider": "Google AI Studio",
+      "status": "completed",
+      "cost": "0.03888056",
+      "usage": {
+        "total_tokens": 445,
+        "prompt_tokens": 358,
+        "completion_tokens": 87,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "generationTimeMs": 946,
+      "createdAt": "2026-11-09T16:31:37.144Z",
+      "finalizedAt": "2026-11-09T16:32:38.440Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "358",
+          "clientRub": "0.01285248"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "87",
+          "clientRub": "0.02602808"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.03888056",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231109369006395393",
+      "model": "tongyi-mai/z-image",
+      "modelDisplayName": "Z-Image",
+      "requestType": "images",
+      "provider": "mie",
+      "status": "completed",
+      "cost": "1.4",
+      "usage": {
+        "output_units": 1
+      },
+      "generationTimeMs": 11334,
+      "createdAt": "2026-11-09T16:32:06.589Z",
+      "finalizedAt": "2026-11-09T16:32:30.013Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "output",
+          "unit": "image",
+          "quantity": "1",
+          "clientRub": "1.40000000"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "1.40000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110426763857921",
+      "model": "bytedance/seedream-4",
+      "modelDisplayName": "Seedream 4.0",
+      "requestType": "images",
+      "provider": "mie",
+      "status": "completed",
+      "cost": "3",
+      "usage": {
+        "output_units": 1
+      },
+      "generationTimeMs": 11555,
+      "createdAt": "2026-11-09T16:36:18.782Z",
+      "finalizedAt": "2026-11-09T16:36:45.019Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "output",
+          "unit": "image",
+          "quantity": "1",
+          "clientRub": "3.00000000"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "3.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111398466785281",
+      "model": "qwen/image",
+      "modelDisplayName": "Qwen Image",
+      "requestType": "images",
+      "provider": "mie",
+      "status": "completed",
+      "cost": "3",
+      "usage": {
+        "output_units": 1
+      },
+      "generationTimeMs": 164078,
+      "createdAt": "2026-11-09T16:40:10.454Z",
+      "finalizedAt": "2026-11-09T16:43:05.009Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "output",
+          "unit": "image",
+          "quantity": "1",
+          "clientRub": "3.00000000"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "3.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    }
+  ],
+  "total_rub": 7.569416,
+  "all_models": [
+    "bytedance/seedream-4",
+    "deepseek/deepseek-v4.1-flash",
+    "google/gemini-2.5-flash",
+    "openai/gpt-4o",
+    "qwen/image",
+    "tongyi-mai/z-image",
+    "yandex/yandex-art",
+    "yandex/yandexgpt-5-lite"
+  ]
+}

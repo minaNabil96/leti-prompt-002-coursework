@@ -1,0 +1,22 @@
+{
+  "label": "detailed",
+  "model": "bytedance/seedream-4",
+  "architecture": "Diffusion (rectified flow DiT, ByteDance Seedream 4.0)",
+  "size_requested": "1:1 (1K, 1024x1024)",
+  "seed_requested": 42,
+  "prompt": "A lonely black cat sits huddled under a dark, swirling deluge of rain, rendered with thick, energetic impasto brushstrokes that convey motion and texture. The sky above pulses with deep blues and greens, punctuated by splashes of vibrant yellow and orange light reflecting off the rain-soaked surfaces, creating a dramatic contrast. The overall composition should feature the cat prominently in the foreground, perhaps with a distant, indistinct village or urban landscape in the background, all bathed in an intense, almost spiritual glow emanating from the stormy sky. This artwork evokes a mood of intense contemplation, a blend of melancholic solitude and awe-inspiring natural power, captured through a dynamic interplay of color and light.",
+  "prompt_raw_response": "Отличная задача! Вот промпт для генератора изображений на новый сюжет \"кот под дождем\" в стиле \"Звёздной ночи\", без упоминания Винсента Ван Гога и самой картины:\n\n**Prompt:**\n\nA lonely black cat sits huddled under a dark, swirling deluge of rain, rendered with thick, energetic impasto brushstrokes that convey motion and texture. The sky above pulses with deep blues and greens, punctuated by splashes of vibrant yellow and orange light reflecting off the rain-soaked surfaces, creating a dramatic contrast. The overall composition should feature the cat prominently in the foreground, perhaps with a distant, indistinct village or urban landscape in the background, all bathed in an intense, almost spiritual glow emanating from the stormy sky. This artwork evokes a mood of intense contemplation, a blend of melancholic solitude and awe-inspiring natural power, captured through a dynamic interplay of color and light.",
+  "billed_rub": 3.0,
+  "elapsed_sec": 11.72,
+  "image_size": [
+    2048,
+    2048
+  ],
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "request_id": "gen_2231146737992077313",
+  "generated_at": "2026-11-09 22:00:48+0300"
+}

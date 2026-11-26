@@ -1,0 +1,22 @@
+{
+  "id": "P17",
+  "file": "img_17.png",
+  "class": "постер фильма",
+  "prompt": "A movie poster for a sci-fi action film, dramatic character composition with spaceship, film title 'STELLAR', credits block at bottom listing director and cast, release date",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 13.71,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1471268,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685785778163713",
+  "generated_at": "2026-11-19 16:23:45+0300"
+}

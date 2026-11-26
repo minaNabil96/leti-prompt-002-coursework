@@ -1,0 +1,32 @@
+{
+  "id": "D2",
+  "service": "Alibaba Qwen-Image (via Polza; замена YandexART)",
+  "model": "qwen/image",
+  "task": "Генерация изображения",
+  "architecture": "Diffusion (latent diffusion, MMDiT — Multimodal Diffusion Transformer)",
+  "prompt": "Фантастический город будущего на закате, неоновые огни, летающие машины, киберпанк-стиль.",
+  "elapsed": 164.62,
+  "image_size": [
+    1328,
+    1328
+  ],
+  "billed_rub": 3.0,
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "response": {
+    "id": "gen_2231111398466785281",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1794242572,
+    "model": "qwen/image",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 3,
+      "cost": 3
+    }
+  },
+  "generated_at": "2026-11-09 19:42:55+0300"
+}

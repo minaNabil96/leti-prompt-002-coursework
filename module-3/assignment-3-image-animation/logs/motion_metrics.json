@@ -1,0 +1,35 @@
+{
+  "animation_01_portrait.mp4": {
+    "frames": 121,
+    "fps": 24,
+    "duration_sec": 5.04,
+    "diff_mean": 1.414,
+    "diff_max": 3.835,
+    "diff_std": 0.679,
+    "diff_p95": 2.994,
+    "diff_first_sec": 1.006,
+    "diff_last_sec": 1.124
+  },
+  "animation_02_landscape.mp4": {
+    "frames": 121,
+    "fps": 24,
+    "duration_sec": 5.04,
+    "diff_mean": 0.778,
+    "diff_max": 1.204,
+    "diff_std": 0.121,
+    "diff_p95": 0.947,
+    "diff_first_sec": 0.818,
+    "diff_last_sec": 0.78
+  },
+  "animation_03_painting.mp4": {
+    "frames": 121,
+    "fps": 24,
+    "duration_sec": 5.04,
+    "diff_mean": 4.032,
+    "diff_max": 6.843,
+    "diff_std": 1.298,
+    "diff_p95": 6.138,
+    "diff_first_sec": 3.864,
+    "diff_last_sec": 4.323
+  }
+}

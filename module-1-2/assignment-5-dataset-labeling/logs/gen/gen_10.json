@@ -1,0 +1,22 @@
+{
+  "id": "P10",
+  "file": "img_10.png",
+  "class": "обложка книги",
+  "prompt": "A book cover for a science textbook, clean minimal design, title 'Quantum Physics', author names, university press logo",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 10.7,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 326526,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685321900724225",
+  "generated_at": "2026-11-19 16:21:50+0300"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cardiffnlp/twitter-roberta-base-sentiment",
+  "direction": "Анализ данных",
+  "specialization": "Анализ тональности",
+  "task": "Text classification (pipeline_tag: text-classification) — определение тональности короткого текста; roberta-base, дообученный на TweetEval.",
+  "input_type": "Текст на английском (короткие сообщения в стиле Twitter).",
+  "output_type": "Три класса с вероятностями: negative (LABEL_0), neutral (LABEL_1), positive (LABEL_2).",
+  "training_data": "Около 58 млн твитов для предобучения и бенчмарк TweetEval для дообучения (датасет tweet_eval); язык — английский.",
+  "model_size": "В карточке размер не указан; архитектура roberta-base, около 125 млн параметров; веса pytorch_model.bin.",
+  "license": "Не указана в карточке модели (поле license отсутствует и в метаданных, и в README).",
+  "example_use": "Мониторинг тональности упоминаний бренда в соцсетях, анализ отзывов и комментариев (карточка: задача sentiment в TweetEval).",
+  "limitations": "Карточка: модель только для английского; обучена на твитах, поэтому стиль других текстов может давать смещение. Ограничения по сарказму и смешанной тональности в карточке не описаны — это наш вывод.",
+  "downloads": 251402,
+  "likes": 343,
+  "url": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment",
+  "library_name": "transformers",
+  "pipeline_tag": "text-classification",
+  "model_type": "roberta",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

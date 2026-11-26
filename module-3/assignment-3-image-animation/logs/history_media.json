@@ -1,0 +1,170 @@
+[
+  {
+    "id": "gen_2236962756742746113",
+    "model": "bytedance/seedance-2-mini",
+    "modelDisplayName": "Seedance 2 Mini",
+    "requestType": "video",
+    "provider": "mie",
+    "status": "completed",
+    "cost": "12.825",
+    "usage": {
+      "output_units": 1,
+      "duration_seconds": 5
+    },
+    "generationTimeMs": 93183,
+    "createdAt": "2026-11-25T20:11:22.980Z",
+    "finalizedAt": "2026-11-25T20:13:10.015Z",
+    "userId": null,
+    "apiKeyId": "key_2225280372995526657",
+    "apiKeyName": "opencode1",
+    "apiKeyShort": "d25768",
+    "hasLog": true,
+    "costLines": [
+      {
+        "kind": "output",
+        "unit": "second",
+        "quantity": "5",
+        "clientRub": "12.82500000"
+      }
+    ],
+    "costBreakdown": {
+      "modelRub": "12.82500000",
+      "toolsRub": "0.00000000",
+      "tools": []
+    }
+  },
+  {
+    "id": "gen_2236962253816467457",
+    "model": "bytedance/seedance-2-mini",
+    "modelDisplayName": "Seedance 2 Mini",
+    "requestType": "video",
+    "provider": "mie",
+    "status": "completed",
+    "cost": "12.825",
+    "usage": {
+      "output_units": 1,
+      "duration_seconds": 5
+    },
+    "generationTimeMs": 118242,
+    "createdAt": "2026-11-25T20:09:23.072Z",
+    "finalizedAt": "2026-11-25T20:11:35.024Z",
+    "userId": null,
+    "apiKeyId": "key_2225280372995526657",
+    "apiKeyName": "opencode1",
+    "apiKeyShort": "d25768",
+    "hasLog": true,
+    "costLines": [
+      {
+        "kind": "output",
+        "unit": "second",
+        "quantity": "5",
+        "clientRub": "12.82500000"
+      }
+    ],
+    "costBreakdown": {
+      "modelRub": "12.82500000",
+      "toolsRub": "0.00000000",
+      "tools": []
+    }
+  },
+  {
+    "id": "gen_2236961696322031617",
+    "model": "bytedance/seedance-2-mini",
+    "modelDisplayName": "Seedance 2 Mini",
+    "requestType": "video",
+    "provider": "mie",
+    "status": "completed",
+    "cost": "12.825",
+    "usage": {
+      "output_units": 1,
+      "duration_seconds": 5
+    },
+    "generationTimeMs": 94275,
+    "createdAt": "2026-11-25T20:07:10.156Z",
+    "finalizedAt": "2026-11-25T20:08:55.051Z",
+    "userId": null,
+    "apiKeyId": "key_2225280372995526657",
+    "apiKeyName": "opencode1",
+    "apiKeyShort": "d25768",
+    "hasLog": true,
+    "costLines": [
+      {
+        "kind": "output",
+        "unit": "second",
+        "quantity": "5",
+        "clientRub": "12.82500000"
+      }
+    ],
+    "costBreakdown": {
+      "modelRub": "12.82500000",
+      "toolsRub": "0.00000000",
+      "tools": []
+    }
+  },
+  {
+    "id": "gen_2236961565524103169",
+    "model": "tongyi-mai/z-image",
+    "modelDisplayName": "Z-Image",
+    "requestType": "images",
+    "provider": "mie",
+    "status": "completed",
+    "cost": "1.4",
+    "usage": {
+      "output_units": 1
+    },
+    "generationTimeMs": 8754,
+    "createdAt": "2026-11-25T20:06:38.994Z",
+    "finalizedAt": "2026-11-25T20:07:00.020Z",
+    "userId": null,
+    "apiKeyId": "key_2225280372995526657",
+    "apiKeyName": "opencode1",
+    "apiKeyShort": "d25768",
+    "hasLog": true,
+    "costLines": [
+      {
+        "kind": "output",
+        "unit": "image",
+        "quantity": "1",
+        "clientRub": "1.40000000"
+      }
+    ],
+    "costBreakdown": {
+      "modelRub": "1.40000000",
+      "toolsRub": "0.00000000",
+      "tools": []
+    }
+  },
+  {
+    "id": "gen_2236961525218676737",
+    "model": "tongyi-mai/z-image",
+    "modelDisplayName": "Z-Image",
+    "requestType": "images",
+    "provider": "mie",
+    "status": "completed",
+    "cost": "1.4",
+    "usage": {
+      "output_units": 1
+    },
+    "generationTimeMs": 8436,
+    "createdAt": "2026-11-25T20:06:29.363Z",
+    "finalizedAt": "2026-11-25T20:06:50.019Z",
+    "userId": null,
+    "apiKeyId": "key_2225280372995526657",
+    "apiKeyName": "opencode1",
+    "apiKeyShort": "d25768",
+    "hasLog": true,
+    "costLines": [
+      {
+        "kind": "output",
+        "unit": "image",
+        "quantity": "1",
+        "clientRub": "1.40000000"
+      }
+    ],
+    "costBreakdown": {
+      "modelRub": "1.40000000",
+      "toolsRub": "0.00000000",
+      "tools": []
+    }
+  }
+]

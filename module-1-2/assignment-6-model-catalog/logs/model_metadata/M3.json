@@ -1,0 +1,230 @@
+{
+  "_id": "64820fa10aad5153844b45ed",
+  "id": "facebook/musicgen-small",
+  "private": false,
+  "pipeline_tag": "text-to-audio",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "musicgen",
+    "text-to-audio",
+    "arxiv:2306.05284",
+    "license:cc-by-nc-4.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 191732,
+  "likes": 533,
+  "modelId": "facebook/musicgen-small",
+  "author": "facebook",
+  "sha": "4c8334b02c6ec4e8664a91979669a501ec497792",
+  "lastModified": "2023-11-17T13:56:10.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "a funky house with 80s hip hop vibes",
+      "example_title": "Prompt 1"
+    },
+    {
+      "text": "a chill song with influences from lofi, chillstep and downtempo",
+      "example_title": "Prompt 2"
+    },
+    {
+      "text": "a catchy beat for a podcast intro",
+      "example_title": "Prompt 3"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "MusicgenForConditionalGeneration"
+    ],
+    "model_type": "musicgen",
+    "tokenizer_config": {
+      "eos_token": "</s>",
+      "pad_token": "<pad>",
+      "unk_token": "<unk>"
+    }
+  },
+  "cardData": {
+    "inference": true,
+    "tags": [
+      "musicgen"
+    ],
+    "license": "cc-by-nc-4.0",
+    "pipeline_tag": "text-to-audio",
+    "widget": [
+      {
+        "text": "a funky house with 80s hip hop vibes",
+        "example_title": "Prompt 1"
+      },
+      {
+        "text": "a chill song with influences from lofi, chillstep and downtempo",
+        "example_title": "Prompt 2"
+      },
+      {
+        "text": "a catchy beat for a podcast intro",
+        "example_title": "Prompt 3"
+      }
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForTextToWaveform",
+    "pipeline_tag": "text-to-audio",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "compression_state_dict.bin"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "spiece.model"
+    },
+    {
+      "rfilename": "state_dict.bin"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "spaces": [
+    "facebook/MusicGen",
+    "garyuzair/Video-To-SoundFX",
+    "Surn/UnlimitedMusicGen",
+    "unpairedelectron07/Text-to-Music-Generator",
+    "awqwqwq/music-generation",
+    "The-c0d3r5/ai-REA",
+    "Prof-Reza/Audiocraft_Music-Audio_Generation",
+    "brainblow/AudioCreator_Music-Audio_Generation",
+    "dream2589632147/Dream-wan2-2-faster-Pro",
+    "sanchit-gandhi/musicgen-streaming",
+    "facebook/MelodyFlow",
+    "fffiloni/SplitTrack2MusicGen",
+    "fffiloni/Image-to-MusicGen",
+    "radames/MusicGen-Continuation",
+    "M2UGen/M2UGen-Demo",
+    "GrandaddyShmax/AudioCraft_Plus",
+    "GrandaddyShmax/MusicGen_Plus",
+    "patgpt4/MusicGen",
+    "nsaintsever/music-generation",
+    "fffiloni/MusiConGen",
+    "awacke1/MusicMaker",
+    "sunnyujjawal/AI-Music-Generator",
+    "sanchit-gandhi/musicgen-negative-prompting",
+    "GrandaddyShmax/MusicGen_Plus_hfv2",
+    "SunilGopal/MusicLM",
+    "aach456/music-gen-ai",
+    "build-small-hackathon/LoFinity",
+    "HarshRathi09/Text-to-Music_and_Text-to-Image_Generator",
+    "bdc-divya/Gradio_Text_To_Audio_Generator",
+    "jonluca/MusicGen",
+    "sub314xxl/MusicGen-Continuation",
+    "awacke1/MusicGenStreamFacebook",
+    "kviai/your-girl-ai",
+    "annapurnapadmaprema-ji/Music_Generator",
+    "hitesh-aiml/Text-to-music-generator",
+    "Youngmaster0/Square_Dream_Webtoon_or_Image_or_Novel_to_Music_Generator",
+    "wren11ws/suno_prompt_generator_v6",
+    "jbilcke-hf/MusicGen",
+    "YJX-Xiaomi/controlfoley",
+    "awqwqwq/MusicGen2",
+    "jbilcke-hf/ai-tube-model-musicgen-1",
+    "Kvikontent/Image2Music",
+    "SuriC-nyc/MagicMusicMachine",
+    "Zyan11/LocalAI-Amlan-Edition",
+    "Achyuth4/MusicGen",
+    "legolasyiu/MusicAI",
+    "Kvikontent/ai-tracks-generator",
+    "ElainaFanBoy/MusicGen",
+    "simsantonioii/MusicGen-Continuation",
+    "echons/musicgen-small",
+    "yufiofficial/Image-to-MusicGen",
+    "Gyufyjk/AudioCraft_Plus",
+    "Ffftdtd5dtft/gfgf",
+    "beingcognitive/Image_to_Music",
+    "MattBee/musicgen-streaming",
+    "aryan993/lofi",
+    "Srijan12380/AI-music-generator",
+    "Sushree04/musicgen",
+    "Davex256/LocalAI-Amlan-Edition",
+    "studiobrn/SplitTrack",
+    "ddasd/MusicGen",
+    "marcusj83/MusicGenbruh",
+    "sub314xxl/MusicGen",
+    "Omnibus/MusicGen",
+    "EnthusiastLo/MusicGen",
+    "Neomyst/UnlimitedMusicGen",
+    "ZeroTwo3/videoshop-backend",
+    "AIConsultant/MusicGen",
+    "awacke1/MusicChatGenWithMuGen",
+    "Nymbo/music_generator",
+    "Khaled21/First-app",
+    "HongcanGuo/InspiroV",
+    "KienPongPoh/music-generation",
+    "charchits/zonic-generator",
+    "123LETSPLAY/musicgen",
+    "THEAIMART/music_generator_by_theaimart",
+    "prasenjeet5/MusicAl",
+    "ford442/MusicGen",
+    "dilip00111111/ai-music-generator",
+    "Owen163/audiocraft",
+    "TheDSGoose/HackathonGradio",
+    "Eyan04/ai-song-remixer",
+    "1893phfbcla/AI-Music-Generator",
+    "danterivers/music-generation-samples",
+    "hebert2099/MusicGen",
+    "Wrathless/Dkrotzer-MusicalMagic",
+    "Alexxggs/sounddromcom",
+    "rstallman/Mayfair-Partner-Music",
+    "w1zrd/MusicGen",
+    "nakas/MusicGenDemucs",
+    "Yudha515/Rvc-Models",
+    "subhajitmaji/MusicGen",
+    "devduttabain/facebook-musicgen-small",
+    "triggah61/chingu-music",
+    "isotope21/Musicgen",
+    "Arnx/MusicGenXvAKN",
+    "betelguesestudios/SplitTrack2MusicGen",
+    "Datasculptor/MusicGen",
+    "spatialgeneration/musicgen-mbd",
+    "SuYuanS/AudioCraft_Plus"
+  ],
+  "createdAt": "2023-06-08T17:28:01.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 591087174
+    },
+    "total": 591087174
+  },
+  "usedStorage": 10529292861
+}

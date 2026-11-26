@@ -1,0 +1,5 @@
+Отличная задача! Вот промпт для генератора изображений на новый сюжет "кот под дождем" в стиле "Звёздной ночи", без упоминания Винсента Ван Гога и самой картины:
+
+**Prompt:**
+
+A lonely black cat sits huddled under a dark, swirling deluge of rain, rendered with thick, energetic impasto brushstrokes that convey motion and texture. The sky above pulses with deep blues and greens, punctuated by splashes of vibrant yellow and orange light reflecting off the rain-soaked surfaces, creating a dramatic contrast. The overall composition should feature the cat prominently in the foreground, perhaps with a distant, indistinct village or urban landscape in the background, all bathed in an intense, almost spiritual glow emanating from the stormy sky. This artwork evokes a mood of intense contemplation, a blend of melancholic solitude and awe-inspiring natural power, captured through a dynamic interplay of color and light.

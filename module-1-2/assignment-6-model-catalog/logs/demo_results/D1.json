@@ -1,0 +1,1231 @@
+{
+  "model": "facebook/detr-resnet-50",
+  "run_mode": "local transformers pipeline (CPU), same checkpoint as the card",
+  "reason": "HF Inference API returns HTTP 401 without a token; online widget asks to log in",
+  "threshold": 0.9,
+  "counts_by_threshold": {
+    "0.5": 60,
+    "0.7": 46,
+    "0.8": 39,
+    "0.9": 28,
+    "0.95": 14
+  },
+  "input_file": "test_image.jpg",
+  "input_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Photo_of_biking_people_with_kids_in_a_sunny_street_in_Spring_in_Amsterdam_-_street_photography_of_The_Netherlands_by_Fons_Heijnsbroek%2C_2026_-_free_street_photography_in_high_resolutions_tiff.tif/lossy-page1-960px-thumbnail.tif.jpg",
+  "input_page": "https://commons.wikimedia.org/wiki/File:Photo_of_biking_people_with_kids_in_a_sunny_street_in_Spring_in_Amsterdam_-_street_photography_of_The_Netherlands_by_Fons_Heijnsbroek,_2026_-_free_street_photography_in_high_resolutions_tiff.tif",
+  "input_license": "CC0 (Wikimedia Commons, автор Fons Heijnsbroek, 2026)",
+  "input_description": "Солнечная улица Амстердама: велосипедисты, грузовой велосипед с детьми, пешеходы, автомобили и дома",
+  "image_size": [
+    960,
+    721
+  ],
+  "model_load_seconds": 1.2,
+  "inference_seconds": 0.8,
+  "detections": [
+    {
+      "label": "car",
+      "score": 0.9097,
+      "box": {
+        "xmin": 386,
+        "ymin": 324,
+        "xmax": 404,
+        "ymax": 336
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9607,
+      "box": {
+        "xmin": 99,
+        "ymin": 506,
+        "xmax": 237,
+        "ymax": 719
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9955,
+      "box": {
+        "xmin": 629,
+        "ymin": 347,
+        "xmax": 687,
+        "ymax": 396
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9702,
+      "box": {
+        "xmin": 586,
+        "ymin": 310,
+        "xmax": 607,
+        "ymax": 349
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9019,
+      "box": {
+        "xmin": 366,
+        "ymin": 325,
+        "xmax": 384,
+        "ymax": 337
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9476,
+      "box": {
+        "xmin": 36,
+        "ymin": 327,
+        "xmax": 56,
+        "ymax": 377
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9876,
+      "box": {
+        "xmin": 0,
+        "ymin": 362,
+        "xmax": 58,
+        "ymax": 413
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9966,
+      "box": {
+        "xmin": 848,
+        "ymin": 352,
+        "xmax": 959,
+        "ymax": 432
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9376,
+      "box": {
+        "xmin": 353,
+        "ymin": 324,
+        "xmax": 372,
+        "ymax": 337
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9944,
+      "box": {
+        "xmin": 197,
+        "ymin": 324,
+        "xmax": 218,
+        "ymax": 376
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9084,
+      "box": {
+        "xmin": 640,
+        "ymin": 310,
+        "xmax": 666,
+        "ymax": 354
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9286,
+      "box": {
+        "xmin": 65,
+        "ymin": 335,
+        "xmax": 105,
+        "ymax": 369
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9432,
+      "box": {
+        "xmin": 461,
+        "ymin": 344,
+        "xmax": 493,
+        "ymax": 387
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9822,
+      "box": {
+        "xmin": 0,
+        "ymin": 319,
+        "xmax": 39,
+        "ymax": 403
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9805,
+      "box": {
+        "xmin": 281,
+        "ymin": 328,
+        "xmax": 316,
+        "ymax": 347
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9617,
+      "box": {
+        "xmin": 167,
+        "ymin": 351,
+        "xmax": 202,
+        "ymax": 383
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9449,
+      "box": {
+        "xmin": 445,
+        "ymin": 325,
+        "xmax": 462,
+        "ymax": 359
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9025,
+      "box": {
+        "xmin": 376,
+        "ymin": 324,
+        "xmax": 393,
+        "ymax": 336
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9711,
+      "box": {
+        "xmin": 217,
+        "ymin": 329,
+        "xmax": 254,
+        "ymax": 355
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9997,
+      "box": {
+        "xmin": 39,
+        "ymin": 306,
+        "xmax": 229,
+        "ymax": 718
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9998,
+      "box": {
+        "xmin": 502,
+        "ymin": 287,
+        "xmax": 688,
+        "ymax": 715
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9382,
+      "box": {
+        "xmin": 618,
+        "ymin": 317,
+        "xmax": 643,
+        "ymax": 374
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9111,
+      "box": {
+        "xmin": 150,
+        "ymin": 310,
+        "xmax": 180,
+        "ymax": 374
+      }
+    },
+    {
+      "label": "handbag",
+      "score": 0.973,
+      "box": {
+        "xmin": 55,
+        "ymin": 368,
+        "xmax": 99,
+        "ymax": 511
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9153,
+      "box": {
+        "xmin": 322,
+        "ymin": 324,
+        "xmax": 345,
+        "ymax": 339
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9273,
+      "box": {
+        "xmin": 337,
+        "ymin": 324,
+        "xmax": 356,
+        "ymax": 338
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9392,
+      "box": {
+        "xmin": 438,
+        "ymin": 340,
+        "xmax": 472,
+        "ymax": 377
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9923,
+      "box": {
+        "xmin": 453,
+        "ymin": 394,
+        "xmax": 795,
+        "ymax": 702
+      }
+    }
+  ],
+  "detections_all": [
+    {
+      "label": "person",
+      "score": 0.7576,
+      "box": {
+        "xmin": 47,
+        "ymin": 330,
+        "xmax": 68,
+        "ymax": 373
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9097,
+      "box": {
+        "xmin": 386,
+        "ymin": 324,
+        "xmax": 404,
+        "ymax": 336
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9607,
+      "box": {
+        "xmin": 99,
+        "ymin": 506,
+        "xmax": 237,
+        "ymax": 719
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.7955,
+      "box": {
+        "xmin": 414,
+        "ymin": 322,
+        "xmax": 432,
+        "ymax": 333
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.8989,
+      "box": {
+        "xmin": 340,
+        "ymin": 324,
+        "xmax": 360,
+        "ymax": 338
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2282,
+      "box": {
+        "xmin": 437,
+        "ymin": 327,
+        "xmax": 459,
+        "ymax": 352
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.8155,
+      "box": {
+        "xmin": 374,
+        "ymin": 324,
+        "xmax": 392,
+        "ymax": 337
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.4635,
+      "box": {
+        "xmin": 194,
+        "ymin": 353,
+        "xmax": 215,
+        "ymax": 380
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.5296,
+      "box": {
+        "xmin": 255,
+        "ymin": 323,
+        "xmax": 269,
+        "ymax": 343
+      }
+    },
+    {
+      "label": "traffic light",
+      "score": 0.8371,
+      "box": {
+        "xmin": 87,
+        "ymin": 231,
+        "xmax": 103,
+        "ymax": 255
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.1786,
+      "box": {
+        "xmin": 648,
+        "ymin": 442,
+        "xmax": 722,
+        "ymax": 515
+      }
+    },
+    {
+      "label": "handbag",
+      "score": 0.6043,
+      "box": {
+        "xmin": 70,
+        "ymin": 364,
+        "xmax": 163,
+        "ymax": 501
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.12,
+      "box": {
+        "xmin": 702,
+        "ymin": 428,
+        "xmax": 764,
+        "ymax": 532
+      }
+    },
+    {
+      "label": "backpack",
+      "score": 0.8209,
+      "box": {
+        "xmin": 700,
+        "ymin": 401,
+        "xmax": 747,
+        "ymax": 463
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.3284,
+      "box": {
+        "xmin": 456,
+        "ymin": 346,
+        "xmax": 478,
+        "ymax": 384
+      }
+    },
+    {
+      "label": "traffic light",
+      "score": 0.2519,
+      "box": {
+        "xmin": 85,
+        "ymin": 268,
+        "xmax": 107,
+        "ymax": 304
+      }
+    },
+    {
+      "label": "traffic light",
+      "score": 0.7449,
+      "box": {
+        "xmin": 84,
+        "ymin": 271,
+        "xmax": 106,
+        "ymax": 307
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.5359,
+      "box": {
+        "xmin": 627,
+        "ymin": 309,
+        "xmax": 644,
+        "ymax": 345
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9955,
+      "box": {
+        "xmin": 629,
+        "ymin": 347,
+        "xmax": 687,
+        "ymax": 396
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2231,
+      "box": {
+        "xmin": 176,
+        "ymin": 326,
+        "xmax": 203,
+        "ymax": 357
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.8361,
+      "box": {
+        "xmin": 639,
+        "ymin": 429,
+        "xmax": 732,
+        "ymax": 531
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2719,
+      "box": {
+        "xmin": 917,
+        "ymin": 318,
+        "xmax": 939,
+        "ymax": 353
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9702,
+      "box": {
+        "xmin": 586,
+        "ymin": 310,
+        "xmax": 607,
+        "ymax": 349
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.8453,
+      "box": {
+        "xmin": 487,
+        "ymin": 344,
+        "xmax": 511,
+        "ymax": 378
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.3279,
+      "box": {
+        "xmin": 845,
+        "ymin": 327,
+        "xmax": 865,
+        "ymax": 357
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.705,
+      "box": {
+        "xmin": 203,
+        "ymin": 325,
+        "xmax": 220,
+        "ymax": 373
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9019,
+      "box": {
+        "xmin": 366,
+        "ymin": 325,
+        "xmax": 384,
+        "ymax": 337
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9476,
+      "box": {
+        "xmin": 36,
+        "ymin": 327,
+        "xmax": 56,
+        "ymax": 377
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9876,
+      "box": {
+        "xmin": 0,
+        "ymin": 362,
+        "xmax": 58,
+        "ymax": 413
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.4174,
+      "box": {
+        "xmin": 438,
+        "ymin": 339,
+        "xmax": 460,
+        "ymax": 373
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.8221,
+      "box": {
+        "xmin": 98,
+        "ymin": 548,
+        "xmax": 169,
+        "ymax": 720
+      }
+    },
+    {
+      "label": "potted plant",
+      "score": 0.2204,
+      "box": {
+        "xmin": 818,
+        "ymin": 332,
+        "xmax": 847,
+        "ymax": 360
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9966,
+      "box": {
+        "xmin": 848,
+        "ymin": 352,
+        "xmax": 959,
+        "ymax": 432
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9376,
+      "box": {
+        "xmin": 353,
+        "ymin": 324,
+        "xmax": 372,
+        "ymax": 337
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9944,
+      "box": {
+        "xmin": 197,
+        "ymin": 324,
+        "xmax": 218,
+        "ymax": 376
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.5775,
+      "box": {
+        "xmin": 321,
+        "ymin": 324,
+        "xmax": 339,
+        "ymax": 339
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.1381,
+      "box": {
+        "xmin": 592,
+        "ymin": 313,
+        "xmax": 611,
+        "ymax": 348
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9084,
+      "box": {
+        "xmin": 640,
+        "ymin": 310,
+        "xmax": 666,
+        "ymax": 354
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.651,
+      "box": {
+        "xmin": 414,
+        "ymin": 323,
+        "xmax": 431,
+        "ymax": 335
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.1295,
+      "box": {
+        "xmin": 177,
+        "ymin": 485,
+        "xmax": 242,
+        "ymax": 635
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9286,
+      "box": {
+        "xmin": 65,
+        "ymin": 335,
+        "xmax": 105,
+        "ymax": 369
+      }
+    },
+    {
+      "label": "truck",
+      "score": 0.4205,
+      "box": {
+        "xmin": 282,
+        "ymin": 327,
+        "xmax": 317,
+        "ymax": 346
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.5604,
+      "box": {
+        "xmin": 618,
+        "ymin": 316,
+        "xmax": 639,
+        "ymax": 365
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9432,
+      "box": {
+        "xmin": 461,
+        "ymin": 344,
+        "xmax": 493,
+        "ymax": 387
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9822,
+      "box": {
+        "xmin": 0,
+        "ymin": 319,
+        "xmax": 39,
+        "ymax": 403
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.5001,
+      "box": {
+        "xmin": 236,
+        "ymin": 328,
+        "xmax": 260,
+        "ymax": 351
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.6747,
+      "box": {
+        "xmin": 302,
+        "ymin": 324,
+        "xmax": 325,
+        "ymax": 340
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.3886,
+      "box": {
+        "xmin": 621,
+        "ymin": 310,
+        "xmax": 639,
+        "ymax": 347
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.6159,
+      "box": {
+        "xmin": 220,
+        "ymin": 503,
+        "xmax": 244,
+        "ymax": 593
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9805,
+      "box": {
+        "xmin": 281,
+        "ymin": 328,
+        "xmax": 316,
+        "ymax": 347
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9617,
+      "box": {
+        "xmin": 167,
+        "ymin": 351,
+        "xmax": 202,
+        "ymax": 383
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.1807,
+      "box": {
+        "xmin": 189,
+        "ymin": 332,
+        "xmax": 208,
+        "ymax": 373
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.3426,
+      "box": {
+        "xmin": 71,
+        "ymin": 332,
+        "xmax": 104,
+        "ymax": 367
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9449,
+      "box": {
+        "xmin": 445,
+        "ymin": 325,
+        "xmax": 462,
+        "ymax": 359
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9025,
+      "box": {
+        "xmin": 376,
+        "ymin": 324,
+        "xmax": 393,
+        "ymax": 336
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9711,
+      "box": {
+        "xmin": 217,
+        "ymin": 329,
+        "xmax": 254,
+        "ymax": 355
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2732,
+      "box": {
+        "xmin": 121,
+        "ymin": 306,
+        "xmax": 211,
+        "ymax": 579
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.1633,
+      "box": {
+        "xmin": 874,
+        "ymin": 323,
+        "xmax": 900,
+        "ymax": 356
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.8682,
+      "box": {
+        "xmin": 162,
+        "ymin": 327,
+        "xmax": 198,
+        "ymax": 362
+      }
+    },
+    {
+      "label": "handbag",
+      "score": 0.3485,
+      "box": {
+        "xmin": 186,
+        "ymin": 457,
+        "xmax": 234,
+        "ymax": 511
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.5286,
+      "box": {
+        "xmin": 3,
+        "ymin": 316,
+        "xmax": 24,
+        "ymax": 340
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9997,
+      "box": {
+        "xmin": 39,
+        "ymin": 306,
+        "xmax": 229,
+        "ymax": 718
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.5877,
+      "box": {
+        "xmin": 217,
+        "ymin": 329,
+        "xmax": 252,
+        "ymax": 355
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.4682,
+      "box": {
+        "xmin": 870,
+        "ymin": 328,
+        "xmax": 892,
+        "ymax": 357
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.7103,
+      "box": {
+        "xmin": 827,
+        "ymin": 323,
+        "xmax": 850,
+        "ymax": 358
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9998,
+      "box": {
+        "xmin": 502,
+        "ymin": 287,
+        "xmax": 688,
+        "ymax": 715
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2038,
+      "box": {
+        "xmin": 483,
+        "ymin": 328,
+        "xmax": 501,
+        "ymax": 354
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.4674,
+      "box": {
+        "xmin": 619,
+        "ymin": 346,
+        "xmax": 665,
+        "ymax": 390
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.4634,
+      "box": {
+        "xmin": 454,
+        "ymin": 430,
+        "xmax": 675,
+        "ymax": 697
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9382,
+      "box": {
+        "xmin": 618,
+        "ymin": 317,
+        "xmax": 643,
+        "ymax": 374
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.9111,
+      "box": {
+        "xmin": 150,
+        "ymin": 310,
+        "xmax": 180,
+        "ymax": 374
+      }
+    },
+    {
+      "label": "handbag",
+      "score": 0.973,
+      "box": {
+        "xmin": 55,
+        "ymin": 368,
+        "xmax": 99,
+        "ymax": 511
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9153,
+      "box": {
+        "xmin": 322,
+        "ymin": 324,
+        "xmax": 345,
+        "ymax": 339
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.8688,
+      "box": {
+        "xmin": 57,
+        "ymin": 328,
+        "xmax": 75,
+        "ymax": 372
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.8965,
+      "box": {
+        "xmin": 709,
+        "ymin": 446,
+        "xmax": 766,
+        "ymax": 517
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.9273,
+      "box": {
+        "xmin": 337,
+        "ymin": 324,
+        "xmax": 356,
+        "ymax": 338
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.1015,
+      "box": {
+        "xmin": 915,
+        "ymin": 321,
+        "xmax": 939,
+        "ymax": 356
+      }
+    },
+    {
+      "label": "car",
+      "score": 0.7368,
+      "box": {
+        "xmin": 390,
+        "ymin": 323,
+        "xmax": 407,
+        "ymax": 335
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.8561,
+      "box": {
+        "xmin": 162,
+        "ymin": 316,
+        "xmax": 188,
+        "ymax": 373
+      }
+    },
+    {
+      "label": "suitcase",
+      "score": 0.2301,
+      "box": {
+        "xmin": 631,
+        "ymin": 434,
+        "xmax": 773,
+        "ymax": 640
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.5023,
+      "box": {
+        "xmin": 55,
+        "ymin": 355,
+        "xmax": 91,
+        "ymax": 386
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.2847,
+      "box": {
+        "xmin": 489,
+        "ymin": 324,
+        "xmax": 511,
+        "ymax": 349
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.1647,
+      "box": {
+        "xmin": 131,
+        "ymin": 529,
+        "xmax": 210,
+        "ymax": 659
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9392,
+      "box": {
+        "xmin": 438,
+        "ymin": 340,
+        "xmax": 472,
+        "ymax": 377
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.3481,
+      "box": {
+        "xmin": 447,
+        "ymin": 338,
+        "xmax": 482,
+        "ymax": 384
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.7049,
+      "box": {
+        "xmin": 635,
+        "ymin": 310,
+        "xmax": 666,
+        "ymax": 374
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.9923,
+      "box": {
+        "xmin": 453,
+        "ymin": 394,
+        "xmax": 795,
+        "ymax": 702
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.5064,
+      "box": {
+        "xmin": 472,
+        "ymin": 323,
+        "xmax": 492,
+        "ymax": 352
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.5681,
+      "box": {
+        "xmin": 507,
+        "ymin": 334,
+        "xmax": 527,
+        "ymax": 361
+      }
+    },
+    {
+      "label": "bicycle",
+      "score": 0.1673,
+      "box": {
+        "xmin": 452,
+        "ymin": 399,
+        "xmax": 685,
+        "ymax": 696
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.4752,
+      "box": {
+        "xmin": 150,
+        "ymin": 309,
+        "xmax": 175,
+        "ymax": 344
+      }
+    },
+    {
+      "label": "person",
+      "score": 0.3783,
+      "box": {
+        "xmin": 521,
+        "ymin": 323,
+        "xmax": 537,
+        "ymax": 350
+      }
+    }
+  ],
+  "count": 28,
+  "model_load_seconds_cold": 54.4,
+  "timing_note": "Первый (холодный) запуск: загрузка весов 54,4 с, инференс 0,9 с. Повторный запуск из локального кэша: загрузка 1,2 с, инференс 0,8 с (значение выше)."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "T2",
+  "service": "Yandex GPT (Яндекс GPT)",
+  "model": "yandex/yandexgpt-5-lite",
+  "task": "Переводчик",
+  "architecture": "Transformer (YaLM — Yandex Large Language Model, decoder-only transformer)",
+  "input": "Переведи на английский язык: \"Привет, мир! Сегодня хорошая погода для прогулки в парке.\"",
+  "output": "\"Hello, world! Today is good weather for a walk in the park.\"",
+  "elapsed": 0.64,
+  "usage": {
+    "completion_tokens": 16,
+    "prompt_tokens": 29,
+    "total_tokens": 45,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "server_tool_use": null,
+    "cost_rub": 0.01296,
+    "cost": 0.01296,
+    "plugins": null
+  },
+  "response_id": "gen_2231109242797035521"
+}

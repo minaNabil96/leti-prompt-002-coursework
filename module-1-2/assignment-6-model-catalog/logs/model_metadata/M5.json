@@ -1,0 +1,192 @@
+{
+  "_id": "621ffdc136468d709f179e37",
+  "id": "cardiffnlp/twitter-roberta-base-sentiment",
+  "private": false,
+  "pipeline_tag": "text-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "tf",
+    "jax",
+    "roberta",
+    "text-classification",
+    "en",
+    "dataset:tweet_eval",
+    "arxiv:2010.12421",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 251402,
+  "likes": 343,
+  "modelId": "cardiffnlp/twitter-roberta-base-sentiment",
+  "author": "cardiffnlp",
+  "sha": "daefdd1f6ae931839bce4d0f3db0a1a4265cd50f",
+  "lastModified": "2023-01-20T09:52:13.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "<mask>",
+  "widgetData": [
+    {
+      "text": "I like you. I love you"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "RobertaForSequenceClassification"
+    ],
+    "model_type": "roberta"
+  },
+  "cardData": {
+    "datasets": [
+      "tweet_eval"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForSequenceClassification",
+    "pipeline_tag": "text-classification",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".ipynb_checkpoints/README-checkpoint.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "flax_model.msgpack"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tf_model.h5"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "spaces": [
+    "miesnerjacob/Multi-task-NLP",
+    "selva1909/Emotion-Detection-in-Text",
+    "Really-amin/Datasourceforcryptocurrency-2",
+    "Jayeshbhaal/news_filter_for_social_wellbeing",
+    "AyeshaAmeen/AI-Meeting-Assistant-final",
+    "Olivernyu/sentiment_analysis_app",
+    "andyqin18/sentiment-analysis-app",
+    "aus10powell/TwitterAccounts",
+    "viewervoice-analytics/viewervoice",
+    "pouchedfox/SP",
+    "johnowhitaker/twitter_viz",
+    "Mohit-321/WhatsappchatAnalyzer",
+    "kajalag/Whatsapp_Chat_Analyzer",
+    "vizdre/Sentiment_Analysis",
+    "chewienaria/roBERTa_SentimentAnalysis",
+    "A7med4/flask_app2",
+    "Herb-Lab/Housing_livability_analyzer",
+    "Jatin112002/SentimentAnalysis",
+    "sharangrav24/SentimentAnalysis",
+    "shrish191/sentiment-classifier-ui",
+    "Prince-29/news-sentiment-analyzer",
+    "v1shal/News_Summarisation_and_Sentiment_Analysis",
+    "KavyaBansal/EmotionClassifier",
+    "ApaCu/MarketX",
+    "Paraj01/Sentiment_Analysis",
+    "jjmandog/cardiffnlp-twitter-roberta-base-sentiment",
+    "manikandan18ramalingam/Agentic-AI-Options-Trading-App",
+    "PraneshJs/emotion-detection",
+    "devforsure03/live-news-ai",
+    "aradhyapavan/nlp-sentiment-analysis-pretarined-models",
+    "kushvanth/iqac_fast_api",
+    "wanglily22/sentimental_analysis",
+    "LalitChaudhari3/ai-customer-feedback-analyzer",
+    "AVI-0510/SA",
+    "tauman/monitoring_global",
+    "pathananas/multimodal-ai-engine",
+    "moaaz2003/hieroglyph-nlp",
+    "vasudevadhikari/DepressionDetection",
+    "Varriety/BTS",
+    "nadeemshaik-r3/product-review-sentiment",
+    "s2024ai011/Fake_News_Detection_SentimentAnalysis",
+    "cloudronin/uofa-demo",
+    "nafees369/Technostress",
+    "pouchedfox/Sen",
+    "Bedirhan/bitirme-proje",
+    "varunkuntal/twitter-roberta-base-sentiment",
+    "furquan/TwitterSentimentAnalysisRoberta",
+    "euvieeugenio/textclassification_demo_app",
+    "edusei/sentiment",
+    "Captainlongshort/TwitterSentiment",
+    "ac8736/sentiment-analysis-app",
+    "MJ3128/CS-GY-6613-Project",
+    "sethlxk/milestone2",
+    "sihanasaku/SentimentAnalysisApp",
+    "juliaannjose/SentimentAnalysis",
+    "EmirLise/sentiment_analysis",
+    "miknad2319/CS485-Milestone-2",
+    "arianasutanto/milestone2",
+    "simon-kurbiel/sen-analysis",
+    "Ptato/Sentiment-Analysis",
+    "saccharinedreams/sentiment-analysis-app",
+    "simon-kurbiel/Sentiment-Analysis",
+    "dahongj/sentiment-analysis",
+    "Kev07/Toxic-Tweets",
+    "slachitoff/CS-GY_6613_Project",
+    "VarshithaCh/sentiment-analysis-app",
+    "jbraha/aiproject",
+    "notbhu/toxic-tweets",
+    "AaronBarbosa/twitter_sentiment",
+    "VarshithaCh/patentability",
+    "xingxing12/cardiffnlp-twitter-roberta-base-sentiment",
+    "jeromechew15/milestone2",
+    "rk2546/csgy-6613-project-rk2546",
+    "EmirLise/Toxic_Clasifier",
+    "JKJanosko/Toxicity-Analysis",
+    "simon-kurbiel/tweet-toxicity",
+    "rbbotadra/toxicity-analyzer-app",
+    "dperales/ITACA_Insurance_Core_v4",
+    "danielperales/ITACA_Insurace_NLP_v2",
+    "HarshAI/Dual_Model_Sentiment_Analyzer",
+    "SaraHossam/SentimentAnalysis",
+    "nassga/Toxic_tweets_analizer",
+    "Mohit-321/Whatsapp_Chat_Analyzer",
+    "k-varma/tweet-sentiment-analysis",
+    "HOLYBOY/Sentiment_Analysis_App",
+    "lokesh6361/analysis",
+    "sdin99/cardiffnlp-twitter-roberta-base-sentiment",
+    "benmanks/Sentiment-app",
+    "jatinjaglan/wca",
+    "GameReview/youtubegamereview",
+    "adejumobi/ratingsapp",
+    "spectre0108/TeenSenti",
+    "cuteharrie/ratingsapp",
+    "janohl/hackaithon101",
+    "rk2546/csgy-6613-project-rk2546-backup",
+    "yzycode/hackaithon101",
+    "MkAbdullahi/playLLM",
+    "KeerthiSattaluri/hackaithon101",
+    "DaisyMao/playground101",
+    "fede-caprari/sentiment-analysis-tool"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "inference": "warm",
+  "usedStorage": 2621173677
+}

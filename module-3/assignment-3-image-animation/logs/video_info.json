@@ -1,0 +1,32 @@
+{
+  "animation_01_portrait.mp4": {
+    "duration_sec": 5.04,
+    "codec": "h264",
+    "size": [
+      640,
+      640
+    ],
+    "fps": null,
+    "bytes": 1461394
+  },
+  "animation_02_landscape.mp4": {
+    "duration_sec": 5.04,
+    "codec": "h264",
+    "size": [
+      864,
+      496
+    ],
+    "fps": null,
+    "bytes": 1373408
+  },
+  "animation_03_painting.mp4": {
+    "duration_sec": 5.04,
+    "codec": "h264",
+    "size": [
+      752,
+      560
+    ],
+    "fps": null,
+    "bytes": 2876649
+  }
+}

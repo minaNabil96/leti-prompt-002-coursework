@@ -1,0 +1,136 @@
+{
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "voice": "Kore",
+  "endpoint": "https://polza.ai/api/v1/audio/speech",
+  "requested_format": "wav",
+  "created": "2026-11-26 14:18:31",
+  "source": "scripts/voiceover.json (итерация 5 LLM)",
+  "lines": [
+    {
+      "line": 1,
+      "scene": "Текст",
+      "file": "audio/line_01.wav",
+      "text": "Всё начинается с текста, где нейросеть видит образ.",
+      "chars": 51,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 4.72,
+      "duration_s": 4.72,
+      "slot_sec": 4,
+      "cost_rub": 0.057564,
+      "usage": {
+        "characters": 51,
+        "cost_rub": 0.05756373,
+        "cost": 0.05756373
+      },
+      "request_seconds": 4.57,
+      "requested_at": "2026-11-26 14:18:36"
+    },
+    {
+      "line": 2,
+      "scene": "Зарождение",
+      "file": "audio/line_02.wav",
+      "text": "Из хаотичного шума рождается структура, проявляя очертания.",
+      "chars": 59,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 5.2,
+      "duration_s": 5.2,
+      "slot_sec": 5,
+      "cost_rub": 0.066532,
+      "usage": {
+        "characters": 59,
+        "cost_rub": 0.06653155,
+        "cost": 0.06653155
+      },
+      "request_seconds": 4.98,
+      "requested_at": "2026-11-26 14:18:41"
+    },
+    {
+      "line": 3,
+      "scene": "Форма",
+      "file": "audio/line_03.wav",
+      "text": "Едва заметный силуэт обретает детали, создавая новый образ.",
+      "chars": 59,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 6.52,
+      "duration_s": 6.52,
+      "slot_sec": 5,
+      "cost_rub": 0.066532,
+      "usage": {
+        "characters": 59,
+        "cost_rub": 0.06653155,
+        "cost": 0.06653155
+      },
+      "request_seconds": 3.46,
+      "requested_at": "2026-11-26 14:18:44"
+    },
+    {
+      "line": 4,
+      "scene": "Цвет",
+      "file": "audio/line_04.wav",
+      "text": "Палитра выбирает настроение, и каждый цвет несёт свой смысл.",
+      "chars": 60,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 5.6,
+      "duration_s": 5.6,
+      "slot_sec": 5,
+      "cost_rub": 0.067259,
+      "usage": {
+        "characters": 60,
+        "cost_rub": 0.06725867,
+        "cost": 0.06725867
+      },
+      "request_seconds": 3.19,
+      "requested_at": "2026-11-26 14:18:47"
+    },
+    {
+      "line": 5,
+      "scene": "Движение",
+      "file": "audio/line_05.wav",
+      "text": "Статичное изображение оживает, наполняясь жизнью и энергией.",
+      "chars": 60,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 5.76,
+      "duration_s": 5.76,
+      "slot_sec": 5,
+      "cost_rub": 0.067259,
+      "usage": {
+        "characters": 60,
+        "cost_rub": 0.06725867,
+        "cost": 0.06725867
+      },
+      "request_seconds": 2.88,
+      "requested_at": "2026-11-26 14:18:50"
+    },
+    {
+      "line": 6,
+      "scene": "Результат",
+      "file": "audio/line_06.wav",
+      "text": "Так из текста рождается образ — генеративное искусство.",
+      "chars": 55,
+      "voice": "Kore",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "api_duration_s": 5.08,
+      "duration_s": 5.08,
+      "slot_sec": 4,
+      "cost_rub": 0.062048,
+      "usage": {
+        "characters": 55,
+        "cost_rub": 0.06204764,
+        "cost": 0.06204764
+      },
+      "request_seconds": 2.54,
+      "requested_at": "2026-11-26 14:18:53"
+    }
+  ],
+  "totals": {
+    "lines": 6,
+    "chars": 344,
+    "duration_s": 32.88,
+    "cost_rub": 0.387192
+  }
+}

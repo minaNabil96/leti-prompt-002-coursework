@@ -1,0 +1,30 @@
+{
+  "model": "bytedance/seedream-4",
+  "display_name": "ByteDance Seedream 4.0",
+  "arch": "Diffusion",
+  "catalog_price_rub": 3.0,
+  "billed_rub": 3.0,
+  "elapsed_sec": 12.55,
+  "image_size": [
+    2048,
+    2048
+  ],
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "response": {
+    "id": "gen_2229695927781429249",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1793904946,
+    "model": "bytedance/seedream-4",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 3,
+      "cost": 3
+    }
+  },
+  "generated_at": "2026-11-05 21:55:48+0300"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "source_02_landscape.png",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "16:9",
+  "prompt": "A serene mountain lake at sunset with gentle pink clouds, calm water with subtle reflections, pine trees on the shore, warm golden light, photorealistic landscape",
+  "cost_rub": 1.4,
+  "elapsed_sec": 9.9,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 1024716,
+  "request_id": "gen_2236961565524103169",
+  "created": 1795637205,
+  "completed_at": null,
+  "requested_at": "2026-11-25 23:06:49",
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  }
+}

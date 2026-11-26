@@ -1,0 +1,82 @@
+﻿[
+  {
+    "name": "detection_2019_reports",
+    "path": "files/detection_2019_reports",
+    "sha": "20bd52f75f74cbd8b2b9884d467a2a9000023d6c",
+    "size": 0,
+    "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/detection_2019_reports?ref=master",
+    "html_url": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/detection_2019_reports",
+    "git_url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/20bd52f75f74cbd8b2b9884d467a2a9000023d6c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/detection_2019_reports?ref=master",
+      "git": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/20bd52f75f74cbd8b2b9884d467a2a9000023d6c",
+      "html": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/detection_2019_reports"
+    }
+  },
+  {
+    "name": "keypoints_2019_reports",
+    "path": "files/keypoints_2019_reports",
+    "sha": "5164ec56a72f00fc392a99d8feafc6803c435389",
+    "size": 0,
+    "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/keypoints_2019_reports?ref=master",
+    "html_url": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/keypoints_2019_reports",
+    "git_url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/5164ec56a72f00fc392a99d8feafc6803c435389",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/keypoints_2019_reports?ref=master",
+      "git": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/5164ec56a72f00fc392a99d8feafc6803c435389",
+      "html": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/keypoints_2019_reports"
+    }
+  },
+  {
+    "name": "panoptic_2019_reports",
+    "path": "files/panoptic_2019_reports",
+    "sha": "4265f92d63600ee51caee743b175f5776b0ca95d",
+    "size": 0,
+    "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/panoptic_2019_reports?ref=master",
+    "html_url": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/panoptic_2019_reports",
+    "git_url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/4265f92d63600ee51caee743b175f5776b0ca95d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/panoptic_2019_reports?ref=master",
+      "git": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/trees/4265f92d63600ee51caee743b175f5776b0ca95d",
+      "html": "https://github.com/cocodataset/cocodataset.github.io/tree/master/files/panoptic_2019_reports"
+    }
+  },
+  {
+    "name": "tech_report_template.zip",
+    "path": "files/tech_report_template.zip",
+    "sha": "0337d48b9c757a14fe0ed9b5d4f2f8689675b49e",
+    "size": 76236,
+    "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/tech_report_template.zip?ref=master",
+    "html_url": "https://github.com/cocodataset/cocodataset.github.io/blob/master/files/tech_report_template.zip",
+    "git_url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/blobs/0337d48b9c757a14fe0ed9b5d4f2f8689675b49e",
+    "download_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/files/tech_report_template.zip",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/tech_report_template.zip?ref=master",
+      "git": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/blobs/0337d48b9c757a14fe0ed9b5d4f2f8689675b49e",
+      "html": "https://github.com/cocodataset/cocodataset.github.io/blob/master/files/tech_report_template.zip"
+    }
+  },
+  {
+    "name": "tech_report_template_eccv20.zip",
+    "path": "files/tech_report_template_eccv20.zip",
+    "sha": "592aac5349f774d4a7254cbf983aa1d4079a97e2",
+    "size": 264755,
+    "url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/tech_report_template_eccv20.zip?ref=master",
+    "html_url": "https://github.com/cocodataset/cocodataset.github.io/blob/master/files/tech_report_template_eccv20.zip",
+    "git_url": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/blobs/592aac5349f774d4a7254cbf983aa1d4079a97e2",
+    "download_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/files/tech_report_template_eccv20.zip",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cocodataset/cocodataset.github.io/contents/files/tech_report_template_eccv20.zip?ref=master",
+      "git": "https://api.github.com/repos/cocodataset/cocodataset.github.io/git/blobs/592aac5349f774d4a7254cbf983aa1d4079a97e2",
+      "html": "https://github.com/cocodataset/cocodataset.github.io/blob/master/files/tech_report_template_eccv20.zip"
+    }
+  }
+]

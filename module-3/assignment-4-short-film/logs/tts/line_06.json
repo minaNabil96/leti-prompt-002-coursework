@@ -1,0 +1,20 @@
+{
+  "line": 6,
+  "scene": "Результат",
+  "file": "audio/line_06.wav",
+  "text": "Так из текста рождается образ — генеративное искусство.",
+  "chars": 55,
+  "voice": "Kore",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "api_duration_s": 5.08,
+  "duration_s": 5.08,
+  "slot_sec": 4,
+  "cost_rub": 0.062048,
+  "usage": {
+    "characters": 55,
+    "cost_rub": 0.06204764,
+    "cost": 0.06204764
+  },
+  "request_seconds": 2.54,
+  "requested_at": "2026-11-26 14:18:53"
+}

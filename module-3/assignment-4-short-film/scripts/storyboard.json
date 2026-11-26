@@ -1,0 +1,67 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "created": "2026-11-26 14:14:37",
+  "title": "Рождение образа",
+  "genre": "микродокументалка",
+  "concept": "как ИИ превращает текстовый промпт в визуальное изображение",
+  "fixed_concept_source": "scripts/refine_storyboard.py::FIXED",
+  "iterations_used": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "total_prompt_cost_rub": 1.2506,
+  "scenes": [
+    {
+      "n": 1,
+      "scene": "Текст",
+      "duration_sec": 4,
+      "brief": "abstract text fragments floating in dark space, letters assembling into words",
+      "visual_prompt": "Abstract text fragments, glowing deep blue and warm gold, float and slowly assemble into words in a dark, infinite space. Cinematic, ethereal, smooth camera push-in. From chaos to order, mysterious mood.",
+      "voiceover": "Всё начинается с текста. Несколько слов — и нейросеть уже видит образ, который скоро обретёт форму и цвет."
+    },
+    {
+      "n": 2,
+      "scene": "Зарождение",
+      "duration_sec": 5,
+      "brief": "a seed of light grows into swirling colours, like a nebula forming",
+      "visual_prompt": "A small, glowing seed of warm gold light expands into swirling nebulae of deep blue and violet. Camera slowly orbits, revealing cosmic formation. Ethereal, abstract, chaotic yet beautiful, cinematic. From dark to light.",
+      "voiceover": "Из хаотичного шума рождается структура. Пиксель за пикселем, нейросеть начинает проявлять очертания будущего изображения."
+    },
+    {
+      "n": 3,
+      "scene": "Форма",
+      "duration_sec": 5,
+      "brief": "a face or silhouette emerges from abstract colours, half-formed",
+      "visual_prompt": "An abstract, half-formed human silhouette, glowing in deep blue and violet, emerges from swirling colors. Camera slowly pulls back, revealing the evolving form. Ethereal, mysterious, cinematic. From formless to defined.",
+      "voiceover": "Сначала появляется едва заметный силуэт. Затем, шаг за шагом, проявляются детали, создавая образ, которого не существует в реальности."
+    },
+    {
+      "n": 4,
+      "scene": "Цвет",
+      "duration_sec": 5,
+      "brief": "colours flow and merge, creating a vibrant abstract landscape",
+      "visual_prompt": "Vibrant deep blue, violet, and warm gold colors flow and merge, creating an abstract, dreamlike landscape. Camera glides smoothly over the evolving palette. Ethereal, artistic, cinematic. From form to vibrant life.",
+      "voiceover": "Палитра выбирает своё настроение. Тёплые золотые тона или глубокие синие оттенки — каждый цвет несёт свой смысл."
+    },
+    {
+      "n": 5,
+      "scene": "Движение",
+      "duration_sec": 5,
+      "brief": "the image comes alive: elements move, the scene breathes",
+      "visual_prompt": "The abstract image comes alive: subtle elements move, colors gently pulsate, the scene breathes with a soft, ethereal glow. Slow, cinematic zoom out. Dreamlike, artistic, mesmerizing. From static to dynamic.",
+      "voiceover": "И наконец — движение. Статичное изображение оживает, превращаясь в мгновение, наполненное жизнью и энергией."
+    },
+    {
+      "n": 6,
+      "scene": "Результат",
+      "duration_sec": 4,
+      "brief": "final composite image, title «Рождение образа» and credits",
+      "visual_prompt": "A final, beautifully rendered abstract image in deep blue, violet, and warm gold. Camera slowly zooms out, revealing the completed artwork. Cinematic, artistic, triumphant. Title 'Рождение образа' and credits fade in.",
+      "voiceover": "Так из текста рождается образ. Это и есть генеративное искусство — творчество, созданное с помощью искусственного интеллекта."
+    }
+  ],
+  "voiceover_chars": 706,
+  "total_video_seconds": 24
+}

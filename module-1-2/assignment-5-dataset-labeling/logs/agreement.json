@@ -1,0 +1,380 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "total": 10,
+  "matches": 10,
+  "mismatches_count": 0,
+  "agreement_rate": 1.0,
+  "details": [
+    {
+      "id": "P01",
+      "image": "img_01.png",
+      "ground_truth": "афиша",
+      "blind_label_raw": "КЛАСС: афиша\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 2.94,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686417647439873",
+      "annotated_at": "2026-11-19 16:26:03+0300",
+      "blind_label": "афиша",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P05",
+      "image": "img_05.png",
+      "ground_truth": "афиша",
+      "blind_label_raw": "КЛАСС: афиша\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 3.48,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686431434379265",
+      "annotated_at": "2026-11-19 16:26:07+0300",
+      "blind_label": "афиша",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P07",
+      "image": "img_07.png",
+      "ground_truth": "афиша",
+      "blind_label_raw": "КЛАСС: афиша\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 2.98,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686444071686145",
+      "annotated_at": "2026-11-19 16:26:10+0300",
+      "blind_label": "афиша",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P09",
+      "image": "img_09.png",
+      "ground_truth": "обложка книги",
+      "blind_label_raw": "КЛАСС: обложка книги\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 3.69,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 902,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03666386,
+        "cost": 0.03666386,
+        "plugins": null
+      },
+      "response_id": "gen_2234686456948461569",
+      "annotated_at": "2026-11-19 16:26:14+0300",
+      "blind_label": "обложка книги",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P11",
+      "image": "img_11.png",
+      "ground_truth": "обложка книги",
+      "blind_label_raw": "КЛАСС: обложка книги\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 10.82,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 902,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03666386,
+        "cost": 0.03666386,
+        "plugins": null
+      },
+      "response_id": "gen_2234686479683948545",
+      "annotated_at": "2026-11-19 16:26:24+0300",
+      "blind_label": "обложка книги",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P14",
+      "image": "img_14.png",
+      "ground_truth": "обложка книги",
+      "blind_label_raw": "КЛАСС: обложка книги\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 4.21,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 902,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03666386,
+        "cost": 0.03666386,
+        "plugins": null
+      },
+      "response_id": "gen_2234686517514342401",
+      "annotated_at": "2026-11-19 16:26:29+0300",
+      "blind_label": "обложка книги",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P15",
+      "image": "img_15.png",
+      "ground_truth": "обложка книги",
+      "blind_label_raw": "КЛАСС: обложка книги\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 2.44,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 902,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03666386,
+        "cost": 0.03666386,
+        "plugins": null
+      },
+      "response_id": "gen_2234686534178181121",
+      "annotated_at": "2026-11-19 16:26:31+0300",
+      "blind_label": "обложка книги",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P17",
+      "image": "img_17.png",
+      "ground_truth": "постер фильма",
+      "blind_label_raw": "КЛАСС: постер фильма\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 6.08,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686548080463873",
+      "annotated_at": "2026-11-19 16:26:37+0300",
+      "blind_label": "постер фильма",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P20",
+      "image": "img_20.png",
+      "ground_truth": "постер фильма",
+      "blind_label_raw": "КЛАСС: постер фильма\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 5.63,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686572692377601",
+      "annotated_at": "2026-11-19 16:26:43+0300",
+      "blind_label": "постер фильма",
+      "doubt": "нет",
+      "match": true
+    },
+    {
+      "id": "P22",
+      "image": "img_22.png",
+      "ground_truth": "постер фильма",
+      "blind_label_raw": "КЛАСС: постер фильма\nСОМНЕНИЕ: нет",
+      "elapsed_sec": 3.16,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 902,
+        "total_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "server_tool_use": null,
+        "cost_rub": 0.03636636,
+        "cost": 0.03636636,
+        "plugins": null
+      },
+      "response_id": "gen_2234686595234271233",
+      "annotated_at": "2026-11-19 16:26:46+0300",
+      "blind_label": "постер фильма",
+      "doubt": "нет",
+      "match": true
+    }
+  ],
+  "mismatch_analysis": []
+}

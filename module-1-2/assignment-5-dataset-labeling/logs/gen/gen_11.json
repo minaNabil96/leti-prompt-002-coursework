@@ -1,0 +1,22 @@
+{
+  "id": "P11",
+  "file": "img_11.png",
+  "class": "обложка книги",
+  "prompt": "A book cover for a biography, portrait photo of the subject, title 'A Life in Science', author name",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 17.54,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1184882,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685370663571457",
+  "generated_at": "2026-11-19 16:22:09+0300"
+}

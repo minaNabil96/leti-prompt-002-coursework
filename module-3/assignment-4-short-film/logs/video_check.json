@@ -1,0 +1,32 @@
+{
+  "file": "final/Рождение_образа.mp4",
+  "bytes": 25938745,
+  "duration_s": 33.01,
+  "width": 1920,
+  "height": 1080,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_hz": 48000,
+  "audio_layout": "stereo",
+  "levels": {
+    "speech_window_db": -16.6,
+    "pause_window_db": -26.5,
+    "speech_window": [
+      4.95,
+      2.0
+    ],
+    "pause_window": [
+      4.45,
+      4.7
+    ]
+  },
+  "checks": {
+    "height_ge_1080": true,
+    "width_ge_1920": true,
+    "has_audio": true,
+    "voice_above_music": 9.899999999999999,
+    "scene_count_ge_5": 5
+  },
+  "errors": [],
+  "checked_at": "2026-11-26 14:43:53"
+}

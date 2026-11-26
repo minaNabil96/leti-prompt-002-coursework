@@ -1,0 +1,22 @@
+{
+  "label": "naive",
+  "model": "bytedance/seedream-4",
+  "architecture": "Diffusion (rectified flow DiT, ByteDance Seedream 4.0)",
+  "size_requested": "1:1 (1K, 1024x1024)",
+  "seed_requested": 42,
+  "prompt": "A cat in the rain",
+  "prompt_raw_response": "A cat in the rain",
+  "billed_rub": 3.0,
+  "elapsed_sec": 9.76,
+  "image_size": [
+    2048,
+    2048
+  ],
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "request_id": "gen_2231146791037177857",
+  "generated_at": "2026-11-09 22:00:58+0300"
+}

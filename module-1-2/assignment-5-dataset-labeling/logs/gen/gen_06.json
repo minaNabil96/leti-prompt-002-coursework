@@ -1,0 +1,22 @@
+{
+  "id": "P06",
+  "file": "img_06.png",
+  "class": "афиша",
+  "prompt": "A poster for a sports event, basketball tournament, dynamic action image, event name, dates, stadium",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 15.96,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1485532,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685060127395841",
+  "generated_at": "2026-11-19 16:20:53+0300"
+}

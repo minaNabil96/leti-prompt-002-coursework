@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-26 14:12:42",
+  "key_path": ".\\ref-analysis\\.polza_key",
+  "key_prefix": "pza_",
+  "key_len": 36,
+  "python": {
+    "version": "3.13.17",
+    "packages": {
+      "requests": true,
+      "docx": true,
+      "PIL": true,
+      "numpy": true,
+      "imageio_ffmpeg": true,
+      "pymupdf": true,
+      "mutagen": true
+    },
+    "missing": []
+  },
+  "ffmpeg": {
+    "path": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe",
+    "version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "catalogue_models": 407,
+  "candidates": {
+    "video": [
+      "alibaba/wan-3.0",
+      "alibaba/wan-3.0-prime",
+      "bytedance/seedance-2",
+      "bytedance/seedance-2-5",
+      "bytedance/seedance-2-fast",
+      "bytedance/seedance-2-mini",
+      "google/veo3",
+      "google/veo3_fast",
+      "grok-imagine-video-1-5",
+      "kling-4.0/flash-video",
+      "kling-4.0/video",
+      "kling/v2.6",
+      "kling/v2.6-motion-control",
+      "kling/v3",
+      "kling/v3-motion-control",
+      "thinkingmachines/inkling",
+      "thinkingmachines/inkling-2-mini"
+    ],
+    "music": [
+      "google/lyria-3-clip-preview",
+      "google/lyria-3-pro-preview",
+      "suno/generate",
+      "suno/mashup",
+      "suno/sounds"
+    ],
+    "tts": [
+      "google/gemini-3.1-flash-tts-preview",
+      "google/gemini-3.8-flash-lite-tts",
+      "google/gemini-3.8-flash-tts",
+      "microsoft/mai-voice-2",
+      "microsoft/mai-voice-2-flash",
+      "openai/gpt-4o-mini-tts",
+      "openai/tts-1",
+      "openai/tts-1-hd"
+    ],
+    "chat": [
+      "google/gemini-2.5-flash",
+      "google/gemini-2.5-flash-image",
+      "google/gemini-2.5-flash-lite"
+    ]
+  }
+}

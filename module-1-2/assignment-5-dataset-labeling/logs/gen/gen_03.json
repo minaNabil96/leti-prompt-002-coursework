@@ -1,0 +1,22 @@
+{
+  "id": "P03",
+  "file": "img_03.png",
+  "class": "афиша",
+  "prompt": "A poster for a theater performance, artistic illustration of a stage, play title, date and time, venue address",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 17.14,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1076227,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234684832324653057",
+  "generated_at": "2026-11-19 16:20:01+0300"
+}

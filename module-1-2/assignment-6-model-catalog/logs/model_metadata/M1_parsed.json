@@ -1,0 +1,20 @@
+{
+  "id": "facebook/detr-resnet-50",
+  "direction": "Компьютерное зрение",
+  "specialization": "Детекция объектов",
+  "task": "Object detection (pipeline_tag: object-detection) — поиск и локализация объектов на изображении; DETR = DEtection TRansformer, энкодер-декодер с backbone ResNet-50 и 100 object queries.",
+  "input_type": "Изображение RGB произвольного разрешения (в препроцессинге короткая сторона ≥ 800 px, длинная ≤ 1333 px).",
+  "output_type": "До 100 объектов: метка класса (91 категория COCO), уверенность и bounding box; в карточке указан AP 42,0 на COCO 2017 val.",
+  "training_data": "COCO 2017 object detection: 118 тыс. размеченных изображений для обучения и 5 тыс. для валидации; 300 эпох на 16 GPU V100.",
+  "model_size": "41 631 008 параметров (41,6 млн), F32; ResNet-50 + transformer encoder-decoder.",
+  "license": "Apache 2.0",
+  "example_use": "Детекция объектов на фотографиях и видео: подсчёт людей и транспорта, видеоаналитика, автономные системы (карточка: «You can use the raw model for object detection»).",
+  "limitations": "Карточка: поддержка только PyTorch, AP 42,0 (не SOTA); обучение только на 91 категории COCO, поэтому объекты вне этих классов не распознаются.",
+  "downloads": 100578,
+  "likes": 991,
+  "url": "https://huggingface.co/facebook/detr-resnet-50",
+  "library_name": "transformers",
+  "pipeline_tag": "object-detection",
+  "model_type": "detr",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

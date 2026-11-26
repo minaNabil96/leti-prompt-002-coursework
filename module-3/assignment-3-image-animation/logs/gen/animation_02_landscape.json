@@ -1,0 +1,43 @@
+{
+  "file": "animation_02_landscape.mp4",
+  "model": "bytedance/seedance-2-mini",
+  "source": "sources/source_02_landscape.png",
+  "intensity": "средняя",
+  "prompt": "Clouds drift slowly from left to right, water surface ripples gently with reflections, pine branches sway in a light breeze. Two moving elements only, medium intensity.",
+  "duration_param": "5",
+  "resolution": "480p",
+  "cost_rub": 12.825,
+  "elapsed_sec": 119.67,
+  "bytes": 1373408,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_4992b3f9-d15e-4e5c-93f2-e41e6b7c14c8.mp4",
+  "request_id": "gen_2236962253816467457",
+  "created": 1795637479,
+  "completed_at": null,
+  "requested_at": "2026-11-25 23:11:22",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 12.825,
+    "cost": 12.825
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_4992b3f9-d15e-4e5c-93f2-e41e6b7c14c8.mp4"
+  },
+  "warnings": null,
+  "request": {
+    "model": "bytedance/seedance-2-mini",
+    "input": {
+      "prompt": "Clouds drift slowly from left to right, water surface ripples gently with reflections, pine branches sway in a light breeze. Two moving elements only, medium intensity.",
+      "images": [
+        {
+          "type": "base64",
+          "data": "<1366288 base64 chars>"
+        }
+      ],
+      "duration": "5",
+      "resolution": "480p",
+      "aspect_ratio": "auto",
+      "generate_audio": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "model": "grok-imagine-video-1-5",
+    "input": {
+      "prompt": "Abstract text fragments, glowing deep blue and warm gold, float and slowly assemble into words in a dark, infinite space. Cinematic, ethereal, smooth camera push-in. From chaos to order, mysterious mood.",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9"
+    }
+  },
+  "error": "create HTTP 400: {\"error\":{\"code\":\"BAD_REQUEST\",\"message\":\"Поле input.duration должно быть строкой\",\"trace_id\":\"5acf1acb-31c9-4b08-8eb2-27b938407837\"},\"trace_id\":\"5acf1acb-31c9-4b08-8eb2-27b938407837\"}",
+  "response": null
+}

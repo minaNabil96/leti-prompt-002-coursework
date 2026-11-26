@@ -1,0 +1,196 @@
+{
+  "_id": "625454cdcac3e87b7f0cacb9",
+  "id": "Salesforce/codegen-350M-mono",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "codegen",
+    "text-generation",
+    "arxiv:2203.13474",
+    "license:bsd-3-clause",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 16867,
+  "likes": 101,
+  "modelId": "Salesforce/codegen-350M-mono",
+  "author": "Salesforce",
+  "sha": "d9107f71cca463240db1143f4a75a927a27fcb27",
+  "lastModified": "2025-01-31T20:16:47.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "CodeGenForCausalLM"
+    ],
+    "model_type": "codegen",
+    "tokenizer_config": {
+      "unk_token": "<|endoftext|>",
+      "bos_token": "<|endoftext|>",
+      "eos_token": "<|endoftext|>"
+    }
+  },
+  "cardData": {
+    "license": "bsd-3-clause"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "added_tokens.json"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "spaces": [
+    "joaogante/assisted_generation_benchmarks",
+    "ammarnasr/Code-Generation-with-Language-Specific-LoRa-Models",
+    "OAbdulalim/CodeGenerator",
+    "kintsugixx/Salesforce-codegen-350M-mono",
+    "henry2024/ARIN_7102",
+    "kartik2627/LangCodeGenie",
+    "georeactor/code-probability-of-injection",
+    "j10sanders/rubber-duck",
+    "James1208/Salesforce-codegen-350M-mono",
+    "awacke1/CodeGen-Salesforce-codegen-350M-mono",
+    "Jaehan/Code-Generator-1",
+    "Sal-ONE/AI_Code_Gen",
+    "flichote/first_space",
+    "HakanKilic01/FinalProject",
+    "Coyoteranger/flutter-code-generator",
+    "AdamAbde/code-generator-tool",
+    "Cyfer-ap/AI-Coding-Tutor",
+    "ivanoctaviogaitansantos/Super_chatbot",
+    "skumar889/semiconductor-pipeline",
+    "georeactor/ranking-prompt-probability",
+    "inoxt/Replicant",
+    "smjain/sf_codegen",
+    "stillerman/GLTR-token-probability-visualizer",
+    "yinting/Salesforce-codegen-350M-mono",
+    "bixentemal/q_n_a_roberta",
+    "gdlunga/transformers-1",
+    "ttphong68/code_5.29",
+    "Quaxicron/Salesforce-codegen-350M-mono",
+    "vtguy65/AutoCodePlug",
+    "hf-dongpyo/CodeGen",
+    "run480/intro_to_transformers",
+    "omkar2005/Avatar",
+    "ClefChen/ARIN_7102_final",
+    "luna-code/luna-playground",
+    "Kailxzz/CodingSensei",
+    "shandong1970/list5-29",
+    "baadror/code-gen-mono",
+    "aquibali01/Python-to-javascript-syntax",
+    "ram2201/genaiutils",
+    "Cherry0907/Gen_AI_Features",
+    "Arnesh27/projectBuild",
+    "Yhhxhfh/Vvvvv",
+    "jaderm/programming-assistant",
+    "shamilcoded/Code-Bro",
+    "kazanshin83/hawkai",
+    "freealise/Code-Generation-with-Language-Specific-LoRa-Models",
+    "Felguk/Simple-test-apps",
+    "Alexvatti/Transformers-NLP",
+    "ayushraj2349-2/Automated-Code-Reviewer",
+    "Mummia-99/Nlp_pipelines",
+    "DilipKY/code-gen-bot",
+    "FatimaGr/AI_Web_Dev1",
+    "chmawia/CodeMagic",
+    "Ay-ouya/testingspace",
+    "Prakhar56/Khudkaspac",
+    "AnooGouin/AnooChat",
+    "AIWebDev/smartdocai",
+    "Kakarla7/Data_Whisperer",
+    "khairo14/IcarusCodeHelper",
+    "pru-2/chat_space",
+    "yaswanthsai/Talent-Track-HR",
+    "PascalPolverini/rpg-fixed-to-free",
+    "iamdevil/Mind",
+    "Halleq/CodeGen",
+    "samaamarneh1/grp5-codegen",
+    "LeenAnabtawe/Code_Gen_AI",
+    "YAMITECHNOLOGIES/Nlp_pipelines",
+    "YAMITEK/Nlp_Pipeling",
+    "yashmit12345/skord-ai-codegen",
+    "gg45g45/codetest",
+    "ZacharyLYH/free-coding-help",
+    "griddava/pull-request-validator",
+    "Satyaki1710/ai-code-generator",
+    "Anaceu/poketest-lab-api",
+    "prasanna-joshi/test1",
+    "hikxx/html-gen-test",
+    "Smartpower001/SuperCoderBot",
+    "Group2255/programming-help-chatbot",
+    "palwasha-khan/auto-dashboard-generator",
+    "visualisable-ai/api",
+    "AdrianCLB/ia",
+    "Fofig/wow-addon-trainer",
+    "Dhanya-02shree/new_debugger",
+    "AiCoderv2/quick-bright-demo",
+    "besanty/researchrun",
+    "Heylanbis/Text-code-X",
+    "SyedTahir/STHASI-Code-Review-Assistant",
+    "rigoyo/dropshipping-expert",
+    "rigoyo/code-hacker-expert",
+    "seana23/seana",
+    "akshaybharadwaj96/nl-code-gen-bot",
+    "abhidgp1978/flowforge-ai",
+    "Alaamat/llm-evaluation-demo",
+    "hgsdh/932406",
+    "anthony01/something",
+    "singhalamaan116/EcoEval-LLM",
+    "tanvirmridha17540042/bangla2code-demo",
+    "souyashhh/Fixly",
+    "elliottsax/roblox-worker-1",
+    "guychuk/codegen-demo"
+  ],
+  "createdAt": "2022-04-11T16:18:21.000Z",
+  "usedStorage": 3740254794
+}

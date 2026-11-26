@@ -1,0 +1,30 @@
+{
+  "model": "tongyi-mai/z-image",
+  "display_name": "Alibaba Z-Image",
+  "arch": "Diffusion",
+  "catalog_price_rub": 1.4,
+  "billed_rub": 1.4,
+  "elapsed_sec": 9.4,
+  "image_size": [
+    1024,
+    1024
+  ],
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "response": {
+    "id": "gen_2229695539863883777",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1793904850,
+    "model": "tongyi-mai/z-image",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 1.4,
+      "cost": 1.4
+    }
+  },
+  "generated_at": "2026-11-05 21:54:10+0300"
+}

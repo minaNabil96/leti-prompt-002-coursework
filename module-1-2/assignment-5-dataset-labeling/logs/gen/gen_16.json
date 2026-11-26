@@ -1,0 +1,22 @@
+{
+  "id": "P16",
+  "file": "img_16.png",
+  "class": "обложка книги",
+  "prompt": "A book cover for an academic monograph, serious typographic design, title 'Media Theory', author name, university press",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 20.15,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 947743,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685704782483457",
+  "generated_at": "2026-11-19 16:23:30+0300"
+}

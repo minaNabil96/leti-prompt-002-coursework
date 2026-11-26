@@ -1,0 +1,31 @@
+{
+  "note": "Итоговые промпты text-to-video. 'initial' — версия итерации 4 (google/gemini-2.5-flash), 'final' — версия, отправленная в grok-imagine-video-1-5. Изменения внесены после неудачного первого дубля сцены 1 (модель нарисовала читаемую английскую надпись).",
+  "model": "grok-imagine-video-1-5",
+  "scenes": {
+    "1": {
+      "initial": "Abstract text fragments, glowing deep blue and warm gold, float and slowly assemble into words in a dark, infinite space. Cinematic, ethereal, smooth camera push-in. From chaos to order, mysterious mood.",
+      "final": "Abstract calligraphic strokes of glowing deep blue and warm gold light drift through dark infinite space, swirling like ink in water and gathering into a soft luminous spiral. No letters, no words, no readable text, no symbols. Cinematic, ethereal, smooth slow camera push-in, from chaos to order, mysterious mood, shallow depth of field, volumetric light.",
+      "reason": "Первый дубль показал крупную читаемую надпись «BEYOND THE VEIL». В промпт добавлен явный запрет букв и слов, а «assembling into words» заменено на «luminous spiral»."
+    },
+    "2": {
+      "initial": "A tiny seed of light appears in darkness, then grows and bursts into swirling clouds of colour, like a nebula forming. Camera slowly orbits. Cinematic, awe-inspiring, smooth motion, deep blue, violet and warm gold palette.",
+      "final": "A tiny seed of white light appears in darkness, then grows and bursts into swirling clouds of colour, like a nebula forming. Slowly rotating camera, particles of light spiralling outward, deep blue, violet and warm gold palette. No letters, no words, no text, no logos. Cinematic, awe-inspiring, smooth continuous motion, volumetric light, shallow depth of field.",
+      "reason": "Добавлен запрет текста и логотипов, чтобы кадр оставался абстрактным."
+    },
+    "3": {
+      "initial": "A human silhouette emerges from swirling abstract colours, half-formed, like a sculpture appearing out of paint. Slow side camera move. Mysterious, contemplative, cinematic lighting, deep blue and warm gold.",
+      "final": "An abstract human silhouette emerges from swirling paint-like colours, half-formed, like a sculpture appearing out of liquid pigment. The face stays undetailed and abstract, never a realistic portrait. Slow side camera move, cinematic rim light, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+      "reason": "Уточнено, что лицо остаётся абстрактным (в сцене не должно быть реалистичного человека крупным планом), добавлен запрет текста."
+    },
+    "4": {
+      "initial": "Colours flow and merge like liquid paint, forming a vibrant abstract landscape with mountains and sky made of colour. Slow aerial drift. Rich palette, cinematic, dreamlike, smooth motion.",
+      "final": "Colours flow and merge like liquid paint, forming a vibrant abstract landscape where mountains and sky are made of pure pigment. Slow aerial drift, smooth flowing motion, rich saturated palette, cinematic, dreamlike. No letters, no words, no text, no logos.",
+      "reason": "Добавлен запрет текста и логотипов."
+    },
+    "5": {
+      "initial": "The abstract image comes alive: elements move, the scene breathes, light pulses through the colours. Slow dolly forward. The image transforms from still to living, cinematic, inspiring.",
+      "final": "The abstract painted image comes alive: pigment flows, light pulses through the colours, shapes breathe and drift. Slow dolly forward, the still image transforming into living motion, cinematic, inspiring, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+      "reason": "Добавлен запрет текста, усилено описание движения, чтобы оживление читалось в кадре."
+    }
+  }
+}

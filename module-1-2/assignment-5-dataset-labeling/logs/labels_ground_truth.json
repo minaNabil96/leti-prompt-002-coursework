@@ -1,0 +1,242 @@
+[
+  {
+    "id": "P01",
+    "file": "img_01.png",
+    "class": "афиша",
+    "prompt": "A poster for a rock music concert, featuring a band name in large bold text, date and venue information at the bottom, vibrant red and black colors",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P02",
+    "file": "img_02.png",
+    "class": "афиша",
+    "prompt": "A poster for an art exhibition, showing a sample painting, exhibition title, gallery name, dates November 2026",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P03",
+    "file": "img_03.png",
+    "class": "афиша",
+    "prompt": "A poster for a theater performance, artistic illustration of a stage, play title, date and time, venue address",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P04",
+    "file": "img_04.png",
+    "class": "афиша",
+    "prompt": "A poster for a university lecture, clean design, speaker name, lecture title, date, auditorium number",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": "Афиша лекции с крупным портретом — может напоминать обложку книги"
+  },
+  {
+    "id": "P05",
+    "file": "img_05.png",
+    "class": "афиша",
+    "prompt": "A poster for a film festival, cinematic collage, festival name, dates, list of participating countries",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P06",
+    "file": "img_06.png",
+    "class": "афиша",
+    "prompt": "A poster for a sports event, basketball tournament, dynamic action image, event name, dates, stadium",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P07",
+    "file": "img_07.png",
+    "class": "афиша",
+    "prompt": "A poster for a food festival, illustrated food image, festival name, dates, location, entry fee",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P08",
+    "file": "img_08.png",
+    "class": "афиша",
+    "prompt": "A poster for a stand-up comedy show, comedian photo, show name, date, club name and address",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P09",
+    "file": "img_09.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a fantasy novel, illustrated dragon and castle, book title 'The Last Realm', author name, publisher logo",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P10",
+    "file": "img_10.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a science textbook, clean minimal design, title 'Quantum Physics', author names, university press logo",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P11",
+    "file": "img_11.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a biography, portrait photo of the subject, title 'A Life in Science', author name",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": "Портрет + крупный шрифт — может напоминать постер фильма"
+  },
+  {
+    "id": "P12",
+    "file": "img_12.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a cookbook, illustrated dish, title 'Italian Kitchen', author name, photo credit",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P13",
+    "file": "img_13.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a mystery novel, dark atmospheric image, title 'The Silent Witness', author name",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": "Тёмная атмосферная иллюстрация — визуально близко к постеру фильма"
+  },
+  {
+    "id": "P14",
+    "file": "img_14.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a children's book, colorful cartoon illustration, title 'The Adventures of Pip', author and illustrator names",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P15",
+    "file": "img_15.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for a self-help book, simple geometric design, title 'Focus', author name, testimonial quote",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P16",
+    "file": "img_16.png",
+    "class": "обложка книги",
+    "prompt": "A book cover for an academic monograph, serious typographic design, title 'Media Theory', author name, university press",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P17",
+    "file": "img_17.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a sci-fi action film, dramatic character composition with spaceship, film title 'STELLAR', credits block at bottom listing director and cast, release date",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P18",
+    "file": "img_18.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a romantic comedy, two lead characters back to back, film title 'LOVE UNEXPECTED', credits block, coming soon",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P19",
+    "file": "img_19.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a horror film, dark eerie image, film title 'THE LAST NIGHT', credits block, release date October",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P20",
+    "file": "img_20.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a documentary, striking real-world image, film title 'CODE OF SILENCE', credits block, festival laurels",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": "Реалистичное изображение + лауреаты фестиваля — может напоминать афишу"
+  },
+  {
+    "id": "P21",
+    "file": "img_21.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for an animated family film, colorful cartoon character, film title 'SKY JUMPERS', credits block, release date",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P22",
+    "file": "img_22.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a thriller, intense close-up of protagonist, film title 'EDGE OF DARK', credits block, coming soon",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P23",
+    "file": "img_23.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a historical drama, period costume scene, film title 'THE EMPRESS', credits block, release date",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  },
+  {
+    "id": "P24",
+    "file": "img_24.png",
+    "class": "постер фильма",
+    "prompt": "A movie poster for a comedy, humorous character pose, film title 'OFFICE DISASTER', credits block, release date",
+    "source": "Сгенерировано через Polza.ai (tongyi-mai/z-image)",
+    "license": "Собственное (сгенерировано ИИ, права использования по условиям Polza.ai)",
+    "annotator": "Ханна М. Н.",
+    "comment": ""
+  }
+]

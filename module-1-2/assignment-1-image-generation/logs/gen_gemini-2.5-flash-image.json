@@ -1,0 +1,30 @@
+{
+  "model": "google/gemini-2.5-flash-image",
+  "display_name": "Google Gemini 2.5 Flash Image (Nano Banana 1)",
+  "arch": "Transformer",
+  "catalog_price_rub": 2.9,
+  "billed_rub": 2.9,
+  "elapsed_sec": 11.66,
+  "image_size": [
+    1024,
+    1024
+  ],
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 2.9,
+    "cost": 2.9
+  },
+  "response": {
+    "id": "gen_2229695645540945921",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1793904878,
+    "model": "google/gemini-2.5-flash-image",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 2.9,
+      "cost": 2.9
+    }
+  },
+  "generated_at": "2026-11-05 21:54:40+0300"
+}

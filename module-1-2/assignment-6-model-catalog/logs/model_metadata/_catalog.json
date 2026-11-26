@@ -1,0 +1,129 @@
+{
+  "fetched_at_utc": "2026-11-19T14:16:05Z",
+  "models": {
+    "M1": {
+      "id": "facebook/detr-resnet-50",
+      "status": 200,
+      "readme_status": 200
+    },
+    "M2": {
+      "id": "dima806/facial_emotions_image_detection",
+      "status": 200,
+      "readme_status": 200
+    },
+    "M3": {
+      "id": "facebook/musicgen-small",
+      "status": 200,
+      "readme_status": 200
+    },
+    "M4": {
+      "id": "Salesforce/codegen-350M-mono",
+      "status": 200,
+      "readme_status": 200
+    },
+    "M5": {
+      "id": "cardiffnlp/twitter-roberta-base-sentiment",
+      "status": 200,
+      "readme_status": 200
+    },
+    "M6": {
+      "id": "d4data/biomedical-ner-all",
+      "status": 200,
+      "readme_status": 200
+    }
+  },
+  "task_samples": {
+    "object-detection": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "image-classification": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "face-recognition": {
+      "status": 200,
+      "sampled": 98,
+      "exact": 98
+    },
+    "image-segmentation": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "text-to-image": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "text-to-audio": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "text-generation": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "code-generation": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "text-classification": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "token-classification": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "sentiment-analysis": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    },
+    "tabular-classification": {
+      "status": 200,
+      "sampled": 1000,
+      "exact": null
+    }
+  },
+  "first_model_sample": [
+    {
+      "_id": "6af59d978821ec19d207687e",
+      "id": "higurashi-ai/Haru-4B",
+      "likes": 2360,
+      "trendingScore": 299.5,
+      "private": false,
+      "downloads": 6266,
+      "tags": [
+        "safetensors",
+        "haru",
+        "speech",
+        "full-duplex",
+        "speech-to-speech",
+        "audio-to-audio",
+        "en",
+        "es",
+        "pt",
+        "de",
+        "fr",
+        "zh",
+        "ja",
+        "ru",
+        "ko",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "audio-to-audio",
+      "createdAt": "2026-11-12T11:05:59.000Z",
+      "modelId": "higurashi-ai/Haru-4B"
+    }
+  ]
+}

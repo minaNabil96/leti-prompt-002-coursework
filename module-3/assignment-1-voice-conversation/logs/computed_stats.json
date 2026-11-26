@@ -1,0 +1,84 @@
+{
+  "llm": {
+    "model": "google/gemini-2.5-flash",
+    "temperature": 0.7,
+    "requests": 12,
+    "prompt_tokens": 23784,
+    "completion_tokens": 3697,
+    "cost_rub": 1.9649
+  },
+  "tts": {
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Kore",
+    "files": 6,
+    "chars": 5632,
+    "api_duration_s": 381.16,
+    "cost_rub": 6.3149
+  },
+  "stt": {
+    "model": "openai/whisper-large-v3",
+    "files": 6,
+    "duration_s": 381.16,
+    "minutes": 6.35,
+    "cost_rub": 0.6861,
+    "similarity_min": 0.89,
+    "similarity_max": 0.99
+  },
+  "prosody": {
+    "files": 6,
+    "duration_s": 381.52,
+    "durations_s": [
+      64.9,
+      53.3,
+      78.2,
+      37.7,
+      60.7,
+      86.7
+    ],
+    "speech_s": 305.3,
+    "speech_ratio_min": 0.751,
+    "speech_ratio_max": 0.82,
+    "pause_count": 138,
+    "pause_mean_s": 0.5,
+    "pause_max_s": 1.11,
+    "words": 787,
+    "syllables": 1950,
+    "wpm": 154.7,
+    "f0_median_hz": 163.1,
+    "f0_median_mean_hz": 163.8,
+    "f0_median_per_file_hz": [
+      167.4,
+      158.9,
+      162.6,
+      170.3,
+      159.8,
+      163.6
+    ],
+    "f0_median_min_hz": 159,
+    "f0_median_max_hz": 170,
+    "f0_span_semitones_min": 9.3,
+    "f0_span_semitones_max": 13.2
+  },
+  "cost": {
+    "llm_rub": 1.9649,
+    "tts_rub": 6.3149,
+    "stt_rub": 0.6861,
+    "ui_repeat_rub": 4.3007,
+    "calibration_rub": 0.0095,
+    "budget_rub": 15.0,
+    "reported_rub": 13.2666,
+    "total_rub": 13.2761,
+    "remainder_rub": 1.7334,
+    "tts_share_pct": 48
+  },
+  "ui_repeat": {
+    "model": "google/gemini-2.5-flash",
+    "model_display": "Google: Gemini 2.5 Flash",
+    "requests": 12,
+    "date": "26.11.2026",
+    "started_msk": "26.11.2026, 01:05:11",
+    "finished_msk": "26.11.2026, 01:08:15",
+    "cost_rub": 4.3007,
+    "source": "Polza.ai, раздел «История запросов» (GET /api/v1/history/generations)"
+  }
+}

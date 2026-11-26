@@ -1,0 +1,2544 @@
+{
+  "history/generations": {
+    "items": [
+      {
+        "id": "gen_2231147168461754369",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02986804",
+        "usage": {
+          "total_tokens": 49589,
+          "prompt_tokens": 49460,
+          "completion_tokens": 129,
+          "prompt_tokens_details": {
+            "cached_tokens": 49280
+          }
+        },
+        "generationTimeMs": 3291,
+        "createdAt": "2026-11-09T19:02:18.683Z",
+        "finalizedAt": null,
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "180",
+            "clientRub": "0.00319710"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "49280",
+            "clientRub": "0.01750591"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "129",
+            "clientRub": "0.00916503"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02986804",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147148787453953",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.05102575",
+        "usage": {
+          "total_tokens": 49436,
+          "prompt_tokens": 49068,
+          "completion_tokens": 368,
+          "prompt_tokens_details": {
+            "cached_tokens": 48640
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 33
+          }
+        },
+        "generationTimeMs": 4297,
+        "createdAt": "2026-11-09T19:02:14.003Z",
+        "finalizedAt": null,
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "428",
+            "clientRub": "0.00760200"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "48640",
+            "clientRub": "0.01727856"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "368",
+            "clientRub": "0.02614519"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.05102575",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147129002004481",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02584751",
+        "usage": {
+          "total_tokens": 48757,
+          "prompt_tokens": 48677,
+          "completion_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 48512
+          }
+        },
+        "generationTimeMs": 2656,
+        "createdAt": "2026-11-09T19:02:09.291Z",
+        "finalizedAt": null,
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "165",
+            "clientRub": "0.00293068"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "48512",
+            "clientRub": "0.01723309"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "80",
+            "clientRub": "0.00568374"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02584751",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147111494324225",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.0312094",
+        "usage": {
+          "total_tokens": 48586,
+          "prompt_tokens": 48432,
+          "completion_tokens": 154,
+          "prompt_tokens_details": {
+            "cached_tokens": 48256
+          }
+        },
+        "generationTimeMs": 4432,
+        "createdAt": "2026-11-09T19:02:05.108Z",
+        "finalizedAt": "2026-11-09T19:02:20.010Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "176",
+            "clientRub": "0.00312606"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "48256",
+            "clientRub": "0.01714215"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "154",
+            "clientRub": "0.01094119"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.03120940",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147089821175809",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.0436916",
+        "usage": {
+          "total_tokens": 48280,
+          "prompt_tokens": 47957,
+          "completion_tokens": 323,
+          "prompt_tokens_details": {
+            "cached_tokens": 47744
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 165
+          }
+        },
+        "generationTimeMs": 7415,
+        "createdAt": "2026-11-09T19:01:59.936Z",
+        "finalizedAt": "2026-11-09T19:02:15.013Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "213",
+            "clientRub": "0.00378324"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "47744",
+            "clientRub": "0.01696027"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "323",
+            "clientRub": "0.02294809"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.04369160",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147059210883073",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.04172574",
+        "usage": {
+          "total_tokens": 47853,
+          "prompt_tokens": 47550,
+          "completion_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 47360
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 93
+          }
+        },
+        "generationTimeMs": 2717,
+        "createdAt": "2026-11-09T19:01:52.644Z",
+        "finalizedAt": "2026-11-09T19:02:10.022Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "190",
+            "clientRub": "0.00337472"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "47360",
+            "clientRub": "0.01682386"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "303",
+            "clientRub": "0.02152716"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.04172574",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231147037325004801",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.04413706",
+        "usage": {
+          "total_tokens": 47379,
+          "prompt_tokens": 47040,
+          "completion_tokens": 339,
+          "prompt_tokens_details": {
+            "cached_tokens": 46848
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 48
+          }
+        },
+        "generationTimeMs": 2770,
+        "createdAt": "2026-11-09T19:01:47.418Z",
+        "finalizedAt": "2026-11-09T19:02:05.010Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "192",
+            "clientRub": "0.00341024"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "46848",
+            "clientRub": "0.01664198"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "339",
+            "clientRub": "0.02408484"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.04413706",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146984902365185",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.17382433",
+        "usage": {
+          "total_tokens": 47016,
+          "prompt_tokens": 45502,
+          "completion_tokens": 1514,
+          "prompt_tokens_details": {
+            "cached_tokens": 42624
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1270
+          }
+        },
+        "generationTimeMs": 12012,
+        "createdAt": "2026-11-09T19:01:34.919Z",
+        "finalizedAt": "2026-11-09T19:02:00.016Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "2878",
+            "clientRub": "0.05111812"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "42624",
+            "clientRub": "0.01514148"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "1514",
+            "clientRub": "0.10756473"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.17382433",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146964513722369",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.04974478",
+        "usage": {
+          "total_tokens": 42637,
+          "prompt_tokens": 42201,
+          "completion_tokens": 436,
+          "prompt_tokens_details": {
+            "cached_tokens": 41984
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 199
+          }
+        },
+        "generationTimeMs": 4071,
+        "createdAt": "2026-11-09T19:01:30.115Z",
+        "finalizedAt": "2026-11-09T19:01:45.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "217",
+            "clientRub": "0.00385428"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "41984",
+            "clientRub": "0.01491413"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "436",
+            "clientRub": "0.03097637"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.04974478",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146946948108289",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02828654",
+        "usage": {
+          "total_tokens": 42096,
+          "prompt_tokens": 41966,
+          "completion_tokens": 130,
+          "prompt_tokens_details": {
+            "cached_tokens": 41728
+          }
+        },
+        "generationTimeMs": 2540,
+        "createdAt": "2026-11-09T19:01:25.870Z",
+        "finalizedAt": "2026-11-09T19:01:40.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "238",
+            "clientRub": "0.00422728"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "41728",
+            "clientRub": "0.01482319"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "130",
+            "clientRub": "0.00923607"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02828654",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146931110154241",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.03933217",
+        "usage": {
+          "total_tokens": 41942,
+          "prompt_tokens": 41637,
+          "completion_tokens": 305,
+          "prompt_tokens_details": {
+            "cached_tokens": 41472
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 28
+          }
+        },
+        "generationTimeMs": 3467,
+        "createdAt": "2026-11-09T19:01:22.105Z",
+        "finalizedAt": "2026-11-09T19:01:40.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "165",
+            "clientRub": "0.00293068"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "41472",
+            "clientRub": "0.01473225"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "305",
+            "clientRub": "0.02166924"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.03933217",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146852874850305",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.30938715",
+        "usage": {
+          "total_tokens": 41613,
+          "prompt_tokens": 37970,
+          "completion_tokens": 3643,
+          "prompt_tokens_details": {
+            "cached_tokens": 35840
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 806
+          }
+        },
+        "generationTimeMs": 17830,
+        "createdAt": "2026-11-09T19:01:03.440Z",
+        "finalizedAt": "2026-11-09T19:01:35.017Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "2130",
+            "clientRub": "0.03783238"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "35840",
+            "clientRub": "0.01273157"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "3643",
+            "clientRub": "0.25882320"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.30938715",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146833647505409",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.03047336",
+        "usage": {
+          "total_tokens": 35955,
+          "prompt_tokens": 35744,
+          "completion_tokens": 211,
+          "prompt_tokens_details": {
+            "cached_tokens": 35584
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 51
+          }
+        },
+        "generationTimeMs": 2434,
+        "createdAt": "2026-11-09T19:00:58.861Z",
+        "finalizedAt": "2026-11-09T19:01:15.014Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "160",
+            "clientRub": "0.00284187"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "35584",
+            "clientRub": "0.01264063"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "211",
+            "clientRub": "0.01499086"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.03047336",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146791037177857",
+        "model": "bytedance/seedream-4",
+        "modelDisplayName": "Seedream 4.0",
+        "requestType": "images",
+        "provider": "mie",
+        "status": "completed",
+        "cost": "3",
+        "usage": {
+          "output_units": 1
+        },
+        "generationTimeMs": 9541,
+        "createdAt": "2026-11-09T19:00:48.696Z",
+        "finalizedAt": "2026-11-09T19:01:10.014Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "output",
+            "unit": "image",
+            "quantity": "1",
+            "clientRub": "3.00000000"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "3.00000000",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146737992077313",
+        "model": "bytedance/seedream-4",
+        "modelDisplayName": "Seedream 4.0",
+        "requestType": "images",
+        "provider": "mie",
+        "status": "completed",
+        "cost": "3",
+        "usage": {
+          "output_units": 1
+        },
+        "generationTimeMs": 11209,
+        "createdAt": "2026-11-09T19:00:36.055Z",
+        "finalizedAt": "2026-11-09T19:01:00.032Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": false,
+        "costLines": [
+          {
+            "kind": "output",
+            "unit": "image",
+            "quantity": "1",
+            "clientRub": "3.00000000"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "3.00000000",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146727053070337",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02478749",
+        "usage": {
+          "total_tokens": 35630,
+          "prompt_tokens": 35501,
+          "completion_tokens": 129,
+          "prompt_tokens_details": {
+            "cached_tokens": 35328
+          }
+        },
+        "generationTimeMs": 2174,
+        "createdAt": "2026-11-09T19:00:33.470Z",
+        "finalizedAt": "2026-11-09T19:00:50.011Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "173",
+            "clientRub": "0.00307277"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "35328",
+            "clientRub": "0.01254969"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "129",
+            "clientRub": "0.00916503"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02478749",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146696086523905",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.15014161",
+        "usage": {
+          "total_tokens": 35477,
+          "prompt_tokens": 33948,
+          "completion_tokens": 1529,
+          "prompt_tokens_details": {
+            "cached_tokens": 32256
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 150
+          }
+        },
+        "generationTimeMs": 7233,
+        "createdAt": "2026-11-09T19:00:26.061Z",
+        "finalizedAt": "2026-11-09T19:00:45.016Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1692",
+            "clientRub": "0.03005276"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "32256",
+            "clientRub": "0.01145842"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "1529",
+            "clientRub": "0.10863043"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.15014161",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146688108957697",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02071012",
+        "usage": {
+          "total_tokens": 32280,
+          "prompt_tokens": 32198,
+          "completion_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 32000
+          }
+        },
+        "generationTimeMs": 1824,
+        "createdAt": "2026-11-09T19:00:24.169Z",
+        "finalizedAt": "2026-11-09T19:00:40.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "198",
+            "clientRub": "0.00351681"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "32000",
+            "clientRub": "0.01136748"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "82",
+            "clientRub": "0.00582583"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02071012",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146678385381377",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.0245978",
+        "usage": {
+          "total_tokens": 32113,
+          "prompt_tokens": 31986,
+          "completion_tokens": 127,
+          "prompt_tokens_details": {
+            "cached_tokens": 31744
+          }
+        },
+        "generationTimeMs": 2029,
+        "createdAt": "2026-11-09T19:00:21.839Z",
+        "finalizedAt": "2026-11-09T19:00:35.012Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "242",
+            "clientRub": "0.00429833"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "31744",
+            "clientRub": "0.01127654"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "127",
+            "clientRub": "0.00902293"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02459780",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146664544047105",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.03555249",
+        "usage": {
+          "total_tokens": 31790,
+          "prompt_tokens": 31517,
+          "completion_tokens": 273,
+          "prompt_tokens_details": {
+            "cached_tokens": 31232
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 135
+          }
+        },
+        "generationTimeMs": 2961,
+        "createdAt": "2026-11-09T19:00:18.540Z",
+        "finalizedAt": "2026-11-09T19:00:35.012Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "285",
+            "clientRub": "0.00506208"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "31232",
+            "clientRub": "0.01109466"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "273",
+            "clientRub": "0.01939575"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.03555249",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146611425808385",
+        "model": "google/gemini-2.5-flash",
+        "modelDisplayName": "Google: Gemini 2.5 Flash",
+        "requestType": "chat",
+        "provider": "Google AI Studio",
+        "status": "completed",
+        "cost": "0.09207357",
+        "usage": {
+          "total_tokens": 1186,
+          "prompt_tokens": 998,
+          "completion_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 2472,
+        "createdAt": "2026-11-09T19:00:05.875Z",
+        "finalizedAt": "2026-11-09T19:01:08.716Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "998",
+            "clientRub": "0.03582899"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "188",
+            "clientRub": "0.05624458"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.09207357",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146597211049985",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.02334808",
+        "usage": {
+          "total_tokens": 31278,
+          "prompt_tokens": 31147,
+          "completion_tokens": 131,
+          "prompt_tokens_details": {
+            "cached_tokens": 30976
+          }
+        },
+        "generationTimeMs": 2139,
+        "createdAt": "2026-11-09T19:00:02.487Z",
+        "finalizedAt": "2026-11-09T19:00:15.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "171",
+            "clientRub": "0.00303725"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "30976",
+            "clientRub": "0.01100372"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "131",
+            "clientRub": "0.00930711"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.02334808",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146577643835393",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.10631715",
+        "usage": {
+          "total_tokens": 31122,
+          "prompt_tokens": 30260,
+          "completion_tokens": 862,
+          "prompt_tokens_details": {
+            "cached_tokens": 28288
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 31
+          }
+        },
+        "generationTimeMs": 4530,
+        "createdAt": "2026-11-09T18:59:57.822Z",
+        "finalizedAt": "2026-11-09T19:00:15.021Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1972",
+            "clientRub": "0.03502603"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "28288",
+            "clientRub": "0.01004885"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "862",
+            "clientRub": "0.06124227"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.10631715",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146569767981057",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.03671055",
+        "usage": {
+          "total_tokens": 28410,
+          "prompt_tokens": 28243,
+          "completion_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 27392
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 70
+          }
+        },
+        "generationTimeMs": 1775,
+        "createdAt": "2026-11-09T18:59:55.941Z",
+        "finalizedAt": "2026-11-09T19:00:10.017Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "851",
+            "clientRub": "0.01511519"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "27392",
+            "clientRub": "0.00973056"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "167",
+            "clientRub": "0.01186480"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.03671055",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146547890622465",
+        "model": "google/gemini-2.5-flash",
+        "modelDisplayName": "Google: Gemini 2.5 Flash",
+        "requestType": "chat",
+        "provider": "Google AI Studio",
+        "status": "completed",
+        "cost": "0.19443242",
+        "usage": {
+          "total_tokens": 1013,
+          "prompt_tokens": 420,
+          "completion_tokens": 593,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 5037,
+        "createdAt": "2026-11-09T18:59:50.724Z",
+        "finalizedAt": "2026-11-09T19:00:56.175Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "420",
+            "clientRub": "0.01523064"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "593",
+            "clientRub": "0.17920178"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.19443242",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146529445122049",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "DeepSeek",
+        "status": "completed",
+        "cost": "0.3878341",
+        "usage": {
+          "total_tokens": 27505,
+          "prompt_tokens": 27346,
+          "completion_tokens": 159,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 28
+          }
+        },
+        "generationTimeMs": 2172,
+        "createdAt": "2026-11-09T18:59:46.333Z",
+        "finalizedAt": "2026-11-09T19:00:00.026Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "21074",
+            "clientRub": "0.37430964"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "6272",
+            "clientRub": "0.00222803"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "159",
+            "clientRub": "0.01129643"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.38783410",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146485904052225",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.51332241",
+        "usage": {
+          "total_tokens": 173515,
+          "prompt_tokens": 170918,
+          "completion_tokens": 2597,
+          "prompt_tokens_details": {
+            "cached_tokens": 170112
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 703
+          }
+        },
+        "generationTimeMs": 10254,
+        "createdAt": "2026-11-09T18:59:35.948Z",
+        "finalizedAt": "2026-11-09T19:00:00.026Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "806",
+            "clientRub": "0.00196045"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "170112",
+            "clientRub": "0.14603547"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "2597",
+            "clientRub": "0.36532649"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.51332241",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146463420092417",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.21190344",
+        "usage": {
+          "total_tokens": 170212,
+          "prompt_tokens": 169580,
+          "completion_tokens": 632,
+          "prompt_tokens_details": {
+            "cached_tokens": 169472
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 4702,
+        "createdAt": "2026-11-09T18:59:30.591Z",
+        "finalizedAt": "2026-11-09T19:00:35.591Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "108",
+            "clientRub": "0.00034184"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "169472",
+            "clientRub": "0.18932182"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "632",
+            "clientRub": "0.02223978"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.21190344",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146442195210241",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.23824718",
+        "usage": {
+          "total_tokens": 169555,
+          "prompt_tokens": 168747,
+          "completion_tokens": 808,
+          "prompt_tokens_details": {
+            "cached_tokens": 168576
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 66
+          }
+        },
+        "generationTimeMs": 4438,
+        "createdAt": "2026-11-09T18:59:25.538Z",
+        "finalizedAt": "2026-11-09T19:00:30.253Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "171",
+            "clientRub": "0.00059343"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "168576",
+            "clientRub": "0.20647905"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "808",
+            "clientRub": "0.03117470"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.23824718",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146425953554433",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.14112828",
+        "usage": {
+          "total_tokens": 168699,
+          "prompt_tokens": 168568,
+          "completion_tokens": 131,
+          "prompt_tokens_details": {
+            "cached_tokens": 168448
+          }
+        },
+        "generationTimeMs": 3135,
+        "createdAt": "2026-11-09T18:59:21.656Z",
+        "finalizedAt": "2026-11-09T18:59:35.016Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "120",
+            "clientRub": "0.00024716"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "168448",
+            "clientRub": "0.12245302"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "131",
+            "clientRub": "0.01842810"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14112828",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146402538328065",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.24916758",
+        "usage": {
+          "total_tokens": 168544,
+          "prompt_tokens": 167630,
+          "completion_tokens": 914,
+          "prompt_tokens_details": {
+            "cached_tokens": 167552
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 119
+          }
+        },
+        "generationTimeMs": 5001,
+        "createdAt": "2026-11-09T18:59:16.073Z",
+        "finalizedAt": "2026-11-09T19:00:21.369Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "78",
+            "clientRub": "0.00028014"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "167552",
+            "clientRub": "0.21239152"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "914",
+            "clientRub": "0.03649592"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.24916758",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231146375583240193",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.20039642",
+        "usage": {
+          "total_tokens": 167586,
+          "prompt_tokens": 167024,
+          "completion_tokens": 562,
+          "prompt_tokens_details": {
+            "cached_tokens": 166912
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 280
+          }
+        },
+        "generationTimeMs": 4882,
+        "createdAt": "2026-11-09T18:59:09.647Z",
+        "finalizedAt": "2026-11-09T19:00:15.088Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "112",
+            "clientRub": "0.00034387"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "166912",
+            "clientRub": "0.18086920"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "562",
+            "clientRub": "0.01918335"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.20039642",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231145098871836673",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.13816431",
+        "usage": {
+          "total_tokens": 166981,
+          "prompt_tokens": 166849,
+          "completion_tokens": 132,
+          "prompt_tokens_details": {
+            "cached_tokens": 166784
+          }
+        },
+        "generationTimeMs": 3611,
+        "createdAt": "2026-11-09T18:54:05.252Z",
+        "finalizedAt": "2026-11-09T18:54:20.018Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "65",
+            "clientRub": "0.00013192"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "166784",
+            "clientRub": "0.11946363"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "132",
+            "clientRub": "0.01856876"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.13816431",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231145072833466369",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.22378182",
+        "usage": {
+          "total_tokens": 166825,
+          "prompt_tokens": 166164,
+          "completion_tokens": 661,
+          "prompt_tokens_details": {
+            "cached_tokens": 165760
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 182
+          }
+        },
+        "generationTimeMs": 5734,
+        "createdAt": "2026-11-09T18:53:59.046Z",
+        "finalizedAt": "2026-11-09T18:55:05.086Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "404",
+            "clientRub": "0.00136451"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "165760",
+            "clientRub": "0.19759672"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "661",
+            "clientRub": "0.02482059"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.22378182",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231145005984518145",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.13919826",
+        "usage": {
+          "total_tokens": 165762,
+          "prompt_tokens": 165632,
+          "completion_tokens": 130,
+          "prompt_tokens_details": {
+            "cached_tokens": 165504
+          }
+        },
+        "generationTimeMs": 3954,
+        "createdAt": "2026-11-09T18:53:43.107Z",
+        "finalizedAt": "2026-11-09T18:54:00.020Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "128",
+            "clientRub": "0.00026437"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "165504",
+            "clientRub": "0.12064646"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "130",
+            "clientRub": "0.01828743"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.13919826",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231144975533084673",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.24185683",
+        "usage": {
+          "total_tokens": 165610,
+          "prompt_tokens": 164749,
+          "completion_tokens": 861,
+          "prompt_tokens_details": {
+            "cached_tokens": 164608
+          }
+        },
+        "generationTimeMs": 6675,
+        "createdAt": "2026-11-09T18:53:35.902Z",
+        "finalizedAt": "2026-11-09T18:53:55.027Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "141",
+            "clientRub": "0.00029232"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "164608",
+            "clientRub": "0.12044549"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "861",
+            "clientRub": "0.12111902"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.24185683",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231144891561545729",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "6.01417163",
+        "usage": {
+          "total_tokens": 164688,
+          "prompt_tokens": 162580,
+          "completion_tokens": 2108,
+          "completion_tokens_details": {
+            "reasoning_tokens": 1826
+          }
+        },
+        "generationTimeMs": 19026,
+        "createdAt": "2026-11-09T18:53:15.827Z",
+        "finalizedAt": "2026-11-09T18:53:45.020Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "162580",
+            "clientRub": "5.71763399"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "2108",
+            "clientRub": "0.29653764"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "6.01417163",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122876967161857",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.16182789",
+        "usage": {
+          "total_tokens": 153684,
+          "prompt_tokens": 153311,
+          "completion_tokens": 373,
+          "prompt_tokens_details": {
+            "cached_tokens": 151552
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 106
+          }
+        },
+        "generationTimeMs": 7502,
+        "createdAt": "2026-11-09T17:25:47.138Z",
+        "finalizedAt": "2026-11-09T17:26:05.016Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1759",
+            "clientRub": "0.00473468"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "151552",
+            "clientRub": "0.14397551"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "373",
+            "clientRub": "0.01311770"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.16182789",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122796136894465",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Morph",
+        "status": "completed",
+        "cost": "0.41929691",
+        "usage": {
+          "total_tokens": 152994,
+          "prompt_tokens": 152436,
+          "completion_tokens": 558,
+          "completion_tokens_details": {
+            "reasoning_tokens": 119
+          }
+        },
+        "generationTimeMs": 18077,
+        "createdAt": "2026-11-09T17:25:27.868Z",
+        "finalizedAt": "2026-11-09T17:26:00.020Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "152436",
+            "clientRub": "0.39313182"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "558",
+            "clientRub": "0.02616509"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.41929691",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122756890791937",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.14227266",
+        "usage": {
+          "total_tokens": 151731,
+          "prompt_tokens": 151602,
+          "completion_tokens": 129,
+          "prompt_tokens_details": {
+            "cached_tokens": 151040
+          }
+        },
+        "generationTimeMs": 6645,
+        "createdAt": "2026-11-09T17:25:18.510Z",
+        "finalizedAt": "2026-11-09T17:25:40.017Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "562",
+            "clientRub": "0.00143693"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "151040",
+            "clientRub": "0.13629905"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "129",
+            "clientRub": "0.00453668"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14227266",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122727317016577",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.14984084",
+        "usage": {
+          "total_tokens": 151579,
+          "prompt_tokens": 151266,
+          "completion_tokens": 313,
+          "prompt_tokens_details": {
+            "cached_tokens": 150528
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 154
+          }
+        },
+        "generationTimeMs": 6498,
+        "createdAt": "2026-11-09T17:25:11.473Z",
+        "finalizedAt": "2026-11-09T17:26:17.968Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "738",
+            "clientRub": "0.00192836"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "150528",
+            "clientRub": "0.13881986"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "313",
+            "clientRub": "0.00909262"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14984084",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122701137612801",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.1450017",
+        "usage": {
+          "total_tokens": 150662,
+          "prompt_tokens": 150534,
+          "completion_tokens": 128,
+          "prompt_tokens_details": {
+            "cached_tokens": 149504
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 40
+          }
+        },
+        "generationTimeMs": 5023,
+        "createdAt": "2026-11-09T17:25:05.216Z",
+        "finalizedAt": "2026-11-09T17:25:25.017Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1030",
+            "clientRub": "0.00269007"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "149504",
+            "clientRub": "0.13781011"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "128",
+            "clientRub": "0.00450152"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14500170",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122678248771585",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.13751089",
+        "usage": {
+          "total_tokens": 149930,
+          "prompt_tokens": 149842,
+          "completion_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 149504
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 6578,
+        "createdAt": "2026-11-09T17:24:59.763Z",
+        "finalizedAt": "2026-11-09T17:26:04.794Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "338",
+            "clientRub": "0.00085940"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "149504",
+            "clientRub": "0.13416391"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "88",
+            "clientRub": "0.00248758"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.13751089",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122639692500993",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.14145675",
+        "usage": {
+          "total_tokens": 149792,
+          "prompt_tokens": 149662,
+          "completion_tokens": 130,
+          "prompt_tokens_details": {
+            "cached_tokens": 148992
+          }
+        },
+        "generationTimeMs": 4761,
+        "createdAt": "2026-11-09T17:24:50.568Z",
+        "finalizedAt": "2026-11-09T17:25:10.045Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "670",
+            "clientRub": "0.00172213"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "148992",
+            "clientRub": "0.13516276"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "130",
+            "clientRub": "0.00457186"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14145675",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122611613077505",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.14898977",
+        "usage": {
+          "total_tokens": 149639,
+          "prompt_tokens": 149326,
+          "completion_tokens": 313,
+          "prompt_tokens_details": {
+            "cached_tokens": 148480
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 5976,
+        "createdAt": "2026-11-09T17:24:43.882Z",
+        "finalizedAt": "2026-11-09T17:25:50.138Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "846",
+            "clientRub": "0.00222182"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "148480",
+            "clientRub": "0.13762899"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "313",
+            "clientRub": "0.00913896"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.14898977",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122544617328641",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.15642607",
+        "usage": {
+          "total_tokens": 149154,
+          "prompt_tokens": 148551,
+          "completion_tokens": 603,
+          "prompt_tokens_details": {
+            "cached_tokens": 147968
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 377
+          }
+        },
+        "generationTimeMs": 8163,
+        "createdAt": "2026-11-09T17:24:27.919Z",
+        "finalizedAt": "2026-11-09T17:25:36.362Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "583",
+            "clientRub": "0.00153243"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "147968",
+            "clientRub": "0.13727214"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "603",
+            "clientRub": "0.01762150"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.15642607",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122519377186817",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Alibaba",
+        "status": "completed",
+        "cost": "0.1924945",
+        "usage": {
+          "total_tokens": 148529,
+          "prompt_tokens": 148347,
+          "completion_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 141312
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "generationTimeMs": 5227,
+        "createdAt": "2026-11-09T17:24:21.881Z",
+        "finalizedAt": "2026-11-09T17:25:27.404Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "7035",
+            "clientRub": "0.02297852"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "141312",
+            "clientRub": "0.16290687"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "182",
+            "clientRub": "0.00660911"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.19249450",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122498159382529",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.1868792",
+        "usage": {
+          "total_tokens": 148401,
+          "prompt_tokens": 148095,
+          "completion_tokens": 306,
+          "prompt_tokens_details": {
+            "cached_tokens": 146944
+          }
+        },
+        "generationTimeMs": 4484,
+        "createdAt": "2026-11-09T17:24:16.825Z",
+        "finalizedAt": "2026-11-09T17:24:35.022Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1151",
+            "clientRub": "0.00312283"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "146944",
+            "clientRub": "0.14071059"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "306",
+            "clientRub": "0.04304578"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.18687920",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122449147629569",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "0.5203265",
+        "usage": {
+          "total_tokens": 147065,
+          "prompt_tokens": 144533,
+          "completion_tokens": 2532,
+          "prompt_tokens_details": {
+            "cached_tokens": 142720
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 2327
+          }
+        },
+        "generationTimeMs": 11056,
+        "createdAt": "2026-11-09T17:24:05.141Z",
+        "finalizedAt": "2026-11-09T17:24:30.024Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "1813",
+            "clientRub": "0.00570267"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "142720",
+            "clientRub": "0.15844105"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "2532",
+            "clientRub": "0.35618278"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "0.52032650",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      },
+      {
+        "id": "gen_2231122417690480641",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+        "requestType": "chat",
+        "provider": "Together",
+        "status": "completed",
+        "cost": "5.02781541",
+        "usage": {
+          "total_tokens": 142820,
+          "prompt_tokens": 142688,
+          "completion_tokens": 132,
+          "prompt_tokens_details": {
+            "cached_tokens": 256
+          }
+        },
+        "generationTimeMs": 10228,
+        "createdAt": "2026-11-09T17:23:57.638Z",
+        "finalizedAt": "2026-11-09T17:24:15.012Z",
+        "userId": null,
+        "apiKeyId": "key_2225280372995526657",
+        "apiKeyName": "opencode1",
+        "apiKeyShort": "d25768",
+        "hasLog": true,
+        "costLines": [
+          {
+            "kind": "prompt",
+            "unit": "token",
+            "quantity": "142432",
+            "clientRub": "5.00607099"
+          },
+          {
+            "kind": "cached_read",
+            "unit": "token",
+            "quantity": "256",
+            "clientRub": "0.00317565"
+          },
+          {
+            "kind": "completion",
+            "unit": "token",
+            "quantity": "132",
+            "clientRub": "0.01856877"
+          }
+        ],
+        "costBreakdown": {
+          "modelRub": "5.02781541",
+          "toolsRub": "0.00000000",
+          "tools": []
+        }
+      }
+    ],
+    "meta": {
+      "page": 1,
+      "limit": 50,
+      "total": 1807,
+      "totalPages": 37
+    }
+  }
+}

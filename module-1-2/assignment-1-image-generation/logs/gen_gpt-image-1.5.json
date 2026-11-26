@@ -1,0 +1,30 @@
+{
+  "model": "openai/gpt-image-1.5",
+  "display_name": "OpenAI GPT-Image 1.5",
+  "arch": "Transformer",
+  "catalog_price_rub": 3.0,
+  "billed_rub": 3.0,
+  "elapsed_sec": 54.3,
+  "image_size": [
+    1254,
+    1254
+  ],
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "response": {
+    "id": "gen_2229695696311029761",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1793904933,
+    "model": "openai/gpt-image-1.5",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 3,
+      "cost": 3
+    }
+  },
+  "generated_at": "2026-11-05 21:55:35+0300"
+}

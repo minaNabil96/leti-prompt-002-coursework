@@ -1,0 +1,42 @@
+{
+  "id": "HuggingFaceM4/COCO",
+  "author": "HuggingFaceM4",
+  "card_url": "https://huggingface.co/datasets/HuggingFaceM4/COCO",
+  "accessed_at": "2026-11-19T15:45:00+03:00",
+  "last_modified": "2022-12-15T15:51:03.000Z",
+  "created_at": "2022-12-14T21:13:57.000Z",
+  "downloads": 1822,
+  "likes": 34,
+  "used_storage_gb": 40.35,
+  "license_tag": "cc-by-4.0",
+  "paper": "Lin et al. Microsoft COCO: Common Objects in Context. ECCV 2014. arXiv:1405.0312",
+  "description": "MS COCO is a large-scale object detection, segmentation, and captioning dataset. COCO has several features: Object segmentation, Recognition in context, Superpixel stuff segmentation, 330K images (>200K labeled), 1.5 million object instances, 80 object categories, 91 stuff categories, 5 captions per image, 250,000 people with keypoints.",
+  "card_sections": {
+    "dataset_summary": "present",
+    "supported_tasks": "[More Information Needed]",
+    "data_fields": "[More Information Needed]",
+    "data_splits": "[More Information Needed]",
+    "source_data": "[More Information Needed]",
+    "annotation_process": "[More Information Needed]",
+    "who_are_the_annotators": "[More Information Needed]",
+    "personal_and_sensitive_information": "[More Information Needed]",
+    "social_impact": "[More Information Needed]",
+    "discussion_of_biases": "[More Information Needed]",
+    "other_known_limitations": "[More Information Needed]",
+    "licensing_information": "[More Information Needed]"
+  },
+  "volume_from_card": {
+    "images_total": 330000,
+    "images_labeled": 200000,
+    "object_instances": 1500000,
+    "object_categories": 80,
+    "stuff_categories": 91,
+    "captions_per_image": 5,
+    "people_with_keypoints": 250000
+  },
+  "year": {
+    "original_release": 2014,
+    "update": 2017
+  },
+  "raw_metadata_file": "dataset_metadata.json"
+}

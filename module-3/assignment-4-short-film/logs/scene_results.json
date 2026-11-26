@@ -1,0 +1,90 @@
+{
+  "model": "grok-imagine-video-1-5",
+  "resolution_param": "480p",
+  "accepted": 6,
+  "rejected": 1,
+  "total_cost_rub": 45.36,
+  "scenes": [
+    {
+      "scene": 1,
+      "name": "Текст",
+      "status": "success",
+      "file": "scenes/scene_01.mp4",
+      "duration_param_s": 4,
+      "planned_s": 4,
+      "final_s": 4.75,
+      "stretch": 1.2376,
+      "cost_rub": 6.48,
+      "request_id": "gen_2237190494124511233"
+    },
+    {
+      "scene": 2,
+      "name": "Зарождение",
+      "status": "success",
+      "file": "scenes/scene_02.mp4",
+      "duration_param_s": 5,
+      "planned_s": 5,
+      "final_s": 5.22,
+      "stretch": 1.0853,
+      "cost_rub": 8.1,
+      "request_id": "gen_2237190678394834945"
+    },
+    {
+      "scene": 3,
+      "name": "Форма",
+      "status": "success",
+      "file": "scenes/scene_03.mp4",
+      "duration_param_s": 5,
+      "planned_s": 5,
+      "final_s": 6.58,
+      "stretch": 1.3552,
+      "cost_rub": 8.1,
+      "request_id": "gen_2237190737201336321"
+    },
+    {
+      "scene": 4,
+      "name": "Цвет",
+      "status": "success",
+      "file": "scenes/scene_04.mp4",
+      "duration_param_s": 5,
+      "planned_s": 5,
+      "final_s": 5.43,
+      "stretch": 1.127,
+      "cost_rub": 8.1,
+      "request_id": "gen_2237190803067506689"
+    },
+    {
+      "scene": 5,
+      "name": "Движение",
+      "status": "success",
+      "file": "scenes/scene_05.mp4",
+      "duration_param_s": 5,
+      "planned_s": 5,
+      "final_s": 6.02,
+      "stretch": 1.244,
+      "cost_rub": 8.1,
+      "request_id": "gen_2237190910373531649"
+    },
+    {
+      "scene": 6,
+      "name": "Результат",
+      "status": "local",
+      "file": "logs/edit/title_card.png",
+      "duration_param_s": null,
+      "planned_s": 4,
+      "final_s": 5.01,
+      "stretch": null,
+      "cost_rub": 0.0,
+      "request_id": null
+    }
+  ],
+  "rejected_takes": [
+    {
+      "scene": 1,
+      "status": "rejected",
+      "cost_rub": 6.48,
+      "reason": "в кадре читаемая английская надпись, нарушает «без текста в кадре»",
+      "log": "scene_01_attempt1.json"
+    }
+  ]
+}

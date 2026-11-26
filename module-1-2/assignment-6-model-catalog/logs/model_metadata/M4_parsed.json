@@ -1,0 +1,20 @@
+{
+  "id": "Salesforce/codegen-350M-mono",
+  "direction": "Генерация контента",
+  "specialization": "Генерация кода",
+  "task": "Text generation (pipeline_tag: text-generation) — синтез программ на Python по естественно-языковому описанию; авторегрессионная модель CodeGen.",
+  "input_type": "Текст на английском в виде комментария или начала функции (например, «def hello_world():»).",
+  "output_type": "Продолжение текста — код на Python (токены).",
+  "training_data": "BigPython: 71,7 млрд токенов кода на Python; чекпоинт инициализирован из CodeGen-Multi 350M.",
+  "model_size": "350 млн параметров (указано в карточке); веса в формате pytorch_model.bin, отдельного safetensors-файла нет.",
+  "license": "BSD-3-Clause",
+  "example_use": "Program synthesis: генерация и дополнение кода по комментарию; пример из карточки — продолжение «def hello_world():».",
+  "limitations": "Карточка: релиз предназначен только для исследований в поддержку статьи; модель лучше всего работает с промптами в виде комментариев на английском; качество кода не гарантируется и требует проверки.",
+  "downloads": 16867,
+  "likes": 101,
+  "url": "https://huggingface.co/Salesforce/codegen-350M-mono",
+  "library_name": "transformers",
+  "pipeline_tag": "text-generation",
+  "model_type": "codegen",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

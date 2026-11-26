@@ -1,0 +1,43 @@
+{
+  "file": "animation_03_painting.mp4",
+  "model": "bytedance/seedance-2-mini",
+  "source": "sources/source_03_painting.jpg",
+  "intensity": "максимальная",
+  "prompt": "Maximum dynamic animation: the swirling sky rotates and pulses, stars twinkle brightly, the cypress tree sways dramatically, village lights flicker, the moon glows intensely. Full transformation.",
+  "duration_param": "5",
+  "resolution": "480p",
+  "cost_rub": 12.825,
+  "elapsed_sec": 93.73,
+  "bytes": 2876649,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_d949e3d7-2688-45cf-a897-96ae5e022385.mp4",
+  "request_id": "gen_2236962756742746113",
+  "created": 1795637574,
+  "completed_at": null,
+  "requested_at": "2026-11-25 23:12:57",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 12.825,
+    "cost": 12.825
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_d949e3d7-2688-45cf-a897-96ae5e022385.mp4"
+  },
+  "warnings": null,
+  "request": {
+    "model": "bytedance/seedance-2-mini",
+    "input": {
+      "prompt": "Maximum dynamic animation: the swirling sky rotates and pulses, stars twinkle brightly, the cypress tree sways dramatically, village lights flicker, the moon glows intensely. Full transformation.",
+      "images": [
+        {
+          "type": "base64",
+          "data": "<824576 base64 chars>"
+        }
+      ],
+      "duration": "5",
+      "resolution": "480p",
+      "aspect_ratio": "auto",
+      "generate_audio": false
+    }
+  }
+}

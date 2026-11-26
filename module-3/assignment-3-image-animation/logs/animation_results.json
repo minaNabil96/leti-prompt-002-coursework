@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-25T23:22:28+03:00",
+  "service": "Polza.ai Media API",
+  "model": "bytedance/seedance-2-mini",
+  "mode": "image-to-video",
+  "requested": {
+    "duration": "5",
+    "resolution": "480p",
+    "aspect_ratio": "auto",
+    "generate_audio": false
+  },
+  "results": [
+    {
+      "name": "portrait",
+      "status": "success",
+      "file": "animations/animation_01_portrait.mp4",
+      "source": "sources/source_01_portrait.png",
+      "intensity": "минимальная",
+      "task_id": "gen_2236961696322031617",
+      "size": 1461394,
+      "duration_sec": 5.04,
+      "width": 640,
+      "height": 640,
+      "fps": 24,
+      "frames": 121,
+      "audio_stream": false,
+      "cost_rub": 12.825,
+      "created_msk": "2026-11-25 23:07:10",
+      "completed_msk": "2026-11-25 23:08:55",
+      "note": "Файл скачан повторно после клиентского сбоя разбора ответа; повторной генерации не было."
+    },
+    {
+      "name": "landscape",
+      "status": "success",
+      "file": "animations/animation_02_landscape.mp4",
+      "source": "sources/source_02_landscape.png",
+      "intensity": "средняя",
+      "task_id": "gen_2236962253816467457",
+      "size": 1373408,
+      "duration_sec": 5.04,
+      "width": 864,
+      "height": 496,
+      "fps": 24,
+      "frames": 121,
+      "audio_stream": false,
+      "cost_rub": 12.825,
+      "created_msk": "2026-11-25 23:09:23",
+      "completed_msk": "2026-11-25 23:11:35",
+      "note": null
+    },
+    {
+      "name": "painting",
+      "status": "success",
+      "file": "animations/animation_03_painting.mp4",
+      "source": "sources/source_03_painting.jpg",
+      "intensity": "максимальная",
+      "task_id": "gen_2236962756742746113",
+      "size": 2876649,
+      "duration_sec": 5.04,
+      "width": 752,
+      "height": 560,
+      "fps": 24,
+      "frames": 121,
+      "audio_stream": false,
+      "cost_rub": 12.825,
+      "created_msk": "2026-11-25 23:11:22",
+      "completed_msk": "2026-11-25 23:13:10",
+      "note": null
+    }
+  ],
+  "total_cost_rub": 41.275,
+  "errors": []
+}

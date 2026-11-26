@@ -1,0 +1,22 @@
+{
+  "id": "P14",
+  "file": "img_14.png",
+  "class": "обложка книги",
+  "prompt": "A book cover for a children's book, colorful cartoon illustration, title 'The Adventures of Pip', author and illustrator names",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 14.82,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1227772,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685585409314817",
+  "generated_at": "2026-11-19 16:22:58+0300"
+}

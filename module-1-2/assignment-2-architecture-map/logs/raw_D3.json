@@ -1,0 +1,32 @@
+{
+  "id": "D3",
+  "service": "ByteDance Seedream 4.0 (via Polza)",
+  "model": "bytedance/seedream-4",
+  "task": "Генерация изображения",
+  "architecture": "Diffusion (rectified flow / flow matching)",
+  "prompt": "Portrait of a young woman with cyberpunk accessories, neon pink and blue lighting, ultra-detailed, 8k.",
+  "elapsed": 11.9,
+  "image_size": [
+    2048,
+    2048
+  ],
+  "billed_rub": 3.0,
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 3,
+    "cost": 3
+  },
+  "response": {
+    "id": "gen_2231110426763857921",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1794242188,
+    "model": "bytedance/seedream-4",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 3,
+      "cost": 3
+    }
+  },
+  "generated_at": "2026-11-09 19:36:31+0300"
+}

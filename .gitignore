@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.polza_key
+*.key
+pza_*
+opencode.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local model caches (weights are not part of the coursework)
+.hf_cache/
+.cache/
+
+# Archives and duplicates
+*.zip
+
+# Temp
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Media files are intentionally tracked: the largest file is 26 MB,
+# below GitHub's 100 MB limit, so Git LFS is not required.

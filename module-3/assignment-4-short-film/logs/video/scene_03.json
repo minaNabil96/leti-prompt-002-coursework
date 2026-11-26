@@ -1,0 +1,39 @@
+{
+  "scene": 3,
+  "name": "Форма",
+  "file": "scenes/scene_03.mp4",
+  "model": "grok-imagine-video-1-5",
+  "prompt": "An abstract human silhouette emerges from swirling paint-like colours, half-formed, like a sculpture appearing out of liquid pigment. The face stays undetailed and abstract, never a realistic portrait. Slow side camera move, cinematic rim light, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+  "prompt_initial": "A human silhouette emerges from swirling abstract colours, half-formed, like a sculpture appearing out of paint. Slow side camera move. Mysterious, contemplative, cinematic lighting, deep blue and warm gold.",
+  "prompt_change_reason": "Уточнено, что лицо остаётся абстрактным (в сцене не должно быть реалистичного человека крупным планом), добавлен запрет текста.",
+  "duration_param": 5,
+  "resolution_param": "480p",
+  "aspect_ratio": "16:9",
+  "cost_rub": 8.1,
+  "elapsed_sec": 15.61,
+  "bytes": 793104,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_5b80bb74-ade3-4846-b8ca-e2ae5e51a144.mp4",
+  "request_id": "gen_2237190737201336321",
+  "created": 1795691848,
+  "completed_at": null,
+  "requested_at": "2026-11-26 14:17:32",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 8.1,
+    "cost": 8.1
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_5b80bb74-ade3-4846-b8ca-e2ae5e51a144.mp4"
+  },
+  "request": {
+    "model": "grok-imagine-video-1-5",
+    "input": {
+      "prompt": "An abstract human silhouette emerges from swirling paint-like colours, half-formed, like a sculpture appearing out of liquid pigment. The face stays undetailed and abstract, never a realistic portrait. Slow side camera move, cinematic rim light, deep blue and warm gold palette. No letters, no words, no text, no logos.",
+      "duration": "5",
+      "resolution": "480p",
+      "aspect_ratio": "16:9"
+    }
+  },
+  "voiceover": "Едва заметный силуэт обретает детали, создавая новый образ."
+}

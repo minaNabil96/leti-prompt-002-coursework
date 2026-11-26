@@ -1,0 +1,227 @@
+{
+  "_id": "62af2ce2a5bd7cef3efe4d2a",
+  "id": "d4data/biomedical-ner-all",
+  "private": false,
+  "pipeline_tag": "token-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "distilbert",
+    "token-classification",
+    "Token Classification",
+    "en",
+    "license:apache-2.0",
+    "co2_eq_emissions",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 97697,
+  "likes": 198,
+  "modelId": "d4data/biomedical-ner-all",
+  "author": "d4data",
+  "sha": "015a4050c9ac99722e61c547aa9b4282bcbedc7f",
+  "lastModified": "2023-07-02T07:28:28.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "widgetData": [
+    {
+      "text": "CASE: A 28-year-old previously healthy man presented with a 6-week history of palpitations. The symptoms occurred during rest, 2–3 times per week, lasted up to 30 minutes at a time and were associated with dyspnea. Except for a grade 2/6 holosystolic tricuspid regurgitation murmur (best heard at the left sternal border with inspiratory accentuation), physical examination yielded unremarkable findings.",
+      "example_title": "example 1"
+    },
+    {
+      "text": "A 63-year-old woman with no known cardiac history presented with a sudden onset of dyspnea requiring intubation and ventilatory support out of hospital. She denied preceding symptoms of chest discomfort, palpitations, syncope or infection. The patient was afebrile and normotensive, with a sinus tachycardia of 140 beats/min.",
+      "example_title": "example 2"
+    },
+    {
+      "text": "A 48 year-old female presented with vaginal bleeding and abnormal Pap smears. Upon diagnosis of invasive non-keratinizing SCC of the cervix, she underwent a radical hysterectomy with salpingo-oophorectomy which demonstrated positive spread to the pelvic lymph nodes and the parametrium. Pathological examination revealed that the tumour also extensively involved the lower uterine segment.",
+      "example_title": "example 3"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "DistilBertForTokenClassification"
+    ],
+    "model_type": "distilbert",
+    "tokenizer_config": {
+      "cls_token": "[CLS]",
+      "mask_token": "[MASK]",
+      "pad_token": "[PAD]",
+      "sep_token": "[SEP]",
+      "unk_token": "[UNK]"
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "Token Classification"
+    ],
+    "co2_eq_emissions": 0.0279399890043426,
+    "widget": [
+      {
+        "text": "CASE: A 28-year-old previously healthy man presented with a 6-week history of palpitations. The symptoms occurred during rest, 2–3 times per week, lasted up to 30 minutes at a time and were associated with dyspnea. Except for a grade 2/6 holosystolic tricuspid regurgitation murmur (best heard at the left sternal border with inspiratory accentuation), physical examination yielded unremarkable findings.",
+        "example_title": "example 1"
+      },
+      {
+        "text": "A 63-year-old woman with no known cardiac history presented with a sudden onset of dyspnea requiring intubation and ventilatory support out of hospital. She denied preceding symptoms of chest discomfort, palpitations, syncope or infection. The patient was afebrile and normotensive, with a sinus tachycardia of 140 beats/min.",
+        "example_title": "example 2"
+      },
+      {
+        "text": "A 48 year-old female presented with vaginal bleeding and abnormal Pap smears. Upon diagnosis of invasive non-keratinizing SCC of the cervix, she underwent a radical hysterectomy with salpingo-oophorectomy which demonstrated positive spread to the pelvic lymph nodes and the parametrium. Pathological examination revealed that the tumour also extensively involved the lower uterine segment.",
+        "example_title": "example 3"
+      }
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForTokenClassification",
+    "pipeline_tag": "token-classification",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.txt"
+    }
+  ],
+  "spaces": [
+    "awacke1/Clinical-Terminology-Search-NER-Datasets",
+    "andrewgleave/note-ner-demo",
+    "DataScienceEngineering/7-NER-Biomed-ClinicalTerms",
+    "awacke1/Ontology-Gradio",
+    "ceckenrode/Biomed-NLP-AI-Clinical-Terminology",
+    "keshva/Intelligent-Document-Processing",
+    "khemant11/clinical-nlp-summarizer",
+    "awacke1/Biomed-NER-SNOMED-LOINC-CQM",
+    "keneonyeachonam/Biomed-NER-AI-NLP-CT-Demo1",
+    "keneonyeachonam/Biomed-NLP-AI-Clinical-Terminology-022323",
+    "AI-ZTH-03-23/8.Datasets-NER-Biomed-ClinicalTerms",
+    "joaopimenta/tackling-hospital-readmissions-ai",
+    "apratap5/Abhay-2-BiomedEntityRecognition-GR",
+    "AIZero2Hero4Health/2-BiomedEntityRecognition-GR",
+    "AIZerotoHero-Health4All/03-BiomedNER-1117-Gradio",
+    "RamAnanth1/whisper_biomed_ner",
+    "Sasidhar/information-extraction-demo",
+    "awacke1/Biomed-NER-AI-NLP-CT-Demo1",
+    "ceckenrode/Biomed-NER-AI-NLP-CT-Demo1",
+    "furqankassa/d4data-biomedical-ner-all02032023",
+    "ceckenrode/d4data-biomedical-ner-all232023",
+    "keneonyeachonam/d4data-biomedical-ner-all-020323",
+    "awacke1/d4data-biomedical-ner-all-0302",
+    "keneonyeachonam/NPR_AI_NER_020623",
+    "GeekTony/Gradio-Ontology",
+    "awacke1/ClinicalTerminologyNER-Refactored",
+    "awacke1/HEDIS.Dash.Component.Top.Clinical.Terminology.Vocabulary",
+    "JohnC26/7-NER-Biomed-ClinicalTerms",
+    "calerio/SVM-ADR-Severity-Classifier-2",
+    "calerio/SVM-ADR-Severity-Classifier-1",
+    "prockot/biomed-paper-extractor",
+    "Mugu701/Biom",
+    "mohamedali/MedNer",
+    "John4064/BiomedEntityRecognition-GR",
+    "Hitha/HJBiomedentityrecognition",
+    "pzimmel/2-BiomedEntityRecognition-GR",
+    "matt1873/Z2-BiomedEntityRecognition-GR",
+    "hschlotter/BiomedEntityRecog",
+    "awacke1/Z2-BiomedEntityRecognition-GR",
+    "tkottke/C2-BiomedEntityRecon",
+    "jamesjohnson763/BiomedEntityRecognition-GR",
+    "ashishgargcse/BiomedEntityRecognition-GR",
+    "versaggi/BiomedEntityRecognition-GR",
+    "Ami06/2-BiomedEntityRecognition-GR",
+    "vslasor/VLS2-BiomedEntityRecognition-GR",
+    "jamessteele/BiomedEntityRecognition-GR",
+    "madireddi/MA-2-BiomedEntityRecognition-GR",
+    "Robo2000/BiomedEntityRecognition-GR",
+    "Sampathraju/2-BiomedEntityRecognition-GR",
+    "sunilpuri/S-BimedEntityRecognition-GR",
+    "rrichaz/2-BiomedEntityRecognition-GR",
+    "Ami06/1110-BiomedNER",
+    "apratap5/1110-BiomedNer",
+    "awacke1/1110-BiomedNER",
+    "jamesjohnson763/1110-BiomedNER",
+    "Robo2000/BiomedEntity",
+    "alecmueller/03-BiomedEntityRecognition-GR",
+    "goetzjj/03_BiomedEntryRecognition_class",
+    "Robo2000/01-Text-toSpeech",
+    "Robo2000/03-BioMed_NER",
+    "jhescheles/03_gradio_biomed_named_entity",
+    "tritter2/03-BiomedEntityRecognition-GR",
+    "dabram2/3biomed",
+    "jharms10/03-BiomedNER-1117-Gradio",
+    "AIZerotoHero-Health4All/01-Biomed-NER",
+    "awacke1/d4data-biomedical-ner-all",
+    "sanjayw/d4data-biomedical-ner-all",
+    "awacke1/d4data-biomedical-ner-all-02032023",
+    "jharrison27/d4data-biomedical-ner-all-test",
+    "lchavan1/Ontology-Gradio",
+    "asistaoptum/ontoogy-example",
+    "SteveMama/Bio-med-NER",
+    "kirchdub/8.Datasets-NER-Biomed-ClinicalTerms",
+    "Anar0140/8.Datasets-NER-Biomed-ClinicalTerms",
+    "mpinzon/8.Datasets-NER-Biomed-ClinicalTerms",
+    "VaAishvarR/Mod4Team5",
+    "ser4ff/DAVA",
+    "bqr5tf/adrtest",
+    "trevrock/adr_test",
+    "frankysagan/Medical_NER",
+    "platzi/spanish-entities",
+    "MarkAdamsMSBA24/ADRv2024",
+    "MSBA24-Team8/ADRv2024",
+    "ljyflores/casemaker_demo",
+    "dgrant6/Clinical-Demo",
+    "TachyHealth/DataScienceEngineering_7-NER-Biomed-ClinicalTerms_tool",
+    "peachfawn/trial_matching_system",
+    "Kobunaga/mistralai-Mistral-7B-Instruct-v0.3",
+    "orangeorang/mistralai-Mistral-7B-Instruct-v0.3",
+    "Kobunaga/mistralai-Mistral-7Btest",
+    "flavaflav/medical_chatbot",
+    "orangeorang/Medical-New",
+    "flavaflav/medical-streamlit",
+    "orangeorang/medical-med-2",
+    "dph5ea/MOD4_Team11_ADR_Detector",
+    "UVA-MSBA/RxAware_M4T1",
+    "pxf4fp/AwareRx_M4T1",
+    "grasant/fhirflame",
+    "nikhil010101/diagnosisreportanalyser",
+    "Kelumt/medical-ner-highlighter"
+  ],
+  "createdAt": "2022-06-19T14:04:18.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 66427476
+    },
+    "total": 66427476
+  },
+  "inference": "warm",
+  "usedStorage": 1063094323
+}

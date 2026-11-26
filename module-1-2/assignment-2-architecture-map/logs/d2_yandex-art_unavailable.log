@@ -1,0 +1,1 @@
+create HTTP 503: {"error":{"code":"SERVICE_UNAVAILABLE","message":"Провайдер модели временно недоступен. Повторите запрос позже или выберите другую модель.","trace_id":"e95bf010-2c6e-4a74-9712-2867e6e753f9","metadata":{"raw":"failed to execute calls to all endpoints"}},"trace_id":"e95bf010-2c6e-4a74-9712-2867e6e753f9"}

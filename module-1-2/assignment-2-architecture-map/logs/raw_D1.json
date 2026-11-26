@@ -1,0 +1,32 @@
+{
+  "id": "D1",
+  "service": "Alibaba Z-Image (via Polza)",
+  "model": "tongyi-mai/z-image",
+  "task": "Генерация изображения",
+  "architecture": "Diffusion (flow-matching DiT — Scalable Single-Stream Diffusion Transformer, S3-DiT)",
+  "prompt": "A red apple on a white ceramic plate, soft natural light, photorealistic, 1024x1024.",
+  "elapsed": 11.92,
+  "image_size": [
+    1024,
+    1024
+  ],
+  "billed_rub": 1.4,
+  "usage": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "response": {
+    "id": "gen_2231109369006395393",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1794241936,
+    "model": "tongyi-mai/z-image",
+    "usage": {
+      "output_units": 1,
+      "cost_rub": 1.4,
+      "cost": 1.4
+    }
+  },
+  "generated_at": "2026-11-09 19:32:18+0300"
+}

@@ -1,0 +1,39 @@
+{
+  "scene": 4,
+  "name": "Цвет",
+  "file": "scenes/scene_04.mp4",
+  "model": "grok-imagine-video-1-5",
+  "prompt": "Colours flow and merge like liquid paint, forming a vibrant abstract landscape where mountains and sky are made of pure pigment. Slow aerial drift, smooth flowing motion, rich saturated palette, cinematic, dreamlike. No letters, no words, no text, no logos.",
+  "prompt_initial": "Colours flow and merge like liquid paint, forming a vibrant abstract landscape with mountains and sky made of colour. Slow aerial drift. Rich palette, cinematic, dreamlike, smooth motion.",
+  "prompt_change_reason": "Добавлен запрет текста и логотипов.",
+  "duration_param": 5,
+  "resolution_param": "480p",
+  "aspect_ratio": "16:9",
+  "cost_rub": 8.1,
+  "elapsed_sec": 25.18,
+  "bytes": 1362177,
+  "video_url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_87a2dbf8-7783-4c5a-be45-a399ba67b293.mp4",
+  "request_id": "gen_2237190803067506689",
+  "created": 1795691875,
+  "completed_at": null,
+  "requested_at": "2026-11-26 14:17:57",
+  "usage": {
+    "output_units": 1,
+    "duration_seconds": 5,
+    "cost_rub": 8.1,
+    "cost": 8.1
+  },
+  "data": {
+    "url": "https://s3.polza.ai/f/org_2225278234986287105/2026/11/t_87a2dbf8-7783-4c5a-be45-a399ba67b293.mp4"
+  },
+  "request": {
+    "model": "grok-imagine-video-1-5",
+    "input": {
+      "prompt": "Colours flow and merge like liquid paint, forming a vibrant abstract landscape where mountains and sky are made of pure pigment. Slow aerial drift, smooth flowing motion, rich saturated palette, cinematic, dreamlike. No letters, no words, no text, no logos.",
+      "duration": "5",
+      "resolution": "480p",
+      "aspect_ratio": "16:9"
+    }
+  },
+  "voiceover": "Палитра выбирает настроение, и каждый цвет несёт свой смысл."
+}

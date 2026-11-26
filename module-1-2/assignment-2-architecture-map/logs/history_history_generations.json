@@ -1,0 +1,792 @@
+{
+  "items": [
+    {
+      "id": "gen_2231112150313865217",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.09266825",
+      "usage": {
+        "total_tokens": 71893,
+        "prompt_tokens": 71763,
+        "completion_tokens": 130,
+        "prompt_tokens_details": {
+          "cached_tokens": 71296
+        }
+      },
+      "generationTimeMs": 2926,
+      "createdAt": "2026-11-09T16:43:09.727Z",
+      "finalizedAt": null,
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "467",
+          "clientRub": "0.00135526"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "71296",
+          "clientRub": "0.07302556"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "130",
+          "clientRub": "0.01828743"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.09266825",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231112131534655489",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.13961465",
+      "usage": {
+        "total_tokens": 71740,
+        "prompt_tokens": 71360,
+        "completion_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 70528
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 80
+        }
+      },
+      "generationTimeMs": 3031,
+      "createdAt": "2026-11-09T16:43:05.229Z",
+      "finalizedAt": null,
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "832",
+          "clientRub": "0.00278664"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "70528",
+          "clientRub": "0.08337245"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "380",
+          "clientRub": "0.05345556"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.13961465",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231112120220127233",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.18616975",
+      "usage": {
+        "total_tokens": 70758,
+        "prompt_tokens": 70584,
+        "completion_tokens": 174,
+        "prompt_tokens_details": {
+          "cached_tokens": 67456
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 91
+        }
+      },
+      "generationTimeMs": 4400,
+      "createdAt": "2026-11-09T16:43:02.532Z",
+      "finalizedAt": null,
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "3128",
+          "clientRub": "0.01877690"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "67456",
+          "clientRub": "0.14291583"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "174",
+          "clientRub": "0.02447702"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.18616975",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231112094199975937",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.11234177",
+      "usage": {
+        "total_tokens": 67906,
+        "prompt_tokens": 67555,
+        "completion_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 67328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 106
+        }
+      },
+      "generationTimeMs": 2134,
+      "createdAt": "2026-11-09T16:42:56.325Z",
+      "finalizedAt": "2026-11-09T16:43:10.017Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "227",
+          "clientRub": "0.00059580"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "67328",
+          "clientRub": "0.06236992"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "351",
+          "clientRub": "0.04937605"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.11234177",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111398466785281",
+      "model": "qwen/image",
+      "modelDisplayName": "Qwen Image",
+      "requestType": "images",
+      "provider": "mie",
+      "status": "completed",
+      "cost": "3",
+      "usage": {
+        "output_units": 1
+      },
+      "generationTimeMs": 164078,
+      "createdAt": "2026-11-09T16:40:10.454Z",
+      "finalizedAt": "2026-11-09T16:43:05.009Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "output",
+          "unit": "image",
+          "quantity": "1",
+          "clientRub": "3.00000000"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "3.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111389905162241",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.0914104",
+      "usage": {
+        "total_tokens": 67481,
+        "prompt_tokens": 67350,
+        "completion_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 66816
+        }
+      },
+      "generationTimeMs": 1586,
+      "createdAt": "2026-11-09T16:40:08.409Z",
+      "finalizedAt": "2026-11-09T16:40:20.017Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "534",
+          "clientRub": "0.00161604"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "66816",
+          "clientRub": "0.07136627"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "131",
+          "clientRub": "0.01842809"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.09141040",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111378255876097",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "0.13670929",
+      "usage": {
+        "total_tokens": 67326,
+        "prompt_tokens": 66920,
+        "completion_tokens": 406,
+        "prompt_tokens_details": {
+          "cached_tokens": 66176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 63
+        }
+      },
+      "generationTimeMs": 2595,
+      "createdAt": "2026-11-09T16:40:05.632Z",
+      "finalizedAt": "2026-11-09T16:41:09.813Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "744",
+          "clientRub": "0.00355461"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "66176",
+          "clientRub": "0.11158923"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "406",
+          "clientRub": "0.02156545"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.13670929",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111363065810945",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Crusoe",
+      "status": "completed",
+      "cost": "2.30507515",
+      "usage": {
+        "total_tokens": 66680,
+        "prompt_tokens": 66242,
+        "completion_tokens": 438,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 267
+        }
+      },
+      "generationTimeMs": 3313,
+      "createdAt": "2026-11-09T16:40:02.013Z",
+      "finalizedAt": "2026-11-09T16:40:20.017Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "65986",
+          "clientRub": "2.24039287"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "256",
+          "clientRub": "0.00306772"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "438",
+          "clientRub": "0.06161456"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "2.30507515",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111313107062785",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Novita",
+      "status": "completed",
+      "cost": "0.08731149",
+      "usage": {
+        "total_tokens": 63910,
+        "prompt_tokens": 63368,
+        "completion_tokens": 542,
+        "prompt_tokens_details": {
+          "cached_tokens": 62976
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 380
+        }
+      },
+      "generationTimeMs": 8341,
+      "createdAt": "2026-11-09T16:39:50.100Z",
+      "finalizedAt": "2026-11-09T16:40:10.012Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "392",
+          "clientRub": "0.00065428"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "62976",
+          "clientRub": "0.03709828"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "542",
+          "clientRub": "0.04955893"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.08731149",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231111057269985281",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:38:49.118Z",
+      "finalizedAt": "2026-11-09T16:39:00.033Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110802444783617",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:37:48.350Z",
+      "finalizedAt": "2026-11-09T16:38:00.024Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110547537793025",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:36:47.575Z",
+      "finalizedAt": "2026-11-09T16:37:00.014Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110524032913409",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Novita",
+      "status": "completed",
+      "cost": "0.06262529",
+      "usage": {
+        "total_tokens": 63185,
+        "prompt_tokens": 63054,
+        "completion_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 62080
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "generationTimeMs": 5190,
+      "createdAt": "2026-11-09T16:36:41.970Z",
+      "finalizedAt": "2026-11-09T16:37:47.458Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "974",
+          "clientRub": "0.00250594"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "62080",
+          "clientRub": "0.05637225"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "131",
+          "clientRub": "0.00374710"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.06262529",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110479369211905",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "modelDisplayName": "DeepSeek: DeepSeek V4.1 Flash",
+      "requestType": "chat",
+      "provider": "Novita",
+      "status": "completed",
+      "cost": "0.13172067",
+      "usage": {
+        "total_tokens": 63028,
+        "prompt_tokens": 62088,
+        "completion_tokens": 940,
+        "prompt_tokens_details": {
+          "cached_tokens": 61312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 567
+        }
+      },
+      "generationTimeMs": 10481,
+      "createdAt": "2026-11-09T16:36:31.323Z",
+      "finalizedAt": "2026-11-09T16:37:42.201Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": true,
+      "costLines": [
+        {
+          "kind": "prompt",
+          "unit": "token",
+          "quantity": "776",
+          "clientRub": "0.00311005"
+        },
+        {
+          "kind": "cached_read",
+          "unit": "token",
+          "quantity": "61312",
+          "clientRub": "0.08672680"
+        },
+        {
+          "kind": "completion",
+          "unit": "token",
+          "quantity": "940",
+          "clientRub": "0.04188382"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "0.13172067",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110426763857921",
+      "model": "bytedance/seedream-4",
+      "modelDisplayName": "Seedream 4.0",
+      "requestType": "images",
+      "provider": "mie",
+      "status": "completed",
+      "cost": "3",
+      "usage": {
+        "output_units": 1
+      },
+      "generationTimeMs": 11555,
+      "createdAt": "2026-11-09T16:36:18.782Z",
+      "finalizedAt": "2026-11-09T16:36:45.019Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [
+        {
+          "kind": "output",
+          "unit": "image",
+          "quantity": "1",
+          "clientRub": "3.00000000"
+        }
+      ],
+      "costBreakdown": {
+        "modelRub": "3.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110360612605953",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:36:03.009Z",
+      "finalizedAt": "2026-11-09T16:36:15.024Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110294559657985",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:35:47.259Z",
+      "finalizedAt": "2026-11-09T16:36:00.012Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110228411289601",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:35:31.490Z",
+      "finalizedAt": "2026-11-09T16:35:45.014Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110161981509633",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:35:15.650Z",
+      "finalizedAt": "2026-11-09T16:35:30.029Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    },
+    {
+      "id": "gen_2231110093131223041",
+      "model": "yandex/yandex-art",
+      "modelDisplayName": "YandexArt",
+      "requestType": "images",
+      "provider": null,
+      "status": "failed",
+      "cost": "0",
+      "usage": null,
+      "generationTimeMs": null,
+      "createdAt": "2026-11-09T16:34:59.422Z",
+      "finalizedAt": "2026-11-09T16:35:10.012Z",
+      "userId": null,
+      "apiKeyId": "key_2225280372995526657",
+      "apiKeyName": "opencode1",
+      "apiKeyShort": "d25768",
+      "hasLog": false,
+      "costLines": [],
+      "costBreakdown": {
+        "modelRub": "0.00000000",
+        "toolsRub": "0.00000000",
+        "tools": []
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "limit": 20,
+    "total": 1621,
+    "totalPages": 82
+  }
+}

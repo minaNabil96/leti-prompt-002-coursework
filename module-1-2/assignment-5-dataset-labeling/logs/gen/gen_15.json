@@ -1,0 +1,22 @@
+{
+  "id": "P15",
+  "file": "img_15.png",
+  "class": "обложка книги",
+  "prompt": "A book cover for a self-help book, simple geometric design, title 'Focus', author name, testimonial quote",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 10.42,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 459660,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685651369332737",
+  "generated_at": "2026-11-19 16:23:09+0300"
+}

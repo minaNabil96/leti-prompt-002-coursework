@@ -1,0 +1,22 @@
+{
+  "id": "P05",
+  "file": "img_05.png",
+  "class": "афиша",
+  "prompt": "A poster for a film festival, cinematic collage, festival name, dates, list of participating countries",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 10.75,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1059625,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685010498686977",
+  "generated_at": "2026-11-19 16:20:36+0300"
+}

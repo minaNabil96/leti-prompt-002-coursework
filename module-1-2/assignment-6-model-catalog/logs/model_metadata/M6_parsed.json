@@ -1,0 +1,20 @@
+{
+  "id": "d4data/biomedical-ner-all",
+  "direction": "Анализ данных",
+  "specialization": "Медицинский NER",
+  "task": "Token classification (pipeline_tag: token-classification) — извлечение биомедицинских сущностей из клинического текста; DistilBERT, дообученный на MACCROBAT2018.",
+  "input_type": "Текст на английском: клинические заметки, описания случаев.",
+  "output_type": "Span-разметка сущностей: 107 типов (например, Disease, Medication, Anatomy) с границами и уверенностью.",
+  "training_data": "MACCROBAT2018 (Maccrobat) — корпус клинических описаний случаев; базовая модель distilbert-base-uncased.",
+  "model_size": "66 427 476 параметров (66,4 млн), F32; DistilBERT.",
+  "license": "Apache 2.0",
+  "example_use": "Извлечение болезней, лекарств и анатомических областей из медицинских текстов и описаний случаев (пример виджета — фрагмент клинического case report).",
+  "limitations": "Карточка: только английский, 107 типов сущностей из одного корпуса (MACCROBAT); модель не является медицинским изделием и не предназначена для постановки диагноза (наш вывод).",
+  "downloads": 97697,
+  "likes": 198,
+  "url": "https://huggingface.co/d4data/biomedical-ner-all",
+  "library_name": "transformers",
+  "pipeline_tag": "token-classification",
+  "model_type": "distilbert",
+  "fetched_at_utc": "2026-11-19T14:16:05Z"
+}

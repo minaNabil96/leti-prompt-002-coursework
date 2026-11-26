@@ -1,0 +1,22 @@
+{
+  "id": "P08",
+  "file": "img_08.png",
+  "class": "афиша",
+  "prompt": "A poster for a stand-up comedy show, comedian photo, show name, date, club name and address",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 14.74,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 1070364,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685213063122945",
+  "generated_at": "2026-11-19 16:21:29+0300"
+}

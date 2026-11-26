@@ -1,0 +1,116 @@
+{
+  "file": "final/Рождение_образа.mp4",
+  "duration_s": 33.01,
+  "bytes": 25938745,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "layout": "stereo"
+  },
+  "timeline": [
+    {
+      "line": 1,
+      "start_s": 0.0,
+      "slot_s": 4.75
+    },
+    {
+      "line": 2,
+      "start_s": 4.75,
+      "slot_s": 5.22
+    },
+    {
+      "line": 3,
+      "start_s": 9.97,
+      "slot_s": 6.58
+    },
+    {
+      "line": 4,
+      "start_s": 16.55,
+      "slot_s": 5.43
+    },
+    {
+      "line": 5,
+      "start_s": 21.98,
+      "slot_s": 6.02
+    },
+    {
+      "line": 6,
+      "start_s": 28.0,
+      "slot_s": 5.01
+    }
+  ],
+  "crossfade_s": 0.5,
+  "fps": 30,
+  "clips": [
+    {
+      "n": 1,
+      "file": ".\\short-film\\logs\\edit\\clip_01.mp4",
+      "source": "scenes/scene_01.mp4",
+      "source_s": 4.04,
+      "target_s": 5.0,
+      "stretch": 1.2376
+    },
+    {
+      "n": 2,
+      "file": ".\\short-film\\logs\\edit\\clip_02.mp4",
+      "source": "scenes/scene_02.mp4",
+      "source_s": 5.04,
+      "target_s": 5.47,
+      "stretch": 1.0853
+    },
+    {
+      "n": 3,
+      "file": ".\\short-film\\logs\\edit\\clip_03.mp4",
+      "source": "scenes/scene_03.mp4",
+      "source_s": 5.04,
+      "target_s": 6.83,
+      "stretch": 1.3552
+    },
+    {
+      "n": 4,
+      "file": ".\\short-film\\logs\\edit\\clip_04.mp4",
+      "source": "scenes/scene_04.mp4",
+      "source_s": 5.04,
+      "target_s": 5.68,
+      "stretch": 1.127
+    },
+    {
+      "n": 5,
+      "file": ".\\short-film\\logs\\edit\\clip_05.mp4",
+      "source": "scenes/scene_05.mp4",
+      "source_s": 5.04,
+      "target_s": 6.27,
+      "stretch": 1.244
+    },
+    {
+      "n": 6,
+      "file": ".\\short-film\\logs\\edit\\clip_06.mp4",
+      "source": "logs/edit/title_card.png",
+      "source_s": null,
+      "target_s": 5.26,
+      "stretch": null
+    }
+  ],
+  "film_planned_s": 33.01,
+  "video_stream_s": 33.03,
+  "music": {
+    "file": "audio/music.mp3",
+    "gain": 0.15,
+    "ducking": "none — fixed bed at -16.5 dB"
+  },
+  "title_card": {
+    "file": "logs/edit/title_card.png",
+    "text": [
+      "Рождение образа",
+      "Сценарий и раскадровка — Gemini 2.5 Flash · видео — Grok Imagine Video 1.5",
+      "голос — Gemini 3.8 Flash Lite TTS · музыка — Lyria 3 · монтаж — FFmpeg"
+    ]
+  },
+  "created": "2026-11-26 14:24:44"
+}

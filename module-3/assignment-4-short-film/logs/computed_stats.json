@@ -1,0 +1,236 @@
+{
+  "generated": "2026-11-26 14:24:44",
+  "session_date": "2026-11-26",
+  "budget_rub": 60.0,
+  "cost": {
+    "llm": {
+      "model": "google/gemini-2.5-flash",
+      "calls": 5,
+      "total_rub": 1.336412,
+      "runs": [
+        {
+          "iteration": 1,
+          "label": "vague",
+          "cost_rub": 0.488766,
+          "chars": 5017,
+          "requested_at": "2026-11-26 14:13:41"
+        },
+        {
+          "iteration": 2,
+          "label": "longer brief",
+          "cost_rub": 0.304808,
+          "chars": 3057,
+          "requested_at": "2026-11-26 14:13:49"
+        },
+        {
+          "iteration": 3,
+          "label": "final structured",
+          "cost_rub": 0.241941,
+          "chars": 2771,
+          "requested_at": "2026-11-26 14:13:54"
+        },
+        {
+          "iteration": 4,
+          "label": "уточнение по фиксированной раскадровке",
+          "cost_rub": 0.215043,
+          "chars": 2557,
+          "requested_at": "2026-11-26 14:14:37"
+        },
+        {
+          "iteration": 5,
+          "label": "сжатие закадрового текста под хронометраж",
+          "cost_rub": 0.085854,
+          "chars": 705,
+          "requested_at": "2026-11-26 14:15:11"
+        }
+      ]
+    },
+    "video": {
+      "model": "grok-imagine-video-1-5",
+      "calls": 6,
+      "accepted_calls": 5,
+      "rejected_calls": 1,
+      "total_rub": 45.36,
+      "runs": [
+        {
+          "log": "scene_01.json",
+          "scene": 1,
+          "attempt": 1,
+          "rejected": false,
+          "cost_rub": 6.48,
+          "duration_param": 4,
+          "resolution_param": "480p",
+          "elapsed_sec": 32.77,
+          "bytes": 1173472,
+          "requested_at": "2026-11-26 14:16:52",
+          "request_id": "gen_2237190494124511233"
+        },
+        {
+          "log": "scene_01_attempt1.json",
+          "scene": 1,
+          "attempt": 1,
+          "rejected": true,
+          "cost_rub": 6.48,
+          "duration_param": 4,
+          "resolution_param": "480p",
+          "elapsed_sec": 13.4,
+          "bytes": 467666,
+          "requested_at": "2026-11-26 14:15:41",
+          "request_id": "gen_2237190280425246721"
+        },
+        {
+          "log": "scene_02.json",
+          "scene": 2,
+          "attempt": 1,
+          "rejected": false,
+          "cost_rub": 8.1,
+          "duration_param": 5,
+          "resolution_param": "480p",
+          "elapsed_sec": 12.64,
+          "bytes": 1333273,
+          "requested_at": "2026-11-26 14:17:16",
+          "request_id": "gen_2237190678394834945"
+        },
+        {
+          "log": "scene_03.json",
+          "scene": 3,
+          "attempt": 1,
+          "rejected": false,
+          "cost_rub": 8.1,
+          "duration_param": 5,
+          "resolution_param": "480p",
+          "elapsed_sec": 15.61,
+          "bytes": 793104,
+          "requested_at": "2026-11-26 14:17:32",
+          "request_id": "gen_2237190737201336321"
+        },
+        {
+          "log": "scene_04.json",
+          "scene": 4,
+          "attempt": 1,
+          "rejected": false,
+          "cost_rub": 8.1,
+          "duration_param": 5,
+          "resolution_param": "480p",
+          "elapsed_sec": 25.18,
+          "bytes": 1362177,
+          "requested_at": "2026-11-26 14:17:57",
+          "request_id": "gen_2237190803067506689"
+        },
+        {
+          "log": "scene_05.json",
+          "scene": 5,
+          "attempt": 1,
+          "rejected": false,
+          "cost_rub": 8.1,
+          "duration_param": 5,
+          "resolution_param": "480p",
+          "elapsed_sec": 13.69,
+          "bytes": 609102,
+          "requested_at": "2026-11-26 14:18:11",
+          "request_id": "gen_2237190910373531649"
+        }
+      ]
+    },
+    "tts": {
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "voice": "Kore",
+      "calls": 6,
+      "chars": 344,
+      "total_rub": 0.387192
+    },
+    "music": {
+      "model": "google/lyria-3-pro-preview",
+      "calls": 1,
+      "total_rub": 8.0
+    },
+    "total_rub": 55.083604,
+    "api_calls": 18,
+    "budget_used_pct": 91.8,
+    "budget_left_rub": 4.9164
+  },
+  "film": {
+    "file": "final/Рождение_образа.mp4",
+    "duration_s": 33.01,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "codec": "h264",
+    "audio_codec": "aac",
+    "audio_hz": 48000,
+    "bytes": 25938745,
+    "crossfade_s": 0.5,
+    "scenes": [
+      {
+        "n": 1,
+        "scene": "Текст",
+        "planned_s": 4,
+        "final_s": 4.75,
+        "stretch": 1.2376,
+        "voiceover": "Всё начинается с текста, где нейросеть видит образ.",
+        "speech_s": 4.4,
+        "start_s": 0.0
+      },
+      {
+        "n": 2,
+        "scene": "Зарождение",
+        "planned_s": 5,
+        "final_s": 5.22,
+        "stretch": 1.0853,
+        "voiceover": "Из хаотичного шума рождается структура, проявляя очертания.",
+        "speech_s": 4.87,
+        "start_s": 4.75
+      },
+      {
+        "n": 3,
+        "scene": "Форма",
+        "planned_s": 5,
+        "final_s": 6.58,
+        "stretch": 1.3552,
+        "voiceover": "Едва заметный силуэт обретает детали, создавая новый образ.",
+        "speech_s": 6.23,
+        "start_s": 9.97
+      },
+      {
+        "n": 4,
+        "scene": "Цвет",
+        "planned_s": 5,
+        "final_s": 5.43,
+        "stretch": 1.127,
+        "voiceover": "Палитра выбирает настроение, и каждый цвет несёт свой смысл.",
+        "speech_s": 5.08,
+        "start_s": 16.55
+      },
+      {
+        "n": 5,
+        "scene": "Движение",
+        "planned_s": 5,
+        "final_s": 6.02,
+        "stretch": 1.244,
+        "voiceover": "Статичное изображение оживает, наполняясь жизнью и энергией.",
+        "speech_s": 5.67,
+        "start_s": 21.98
+      },
+      {
+        "n": 6,
+        "scene": "Результат",
+        "planned_s": 4,
+        "final_s": 5.01,
+        "stretch": null,
+        "voiceover": "Так из текста рождается образ — генеративное искусство.",
+        "speech_s": 4.66,
+        "start_s": 28.0
+      }
+    ],
+    "speech_s": 30.91,
+    "title_card_s": 5.01,
+    "voiceover_chars": 344,
+    "source_resolution": "736x416"
+  },
+  "counts": {
+    "llm_prompt_iterations": 5,
+    "storyboard_scenes": 6,
+    "generated_video_scenes": 5,
+    "screenshots": 3
+  }
+}

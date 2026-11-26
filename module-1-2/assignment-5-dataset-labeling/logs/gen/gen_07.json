@@ -1,0 +1,22 @@
+{
+  "id": "P07",
+  "file": "img_07.png",
+  "class": "афиша",
+  "prompt": "A poster for a food festival, illustrated food image, festival name, dates, location, entry fee",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 18.89,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 935385,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234685134105088001",
+  "generated_at": "2026-11-19 16:21:13+0300"
+}

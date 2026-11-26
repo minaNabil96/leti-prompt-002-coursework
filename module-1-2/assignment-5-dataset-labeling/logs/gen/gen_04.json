@@ -1,0 +1,22 @@
+{
+  "id": "P04",
+  "file": "img_04.png",
+  "class": "афиша",
+  "prompt": "A poster for a university lecture, clean design, speaker name, lecture title, date, auditorium number",
+  "model": "tongyi-mai/z-image",
+  "aspect_ratio": "3:4",
+  "billed_rub": 1.4,
+  "elapsed_sec": 23.8,
+  "image_size": [
+    864,
+    1152
+  ],
+  "bytes": 708139,
+  "usage_obj": {
+    "output_units": 1,
+    "cost_rub": 1.4,
+    "cost": 1.4
+  },
+  "request_id": "gen_2234684912801157121",
+  "generated_at": "2026-11-19 16:20:25+0300"
+}
